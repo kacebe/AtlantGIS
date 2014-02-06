@@ -1,7 +1,7 @@
 AtlantGIS
 =========
 
-Faked GIS-Datasets, simulating an island in the Atlantic for educational purposes in using GIS in archaeology.
+Faked GIS-Datasets, simulating an island in the Atlantic for educational purposes in using GIS in archaeology. All AtlantGIS data are published under a CC-BY-SA 4.0 license.
 
 The idea is to create artificial data creatively referring to the story of Atlantis as told by Platon.
 We believe that simple datasets with a narrative are most qualified to impart knowledge and skills to students. 
