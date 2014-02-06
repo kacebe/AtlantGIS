@@ -1,5 +1,5 @@
  #QGIS 2.0 Tutorial
-#Workshop der AG CAA
+#5. Workshop der AG CAA
 ##Tübingen
 ##Getting Started
 ###Einführende Übung zum Umgang mit der neuen QGIS-Benutzeroberfläche für fortgeschrittene GIS-Nutzer
@@ -28,7 +28,9 @@ Nach dem Herunterladen das [zip-Archiv](https://github.com/kacebe/AtlantGIS/arch
 ####Neues Projekt anlegen
 * Nach dem Start von QIS wird automatisch ein neues Projekt angelegt.
     * Das Standardkoordinatensystem ist meist auf WGS 84 voreingestellt (EPSG: 4326). Änderungen zum Koordinatenbezugssystems (KBS in QGIS) für neue Projekte können in den globalen Projekteinstellungen vorgenommen werden. Im nächsten Schritt seht ihr die einfachste Variante, das KBS des Projektes zu wechseln.
-	* Umfangreiche Erläuterungen zur neuen QGIS-Oberfläche sind in der [Dokumentation] (http://qgis.org/de/docs/user_manual/introduction/qgis_gui.html "QGIS - User Manual: QGIS GUI") nachzulesen. Die folgenden Abschnitte und der Screencast "Projekteinstellungen" [![Screencast 1](http://b.vimeocdn.com/ts/462/315/462315048_295.jpg)](http://vimeo.com/85140013) geben aber auch einen guten Überblick.
+	* Umfangreiche Erläuterungen zur neuen QGIS-Oberfläche sind in der [Dokumentation] (http://qgis.org/de/docs/user_manual/introduction/qgis_gui.html "QGIS - User Manual: QGIS GUI") nachzulesen. Die folgenden Abschnitte und der Screencast "Projekteinstellungen" geben aber auch einen guten Überblick.
+	
+[![Screencast 1](http://b.vimeocdn.com/ts/462/315/462315048_295.jpg)](http://vimeo.com/85140013) 
 
 ####Daten in Projekt laden
 * Über den Menüpunkt *Layer* jetzt erst einmal *geophys_excavation.tif* aus dem Verzeichnis *gettingstarted\geophys\* in das Projekt laden.
@@ -44,3 +46,19 @@ Nach dem Herunterladen das [zip-Archiv](https://github.com/kacebe/AtlantGIS/arch
 		* sollte einem das dxf-Format im GIS nicht geheuer sein, kann der Datensatz in eine Reihe Geodatenformate umgewandelt werden. Dafür wieder mit der rechten Mautaste auf den dxf-Layer klicken und über *Speichern als...* die gewünschten Einstellungen vornehmen.
 	* im Verzeichnis *gettingstarted\vector\shp\* ein Shapefile mit Punktgeometrien zu Kleinfunden aus der Grabung
 		* Das Vorgehen entspricht dem Einspielen von dxf-Daten. Über *Layer - Vektorlayer hinzufügen* den Datensatz auswählen und bestätigen.
+	* abschließend das Projekt speichern *Menü - Projekt - Speichern*
+		* dabei bitte die Einstellungen zu relativen und absoluten Pfaden beachten (s. oben verlinkten Screencast)
+
+####Arbeiten mit den Projektdaten
+
+In einer Reihe von [Screencasts](https://vimeo.com/channels/qgisworkshops) haben wir die meisten grundlegenden Funktionen interaktiv aufbereitet.
+
+Zusätzliche Hilfe bietet die umfangreiche [Dokumentation des QGIS-Projekts](http://qgis.org/de/docs/user_manual/index.html).
+
+Als Zielstellung für die Anpassung der Layereinstellungen kann folgendes Ergebnis dienen:
+
+![AtlantGIS Ausgrabungsbefunde mit Ergebnissen der Geophysik](https://github.com/kacebe/AtlantGIS/raw/tuebingen2014/screenshots/atlantgis_trenches.png "AtlantGIS Ausgrabungsbefunde mit Ergebnissen der Geophysik")
+
+
+
+
