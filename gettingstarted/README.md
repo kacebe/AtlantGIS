@@ -16,7 +16,7 @@ Nach dem Herunterladen das zip-Archiv bitte an einem genehmen Ort auf der Festpl
 
 Screencast "Projekteinstellungen"
 	
-	![Screencast 1: Projekteinstellungen](http://vimeo.com/85140013 "Projekteinstellungen")
+![Screencast 1: Projekteinstellungen](http://vimeo.com/85140013 "Projekteinstellungen")
 
 ####Daten in Projekt laden
 * Über den Menüpunkt *Layer* jetzt erst einmal *geophys_excavation.tif* aus dem Verzeichnis *gettingstarted\geophys\* in das Projekt laden.
