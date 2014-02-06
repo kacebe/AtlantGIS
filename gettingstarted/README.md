@@ -16,9 +16,7 @@ Nach dem Herunterladen das zip-Archiv bitte an einem genehmen Ort auf der Festpl
 
 Screencast "Projekteinstellungen"
 
-<iframe src="//player.vimeo.com/video/85140013" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/85140013">QGIS 2.0 - 1 - Projekteinstellungen</a> from <a href="http://vimeo.com/kaischi">Kai-Christian Bruhn</a> on <a href="https://vimeo.com">Vimeo</a>.
-
-![Screencast 1: Projekteinstellungen](http://vimeo.com/85140013 "Projekteinstellungen")
+[![Screencast 1](http://b.vimeocdn.com/ts/462/315/462315048_295.jpg)](http://vimeo.com/85140013)
 
 ####Daten in Projekt laden
 * Über den Menüpunkt *Layer* jetzt erst einmal *geophys_excavation.tif* aus dem Verzeichnis *gettingstarted\geophys\* in das Projekt laden.
