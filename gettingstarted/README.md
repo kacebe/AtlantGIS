@@ -11,6 +11,11 @@ Nach dem Herunterladen das zip-Archiv bitte an einem genehmen Ort auf der Festpl
 
 ####Neues Projekt anlegen
 * Nach dem Start von QIS wird automatisch ein neues Projekt angelegt.
-    * Das Standardkoordinatensystem ist meist auf WGS 84 eingestellt (EPSG: 4326). Änderungen zum Koordinatenbezugssystems für neue Projekte können in den globalen Projekteinstellungen vorgenommen werden. Im nächsten Schritt seht ihr die einfachste Variante, das Koordinatensystem des Projektes zu wechseln.
-* Über den Menüpunkt *Layer* jetzt erstmnal geophys_excavation.tif aus dem Verzeichnis *gettingstarted\geophys\* in das Projekt laden.
-    * Bitte beachten: Der Layer hat eine UTM-Projektion (EPSG: 32628). Da es der erste geladene Layer in dem Projekt ist wird das Projektkoordinatensystem angepasst.
+    * Das Standardkoordinatensystem ist meist auf WGS 84 voreingestellt (EPSG: 4326). Änderungen zum Koordinatenbezugssystems (KBS in QGIS) für neue Projekte können in den globalen Projekteinstellungen vorgenommen werden. Im nächsten Schritt seht ihr die einfachste Variante, das KBS des Projektes zu wechseln.
+	* Umfangreiche Erläuterungen zur neuen QGIS-Oberfläche sind in der [Dokumentation] (http://qgis.org/de/docs/user_manual/introduction/qgis_gui.html "QGIS - User Manual: QGIS GUI") nachzulesen. Die folgenden Abschnitte geben aber auch einen guten Überblick.
+
+####Daten in Projekt laden
+* Über den Menüpunkt *Layer* jetzt erst einmal *geophys_excavation.tif* aus dem Verzeichnis *gettingstarted\geophys\* in das Projekt laden.
+    * Bitte beachten: Der Layer hat eine UTM-Projektion (EPSG: 32628). Da es der erste geladene Layer in dem Projekt ist, wird das Projektkoordinatensystem angepasst. Ganz unten rechts in der Statuszeile wird das aktuell eingestellt KBS angezeigt. Ein Klick auf das Symbol ![Symbol KBS-Status](http://qgis.org/de/_images/mIconProjectionDisabled.png "Symbol") daneben öffnet den Dialog für eigene Einstellungen.
+	* Gegebenenfalls
+	
