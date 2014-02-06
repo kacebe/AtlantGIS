@@ -1,0 +1,11 @@
+<ReliefColors>
+  <ReliefColor MaxElevation="50" red="255" blue="180" green="244" MinElevation="-5"/>
+  <ReliefColor MaxElevation="100" red="249" blue="151" green="222" MinElevation="50"/>
+  <ReliefColor MaxElevation="250" red="232" blue="109" green="187" MinElevation="100"/>
+  <ReliefColor MaxElevation="500" red="185" blue="86" green="149" MinElevation="250"/>
+  <ReliefColor MaxElevation="750" red="148" blue="68" green="115" MinElevation="500"/>
+  <ReliefColor MaxElevation="1000" red="131" blue="56" green="94" MinElevation="750"/>
+  <ReliefColor MaxElevation="1200" red="94" blue="39" green="64" MinElevation="1000"/>
+  <ReliefColor MaxElevation="1400" red="77" blue="30" green="49" MinElevation="1200"/>
+  <ReliefColor MaxElevation="1500" red="61" blue="24" green="39" MinElevation="1400"/>
+</ReliefColors>
