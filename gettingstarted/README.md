@@ -15,7 +15,9 @@ Nach dem Herunterladen das zip-Archiv bitte an einem genehmen Ort auf der Festpl
 	* Umfangreiche Erläuterungen zur neuen QGIS-Oberfläche sind in der [Dokumentation] (http://qgis.org/de/docs/user_manual/introduction/qgis_gui.html "QGIS - User Manual: QGIS GUI") nachzulesen. Die folgenden Abschnitte geben aber auch einen guten Überblick.
 
 Screencast "Projekteinstellungen"
-	
+
+<iframe src="//player.vimeo.com/video/85140013" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/85140013">QGIS 2.0 - 1 - Projekteinstellungen</a> from <a href="http://vimeo.com/kaischi">Kai-Christian Bruhn</a> on <a href="https://vimeo.com">Vimeo</a>.
+
 ![Screencast 1: Projekteinstellungen](http://vimeo.com/85140013 "Projekteinstellungen")
 
 ####Daten in Projekt laden
