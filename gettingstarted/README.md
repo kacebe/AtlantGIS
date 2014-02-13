@@ -57,7 +57,7 @@ Zusätzliche Hilfe bietet die umfangreiche [Dokumentation des QGIS-Projekts](htt
 
 Als Zielstellung für die Anpassung der Layereinstellungen kann folgendes Ergebnis dienen:
 
-![AtlantGIS Ausgrabungsbefunde mit Ergebnissen der Geophysik](https://github.com/kacebe/AtlantGIS/raw/tuebingen2014/screenshots/atlantgis_trenches.png "AtlantGIS Ausgrabungsbefunde mit Ergebnissen der Geophysik")
+![AtlantGIS Ausgrabungsbefunde mit Ergebnissen der Geophysik](https://raw2.github.com/kacebe/AtlantGIS/master/screenshots/atlantgis_trenches.png "AtlantGIS Ausgrabungsbefunde mit Ergebnissen der Geophysik")
 
 
 
