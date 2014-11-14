@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "site": "A", "archont": "Atlas", "group_id": 1, "x": 472564.000000, "y": 3939619.000000, "greek": "Ἄτλας", "keramik1": 0, "keramik2": 5, "keramik3": 2, "silex": 20, "gruben": 1 }, "geometry": { "type": "Point", "coordinates": [ -15.3028899, 35.59993416 ] } },
+{ "type": "Feature", "properties": { "id": 2, "site": "B", "archont": "Eumelos\/Gadeiros", "group_id": 1, "x": 491141.000000, "y": 3941523.000000, "greek": "Ἀζάης", "keramik1": 4, "keramik2": 18, "keramik3": 11, "silex": 190, "gruben": 12 }, "geometry": { "type": "Point", "coordinates": [ -15.09782366, 35.61744256 ] } },
+{ "type": "Feature", "properties": { "id": 3, "site": "C", "archont": "Ampheres", "group_id": 2, "x": 480262.000000, "y": 3927707.000000, "greek": "Ἀμφῆρες", "keramik1": 17, "keramik2": 23, "keramik3": 19, "silex": 2, "gruben": 0 }, "geometry": { "type": "Point", "coordinates": [ -15.21761525, 35.49271253 ] } },
+{ "type": "Feature", "properties": { "id": 4, "site": "D", "archont": "Euaimon", "group_id": 2, "x": 466292.000000, "y": 3925133.000000, "greek": "Εὐαίμων", "keramik1": 6, "keramik2": 90, "keramik3": 0, "silex": 0, "gruben": 1 }, "geometry": { "type": "Point", "coordinates": [ -15.37152809, 35.4691279 ] } },
+{ "type": "Feature", "properties": { "id": 5, "site": "E", "archont": "Mneseus", "group_id": 3, "x": 453009.000000, "y": 3938951.000000, "greek": "Μνασέας", "keramik1": 24, "keramik2": 6, "keramik3": 0, "silex": 10, "gruben": 0 }, "geometry": { "type": "Point", "coordinates": [ -15.51872945, 35.59317541 ] } },
+{ "type": "Feature", "properties": { "id": 6, "site": "F", "archont": "Autochthon", "group_id": 3, "x": 458694.000000, "y": 3951533.000000, "greek": "Αὐτόχθονος", "keramik1": 232, "keramik2": 1, "keramik3": 9, "silex": 20, "gruben": 4 }, "geometry": { "type": "Point", "coordinates": [ -15.45662028, 35.7068708 ] } },
+{ "type": "Feature", "properties": { "id": 7, "site": "G", "archont": "Elasippos", "group_id": 4, "x": 492495.000000, "y": 3928467.000000, "greek": "Ἐλάσιππος", "keramik1": 2, "keramik2": 32, "keramik3": 23, "silex": 1, "gruben": 9 }, "geometry": { "type": "Point", "coordinates": [ -15.08275133, 35.49973307 ] } },
+{ "type": "Feature", "properties": { "id": 8, "site": "H", "archont": "Mestor", "group_id": 4, "x": 506323.000000, "y": 3934452.000000, "greek": "Μήστωρ", "keramik1": 0, "keramik2": 17, "keramik3": 1, "silex": 4, "gruben": 0 }, "geometry": { "type": "Point", "coordinates": [ -14.93023489, 35.55370595 ] } },
+{ "type": "Feature", "properties": { "id": 9, "site": "I", "archont": "Azaes", "group_id": 5, "x": 528352.000000, "y": 3940620.000000, "greek": "Εὔμηλος", "keramik1": 12, "keramik2": 10, "keramik3": 0, "silex": 0, "gruben": 1 }, "geometry": { "type": "Point", "coordinates": [ -14.68696256, 35.60893374 ] } },
+{ "type": "Feature", "properties": { "id": 10, "site": "J", "archont": "Diaprepes", "group_id": 5, "x": 515067.000000, "y": 3948711.000000, "greek": "Διαπρέπης", "keramik1": 0, "keramik2": 0, "keramik3": 0, "silex": 689, "gruben": 1 }, "geometry": { "type": "Point", "coordinates": [ -14.83349156, 35.68217752 ] } }
+]
+}
