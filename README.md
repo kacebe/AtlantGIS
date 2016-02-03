@@ -9,3 +9,5 @@ We believe that simple datasets with a narrative are most qualified to impart kn
 Whoever likes the idea is invited to contribute data using the repository on GitHub. We ask every contributor to link to documents that put the dataset in context of a special GIS-related task and make the tutorials/workshop documents available under an open licence.
 
 DISCLAIMER: These data are not in any way based on any "identification" of Platon's concept of Atlantis in geographical sense. They should and cannot be used to argue in favour or against any scientific of unscientific hypotheses.
+
+This specific branch is connected to the LOOK-DIVA project, aiming to prodcue Open Educational Ressources (OER) funded by the Medienzentrum of the Johannes Gutenberg-University Mainz
