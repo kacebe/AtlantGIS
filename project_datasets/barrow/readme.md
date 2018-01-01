@@ -1,6 +1,8 @@
 # barrow dataset
 
-This dataset contains data from a fictive 2017 survey project on Atlantis that targeted one specific field in the northern coastal plain of the island. The following files are available:
+This dataset contains data from a fictive 2017 survey project on Atlantis that targeted one specific field in the northern coastal plain of the island. Actually it's decontextualized real world data from the DFG funded project [*Late Neolithic/Early Bronze Age developments in the south-west Baltic area (2500-1500 BC): Why did the Bruszczewo-Leki Male type of power structures appear?*](http://gepris.dfg.de/gepris/projekt/277223019) that can be shared here thanks to Professor Dr. Johannes Müller and Professor Dr. Janusz Czebreszuk. Thanks also go to Annalena Bock, Hendrik Raese, Marcin Ławniczak and many other students involved in the fieldwork.
+
+The following files are available:
 
 - Orthophoto (GeoTIFF)
 - Digital Elevation Model (GeoTIFF)
@@ -8,7 +10,7 @@ This dataset contains data from a fictive 2017 survey project on Atlantis that t
 
 Georeferenced orthophoto and digital elevation model from the site created by photogrammetry of quadrocopter photos with [PhotoScan](http://www.agisoft.com/). The magnetic survey was undertaken with a 10 channel magnetometer system by [Sensys](http://www.sensysmagnetometer.com) and a mounted DGPS unit by Leica.
 
-The following, additional steps beyond the normal data transformation were applied to prepare the survey data for the AtlantGIS repository.
+The following, additional steps beyond the normal data transformation were applied to prepare the survey data for the AtlantGIS repository:
 
 ## Orthophoto
 
