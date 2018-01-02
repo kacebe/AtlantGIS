@@ -8,13 +8,13 @@ The following files are available:
 - Digital Elevation Model (GeoTIFF)
 - Magnetic survey data (decimated probe-wise point data CSV + GeoTIFF)
 
-Georeferenced orthophoto and digital elevation model from the site created by photogrammetry of quadrocopter photos with [PhotoScan](http://www.agisoft.com/). The magnetic survey was undertaken with a 10 channel magnetometer system by [Sensys](http://www.sensysmagnetometer.com) and a mounted DGPS unit by Leica.
+The georeferenced orthophoto and the digital elevation model from the site were created by photogrammetry of quadrocopter photos with [PhotoScan](http://www.agisoft.com/). The magnetic survey was undertaken with a 10 channel magnetometer system by [Sensys](http://www.sensysmagnetometer.com) and a mounted DGPS unit by Leica.
 
-The following, additional steps beyond the normal data transformation were applied to prepare the survey data for the AtlantGIS repository:
+The following, additional steps beyond the normal data transformation were applied to prepare the survey data for the AtlantGIS repository. Most spatial data operations where performed with [gdal](http://www.gdal.org) (either with [command line utilities](http://www.gdal.org/gdal_utilities.html) or with [R packages](https://CRAN.R-project.org/package=rgdal) that use gdal internally).
 
 ## Orthophoto
 
-- Change the coordinate reference system of the orthophoto to [EPSG:32628](http://spatialreference.org/ref/epsg/wgs-84-utm-zone-28n/), which is already in use for the other AtlantGIS data. Most spatial data operations where performed with [gdal](http://www.gdal.org) (either with [command line utilities](http://www.gdal.org/gdal_utilities.html) or with [R packages](https://CRAN.R-project.org/package=rgdal) that use gdal internally) 
+- Change the coordinate reference system of the orthophoto to [EPSG:32628](http://spatialreference.org/ref/epsg/wgs-84-utm-zone-28n/), which is already in use for the other AtlantGIS data.
 
 ```
 gdalwarp -t_srs 'EPSG:32628' orto1.tif orto2.tif
@@ -62,7 +62,7 @@ gdal_translate \
 
 ## Magnetic survey data
 
-Sensys provides [DLMGPS](http://www.sensysmagnetometer.com/en/dlmgps.html) to combine spatial information from the mounted DGPS unit with the flux measurements from the magnetic probes. It offers an ASCII export that contains information for each individual measurement per probe:
+Sensys provides the proprietary software [DLMGPS](http://www.sensysmagnetometer.com/en/dlmgps.html) to combine spatial information from the mounted DGPS unit with the flux measurements from the magnetic probes. It offers an ASCII export that contains information for each individual measurement per probe:
 
 x|y|magnetic flux in nT|measurement event|probe
 :-----:|:-----:|:-----:|:-----:|:-----:
