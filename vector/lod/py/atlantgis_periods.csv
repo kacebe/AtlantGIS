@@ -1,0 +1,6 @@
+id	period_counter	period_code	period_desc	period_before	period_after
+1	5	I	Period from genesis to Leukippe and Euenor	NULL	10
+2	10	II	Period of Kleito and Poseidon as well as of their direct descendants	5	25
+3	13	IIa	Period of Kleito and Poseidon	5	17
+4	17	IIb	Period of Kleito's and Poseidon's descandants	13	25
+5	25	III	Period before doom	10	NULL
