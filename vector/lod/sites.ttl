@@ -1,0 +1,353 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://atlantgis.squirrel.link/site#7>
+        a       <https://www.wikidata.org/wiki/Q17334923> ;
+        <http://atlantgis.squirrel.link/site#archont>
+                "Elasippos" ;
+        <http://atlantgis.squirrel.link/site#greek>
+                "Ἐλάσιππος" ;
+        <http://atlantgis.squirrel.link/site#group_id>
+                4 ;
+        <http://atlantgis.squirrel.link/site#gruben>
+                9 ;
+        <http://atlantgis.squirrel.link/site#keramik1>
+                2 ;
+        <http://atlantgis.squirrel.link/site#keramik2>
+                32 ;
+        <http://atlantgis.squirrel.link/site#keramik3>
+                23 ;
+        <http://atlantgis.squirrel.link/site#silex>
+                1 ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/site#7_geom> .
+
+<http://atlantgis.squirrel.link/site#2_geom>
+        a       <http://www.opengis.net/ont/sf#Point> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"Point\",\"coordinates\":[-15.097823661232606,35.617442563836114]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-15.097823661232606 35.617442563836114)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/site#6_geom>
+        a       <http://www.opengis.net/ont/sf#Point> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"Point\",\"coordinates\":[-15.456620280793723,35.706870795205106]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-15.456620280793723 35.706870795205106)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/site#3_geom>
+        a       <http://www.opengis.net/ont/sf#Point> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"Point\",\"coordinates\":[-15.217615254608273,35.492712526968674]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-15.217615254608273 35.492712526968674)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/site#keramik3>
+        a           owl:DatatypeProperty ;
+        rdfs:range  xsd:integer .
+
+<http://atlantgis.squirrel.link/site#6>
+        a       <https://www.wikidata.org/wiki/Q17334923> ;
+        <http://atlantgis.squirrel.link/site#archont>
+                "Autochthon" ;
+        <http://atlantgis.squirrel.link/site#greek>
+                "Αὐτόχθονος" ;
+        <http://atlantgis.squirrel.link/site#group_id>
+                3 ;
+        <http://atlantgis.squirrel.link/site#gruben>
+                4 ;
+        <http://atlantgis.squirrel.link/site#keramik1>
+                232 ;
+        <http://atlantgis.squirrel.link/site#keramik2>
+                1 ;
+        <http://atlantgis.squirrel.link/site#keramik3>
+                9 ;
+        <http://atlantgis.squirrel.link/site#silex>
+                20 ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/site#6_geom> .
+
+<http://atlantgis.squirrel.link/site#7_geom>
+        a       <http://www.opengis.net/ont/sf#Point> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"Point\",\"coordinates\":[-15.082751326646484,35.499733072205636]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-15.082751326646484 35.499733072205636)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/site#group_id>
+        a           owl:DatatypeProperty ;
+        rdfs:range  xsd:integer .
+
+<http://atlantgis.squirrel.link/site#5>
+        a       <https://www.wikidata.org/wiki/Q17334923> ;
+        <http://atlantgis.squirrel.link/site#archont>
+                "Mneseus" ;
+        <http://atlantgis.squirrel.link/site#greek>
+                "Μνασέας" ;
+        <http://atlantgis.squirrel.link/site#group_id>
+                3 ;
+        <http://atlantgis.squirrel.link/site#gruben>
+                0 ;
+        <http://atlantgis.squirrel.link/site#keramik1>
+                24 ;
+        <http://atlantgis.squirrel.link/site#keramik2>
+                6 ;
+        <http://atlantgis.squirrel.link/site#keramik3>
+                0 ;
+        <http://atlantgis.squirrel.link/site#silex>
+                10 ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/site#5_geom> .
+
+<http://atlantgis.squirrel.link/site#keramik2>
+        a           owl:DatatypeProperty ;
+        rdfs:range  xsd:integer .
+
+<http://www.opengis.net/ont/geosparql#asGeoJSON>
+        a       owl:DatatypeProperty .
+
+<http://atlantgis.squirrel.link/site#10>
+        a       <https://www.wikidata.org/wiki/Q17334923> ;
+        <http://atlantgis.squirrel.link/site#archont>
+                "Diaprepes" ;
+        <http://atlantgis.squirrel.link/site#greek>
+                "Διαπρέπης" ;
+        <http://atlantgis.squirrel.link/site#group_id>
+                5 ;
+        <http://atlantgis.squirrel.link/site#gruben>
+                1 ;
+        <http://atlantgis.squirrel.link/site#keramik1>
+                0 ;
+        <http://atlantgis.squirrel.link/site#keramik2>
+                0 ;
+        <http://atlantgis.squirrel.link/site#keramik3>
+                0 ;
+        <http://atlantgis.squirrel.link/site#silex>
+                689 ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/site#10_geom> .
+
+<http://atlantgis.squirrel.link/site#silex>
+        a           owl:DatatypeProperty ;
+        rdfs:range  xsd:integer .
+
+<http://atlantgis.squirrel.link/site#keramik1>
+        a           owl:DatatypeProperty ;
+        rdfs:range  xsd:integer .
+
+<http://atlantgis.squirrel.link/site#4>
+        a       <https://www.wikidata.org/wiki/Q17334923> ;
+        <http://atlantgis.squirrel.link/site#archont>
+                "Euaimon" ;
+        <http://atlantgis.squirrel.link/site#greek>
+                "Εὐαίμων" ;
+        <http://atlantgis.squirrel.link/site#group_id>
+                2 ;
+        <http://atlantgis.squirrel.link/site#gruben>
+                1 ;
+        <http://atlantgis.squirrel.link/site#keramik1>
+                6 ;
+        <http://atlantgis.squirrel.link/site#keramik2>
+                90 ;
+        <http://atlantgis.squirrel.link/site#keramik3>
+                0 ;
+        <http://atlantgis.squirrel.link/site#silex>
+                0 ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/site#4_geom> .
+
+<http://www.opengis.net/ont/geosparql#SpatialObject>
+        a       owl:Class .
+
+<http://www.opengis.net/ont/geosparql#Feature>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://www.opengis.net/ont/geosparql#SpatialObject> .
+
+<http://www.opengis.net/ont/geosparql#hasGeometry>
+        a       owl:ObjectProperty .
+
+<http://semgis.de/geodata#propOrder>
+        a       owl:AnnotationProperty .
+
+<http://atlantgis.squirrel.link/site#4_geom>
+        a       <http://www.opengis.net/ont/sf#Point> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"Point\",\"coordinates\":[-15.371528093603208,35.469127902608804]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-15.371528093603208 35.469127902608804)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/site#9>
+        a       <https://www.wikidata.org/wiki/Q17334923> ;
+        <http://atlantgis.squirrel.link/site#archont>
+                "Azaes" ;
+        <http://atlantgis.squirrel.link/site#greek>
+                "Εὔμηλος" ;
+        <http://atlantgis.squirrel.link/site#group_id>
+                5 ;
+        <http://atlantgis.squirrel.link/site#gruben>
+                1 ;
+        <http://atlantgis.squirrel.link/site#keramik1>
+                12 ;
+        <http://atlantgis.squirrel.link/site#keramik2>
+                10 ;
+        <http://atlantgis.squirrel.link/site#keramik3>
+                0 ;
+        <http://atlantgis.squirrel.link/site#silex>
+                0 ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/site#9_geom> .
+
+<http://atlantgis.squirrel.link/site#1_geom>
+        a       <http://www.opengis.net/ont/sf#Point> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"Point\",\"coordinates\":[-15.302889902401944,35.59993416253471]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-15.302889902401944 35.59993416253471)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/site#gruben>
+        a           owl:DatatypeProperty ;
+        rdfs:range  xsd:integer .
+
+<http://atlantgis.squirrel.link/site#3>
+        a       <https://www.wikidata.org/wiki/Q17334923> ;
+        <http://atlantgis.squirrel.link/site#archont>
+                "Ampheres" ;
+        <http://atlantgis.squirrel.link/site#greek>
+                "Ἀμφῆρες" ;
+        <http://atlantgis.squirrel.link/site#group_id>
+                2 ;
+        <http://atlantgis.squirrel.link/site#gruben>
+                0 ;
+        <http://atlantgis.squirrel.link/site#keramik1>
+                17 ;
+        <http://atlantgis.squirrel.link/site#keramik2>
+                23 ;
+        <http://atlantgis.squirrel.link/site#keramik3>
+                19 ;
+        <http://atlantgis.squirrel.link/site#silex>
+                2 ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/site#3_geom> .
+
+<http://semgis.de/geodata#standard>
+        a       owl:AnnotationProperty .
+
+<http://atlantgis.squirrel.link/site#archont>
+        a           owl:DatatypeProperty ;
+        rdfs:range  xsd:string .
+
+<http://atlantgis.squirrel.link/site#8_geom>
+        a       <http://www.opengis.net/ont/sf#Point> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"Point\",\"coordinates\":[-14.930234892454264,35.553705947902735]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-14.930234892454264 35.553705947902735)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/site#5_geom>
+        a       <http://www.opengis.net/ont/sf#Point> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"Point\",\"coordinates\":[-15.518729450350849,35.59317541219059]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-15.518729450350849 35.59317541219059)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<https://www.wikidata.org/wiki/Q17334923>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://www.opengis.net/ont/geosparql#Feature> ;
+        <http://semgis.de/geodata#propOrder>
+                "greek;gruben;keramik3;keramik2;silex;keramik1;site;group_id;archont;x;y;id;the_geom;" ;
+        <http://semgis.de/geodata#standard>
+                "sites2.shp" .
+
+<http://www.opengis.net/ont/sf#Point>
+        a       owl:Class .
+
+<http://atlantgis.squirrel.link/site#greek>
+        a           owl:DatatypeProperty ;
+        rdfs:range  xsd:string .
+
+<http://atlantgis.squirrel.link/site#9_geom>
+        a       <http://www.opengis.net/ont/sf#Point> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"Point\",\"coordinates\":[-14.68696255799825,35.6089337422779]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-14.68696255799825 35.6089337422779)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/site#2>
+        a       <https://www.wikidata.org/wiki/Q17334923> ;
+        <http://atlantgis.squirrel.link/site#archont>
+                "Eumelos/Gadeiros" ;
+        <http://atlantgis.squirrel.link/site#greek>
+                "Ἀζάης" ;
+        <http://atlantgis.squirrel.link/site#group_id>
+                1 ;
+        <http://atlantgis.squirrel.link/site#gruben>
+                12 ;
+        <http://atlantgis.squirrel.link/site#keramik1>
+                4 ;
+        <http://atlantgis.squirrel.link/site#keramik2>
+                18 ;
+        <http://atlantgis.squirrel.link/site#keramik3>
+                11 ;
+        <http://atlantgis.squirrel.link/site#silex>
+                190 ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/site#2_geom> .
+
+<http://atlantgis.squirrel.link/site#8>
+        a       <https://www.wikidata.org/wiki/Q17334923> ;
+        <http://atlantgis.squirrel.link/site#archont>
+                "Mestor" ;
+        <http://atlantgis.squirrel.link/site#greek>
+                "Μήστωρ" ;
+        <http://atlantgis.squirrel.link/site#group_id>
+                4 ;
+        <http://atlantgis.squirrel.link/site#gruben>
+                0 ;
+        <http://atlantgis.squirrel.link/site#keramik1>
+                0 ;
+        <http://atlantgis.squirrel.link/site#keramik2>
+                17 ;
+        <http://atlantgis.squirrel.link/site#keramik3>
+                1 ;
+        <http://atlantgis.squirrel.link/site#silex>
+                4 ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/site#8_geom> .
+
+<http://www.opengis.net/ont/geosparql#Geometry>
+        a                owl:Class ;
+        rdfs:subClassOf  <http://www.opengis.net/ont/geosparql#SpatialObject> .
+
+<http://www.opengis.net/ont/geosparql#asWKT>
+        a       owl:DatatypeProperty .
+
+<http://atlantgis.squirrel.link/site#10_geom>
+        a       <http://www.opengis.net/ont/sf#Point> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"Point\",\"coordinates\":[-14.83349156013882,35.68217752456819]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-14.83349156013882 35.68217752456819)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/site#1>
+        a       <https://www.wikidata.org/wiki/Q17334923> ;
+        <http://atlantgis.squirrel.link/site#archont>
+                "Atlas" ;
+        <http://atlantgis.squirrel.link/site#greek>
+                "Ἄτλας" ;
+        <http://atlantgis.squirrel.link/site#group_id>
+                1 ;
+        <http://atlantgis.squirrel.link/site#gruben>
+                1 ;
+        <http://atlantgis.squirrel.link/site#keramik1>
+                0 ;
+        <http://atlantgis.squirrel.link/site#keramik2>
+                5 ;
+        <http://atlantgis.squirrel.link/site#keramik3>
+                2 ;
+        <http://atlantgis.squirrel.link/site#silex>
+                20 ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/site#1_geom> .
