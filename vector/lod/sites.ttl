@@ -6,7 +6,7 @@
 <http://atlantgis.squirrel.link/site#7>
         a       <http://atlantgis.squirrel.link/ontology#Site> ;
         <http://atlantgis.squirrel.link/ontology#archont>
-                "Elasippos" ;
+                <http://atlantgis.squirrel.link/ontology#Elasippos> ;
         <http://atlantgis.squirrel.link/ontology#archont_label>
                 "Ἐλάσιππος" ;
         <http://atlantgis.squirrel.link/ontology#groupid>
@@ -48,7 +48,7 @@
 <http://atlantgis.squirrel.link/site#6>
         a       <http://atlantgis.squirrel.link/ontology#Site> ;
         <http://atlantgis.squirrel.link/ontology#archont>
-                "Autochthon" ;
+                <http://atlantgis.squirrel.link/ontology#Autochthon> ;
         <http://atlantgis.squirrel.link/ontology#archont_label>
                 "Αὐτόχθονος" ;
         <http://atlantgis.squirrel.link/ontology#groupid>
@@ -76,7 +76,7 @@
 <http://atlantgis.squirrel.link/site#5>
         a       <http://atlantgis.squirrel.link/ontology#Site> ;
         <http://atlantgis.squirrel.link/ontology#archont>
-                "Mneseus" ;
+                <http://atlantgis.squirrel.link/ontology#Mneseus> ;
         <http://atlantgis.squirrel.link/ontology#archont_label>
                 "Μνασέας" ;
         <http://atlantgis.squirrel.link/ontology#groupid>
@@ -97,7 +97,7 @@
 <http://atlantgis.squirrel.link/site#10>
         a       <http://atlantgis.squirrel.link/ontology#Site> ;
         <http://atlantgis.squirrel.link/ontology#archont>
-                "Diaprepes" ;
+                <http://atlantgis.squirrel.link/ontology#Diaprepes> ;
         <http://atlantgis.squirrel.link/ontology#archont_label>
                 "Διαπρέπης" ;
         <http://atlantgis.squirrel.link/ontology#groupid>
@@ -118,7 +118,7 @@
 <http://atlantgis.squirrel.link/site#4>
         a       <http://atlantgis.squirrel.link/ontology#Site> ;
         <http://atlantgis.squirrel.link/ontology#archont>
-                "Euaimon" ;
+                <http://atlantgis.squirrel.link/ontology#Euaimon> ;
         <http://atlantgis.squirrel.link/ontology#archont_label>
                 "Εὐαίμων" ;
         <http://atlantgis.squirrel.link/ontology#groupid>
@@ -146,7 +146,7 @@
 <http://atlantgis.squirrel.link/site#9>
         a       <http://atlantgis.squirrel.link/ontology#Site> ;
         <http://atlantgis.squirrel.link/ontology#archont>
-                "Azaes" ;
+                <http://atlantgis.squirrel.link/ontology#Azaes> ;
         <http://atlantgis.squirrel.link/ontology#archont_label>
                 "Εὔμηλος" ;
         <http://atlantgis.squirrel.link/ontology#groupid>
@@ -174,7 +174,7 @@
 <http://atlantgis.squirrel.link/site#3>
         a       <http://atlantgis.squirrel.link/ontology#Site> ;
         <http://atlantgis.squirrel.link/ontology#archont>
-                "Ampheres" ;
+                <http://atlantgis.squirrel.link/ontology#Ampheres> ;
         <http://atlantgis.squirrel.link/ontology#archont_label>
                 "Ἀμφῆρες" ;
         <http://atlantgis.squirrel.link/ontology#groupid>
@@ -216,7 +216,7 @@
 <http://atlantgis.squirrel.link/site#2>
         a       <http://atlantgis.squirrel.link/ontology#Site> ;
         <http://atlantgis.squirrel.link/ontology#archont>
-                "Eumelos/Gadeiros" ;
+                <http://atlantgis.squirrel.link/ontology#Eumelos_Gadeiros> ;
         <http://atlantgis.squirrel.link/ontology#archont_label>
                 "Ἀζάης" ;
         <http://atlantgis.squirrel.link/ontology#groupid>
@@ -237,7 +237,7 @@
 <http://atlantgis.squirrel.link/site#8>
         a       <http://atlantgis.squirrel.link/ontology#Site> ;
         <http://atlantgis.squirrel.link/ontology#archont>
-                "Mestor" ;
+                <http://atlantgis.squirrel.link/ontology#Mestor> ;
         <http://atlantgis.squirrel.link/ontology#archont_label>
                 "Μήστωρ" ;
         <http://atlantgis.squirrel.link/ontology#groupid>
@@ -265,7 +265,7 @@
 <http://atlantgis.squirrel.link/site#1>
         a       <http://atlantgis.squirrel.link/ontology#Site> ;
         <http://atlantgis.squirrel.link/ontology#archont>
-                "Atlas" ;
+                <http://atlantgis.squirrel.link/ontology#Atlas> ;
         <http://atlantgis.squirrel.link/ontology#archont_label>
                 "Ἄτλας" ;
         <http://atlantgis.squirrel.link/ontology#groupid>
