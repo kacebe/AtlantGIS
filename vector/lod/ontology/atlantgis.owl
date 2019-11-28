@@ -358,7 +358,7 @@
     <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#muendungsD">
         <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label xml:lang="en">muendungsdurchmesser</rdfs:label>
+        <rdfs:label xml:lang="en">muendungsD</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -393,9 +393,9 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#qty -->
+    <!-- http://atlantgis.squirrel.link/ontology#quantity -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#qty">
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#quantity">
         <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">quantity</rdfs:label>
