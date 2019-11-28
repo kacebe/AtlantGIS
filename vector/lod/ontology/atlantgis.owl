@@ -174,8 +174,29 @@
     <!-- http://atlantgis.squirrel.link/ontology#stream_cat -->
 
     <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#stream_cat">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Stream"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">stream category</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology#stream_discharge -->
+
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#stream_discharge">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Stream"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label xml:lang="en">stream discharge</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology#stream_value -->
+
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#stream_value">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Stream"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">stream value</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -253,6 +274,18 @@
         <semgis:propOrder>uid;Resource;the_geom;</semgis:propOrder>
         <semgis:standard>resources2.shp</semgis:standard>
         <rdfs:label xml:lang="en">Resource</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology#Stream -->
+
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#Stream">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q355304"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+        <semgis:propOrder>distance;cat;discharge;label;PK_UID;value;the_geom;</semgis:propOrder>
+        <semgis:standard>streams2.shp</semgis:standard>
+        <rdfs:label xml:lang="en">Stream</rdfs:label>
     </owl:Class>
     
 
@@ -357,6 +390,15 @@
     <owl:Class rdf:about="http://www.wikidata.org/entity/Q3001793">
         <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#Wikidata_Classes"/>
         <rdfs:label xml:lang="en">landcover</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q355304 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q355304">
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#Wikidata_Classes"/>
+        <rdfs:label xml:lang="en">watercourse</rdfs:label>
     </owl:Class>
     
 
