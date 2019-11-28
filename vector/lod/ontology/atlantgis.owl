@@ -599,10 +599,90 @@
     
 
 
+    <!-- http://atlantgis.squirrel.link/ontology#Ampheres -->
+
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Ampheres">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology#Atlas -->
+
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Atlas">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology#Autochthon -->
+
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Autochthon">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology#Azaes -->
+
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Azaes">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology#Diaprepes -->
+
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Diaprepes">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology#Elasippos -->
+
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Elasippos">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology#Euaimon -->
+
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Euaimon">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology#Eumelos_Gadeiros -->
+
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Eumelos_Gadeiros">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://atlantgis.squirrel.link/ontology#Goldkupfererz -->
 
     <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Goldkupfererz">
         <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Resource"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology#Mestor -->
+
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Mestor">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology#Mneseus -->
+
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Mneseus">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
     </owl:NamedIndividual>
     
 
