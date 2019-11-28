@@ -215,7 +215,7 @@
 
     <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#CoastLine">
         <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q1701967"/>
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#AtlantGIS_Classes"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
         <rdfs:label xml:lang="en">Coastline</rdfs:label>
     </owl:Class>
     
