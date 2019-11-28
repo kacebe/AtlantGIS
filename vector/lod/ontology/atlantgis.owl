@@ -235,20 +235,33 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Material -->
-
-    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#Material">
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#AtlantGIS_Classes"/>
-    </owl:Class>
-    
-
-
     <!-- http://atlantgis.squirrel.link/ontology#Period -->
 
     <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#Period">
         <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q6428674"/>
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#TemporalEntity"/>
+        <rdfs:label xml:lang="en">Period</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology#Resource -->
+
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#Resource">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q1554231"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+        <semgis:propOrder>uid;Resource;the_geom;</semgis:propOrder>
+        <semgis:standard>resources2.shp</semgis:standard>
+        <rdfs:label xml:lang="en">Resource</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology#TemporalEntity -->
+
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#TemporalEntity">
         <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#AtlantGIS_Classes"/>
-        <rdfs:label xml:lang="en">period</rdfs:label>
+        <rdfs:label xml:lang="en">Temporal Entity</rdfs:label>
     </owl:Class>
     
 
@@ -321,6 +334,15 @@
     
 
 
+    <!-- http://www.wikidata.org/entity/Q1554231 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q1554231">
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#Wikidata_Classes"/>
+        <rdfs:label xml:lang="en">resource</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.wikidata.org/entity/Q1701967 -->
 
     <owl:Class rdf:about="http://www.wikidata.org/entity/Q1701967">
@@ -371,7 +393,7 @@
     <!-- http://atlantgis.squirrel.link/ontology#Goldkupfererz -->
 
     <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Goldkupfererz">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Material"/>
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Resource"/>
     </owl:NamedIndividual>
     
 
@@ -379,7 +401,7 @@
     <!-- http://atlantgis.squirrel.link/ontology#Silber -->
 
     <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Silber">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Material"/>
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Resource"/>
     </owl:NamedIndividual>
     
 
@@ -387,7 +409,7 @@
     <!-- http://atlantgis.squirrel.link/ontology#Zinn -->
 
     <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Zinn">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Material"/>
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Resource"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
