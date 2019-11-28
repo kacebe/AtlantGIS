@@ -216,6 +216,8 @@
     <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#CoastLine">
         <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q1701967"/>
         <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+        <semgis:propOrder>DN;the_geom;</semgis:propOrder>
+        <semgis:standard>kuestenlinie2.shp</semgis:standard>
         <rdfs:label xml:lang="en">Coastline</rdfs:label>
     </owl:Class>
     
@@ -243,7 +245,10 @@
 
     <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#Voronoi">
         <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q757267"/>
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#AtlantGIS_Classes"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+        <semgis:propOrder>cat;the_geom;</semgis:propOrder>
+        <semgis:standard>voronoi2.shp</semgis:standard>
+        <rdfs:label xml:lang="en">Voronoi</rdfs:label>
     </owl:Class>
     
 
