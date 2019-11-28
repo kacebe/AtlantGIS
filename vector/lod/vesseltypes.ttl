@@ -1,0 +1,56 @@
+# create triples from
+# C:\Users\Florian Thiery\Documents\GitHub\AtlantGIS\vector\lod\py\Finds_VesselTypes.csv
+# on 2019-11-28 22:50
+# by python script
+
+PREFIX atlantgis: <http://atlantgis.squirrel.link/ontology#>
+PREFIX vesseltype: <http://atlantgis.squirrel.link/vesseltype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+vesseltype:1 rdf:type atlantgis:VesselType .
+vesseltype:1 atlantgis:name 'Amphora'@de.
+vesseltype:1 atlantgis:function 'Vorratsgefäß'@de.
+vesseltype:1 atlantgis:description 'bauchiges enghalsiges Gefäß mit zwei Henkeln'@de.
+
+vesseltype:2 rdf:type atlantgis:VesselType .
+vesseltype:2 atlantgis:name 'Lekanis'@de.
+vesseltype:2 atlantgis:function 'Vorratsgefäß'@de.
+vesseltype:2 atlantgis:description 'flache Schüssel mit horizontalen Henkeln'@de.
+
+vesseltype:3 rdf:type atlantgis:VesselType .
+vesseltype:3 atlantgis:name 'Stamnos'@de.
+vesseltype:3 atlantgis:function 'Vorratsgefäß'@de.
+vesseltype:3 atlantgis:description 'dickbauchiges Vorratsgefäß mit kurzem Hals und seitlichen'@de.
+
+vesseltype:4 rdf:type atlantgis:VesselType .
+vesseltype:4 atlantgis:name 'Psykter'@de.
+vesseltype:4 atlantgis:function 'Symposionsgefäß'@de.
+vesseltype:4 atlantgis:description 'pilzähliches Gefäß'@de.
+
+vesseltype:5 rdf:type atlantgis:VesselType .
+vesseltype:5 atlantgis:name 'Nestoris'@de.
+vesseltype:5 atlantgis:function 'Kultgefäß'@de.
+vesseltype:5 atlantgis:description 'Gefäß mit ovoidem Körper und stark über die Gefäßlippe gezogenen Seitenhenkeln'@de.
+
+vesseltype:6 rdf:type atlantgis:VesselType .
+vesseltype:6 atlantgis:name 'Kyathos'@de.
+vesseltype:6 atlantgis:function 'Symposionsgefäß'@de.
+vesseltype:6 atlantgis:description 'Schöpfkelle mit langem Henkel'@de.
+
+vesseltype:7 rdf:type atlantgis:VesselType .
+vesseltype:7 atlantgis:name 'Kalathos'@de.
+vesseltype:7 atlantgis:function 'Vorratsgefäß'@de.
+vesseltype:7 atlantgis:description 'Lilienförmiges Vorratsgefäß mit steiler Wandung und ausbiegendem Rand'@de.
+
+vesseltype:8 rdf:type atlantgis:VesselType .
+vesseltype:8 atlantgis:name 'Kernos'@de.
+vesseltype:8 atlantgis:function 'Kultgefäß'@de.
+vesseltype:8 atlantgis:description 'Schale'@de.
+
+vesseltype:9 rdf:type atlantgis:VesselType .
+vesseltype:9 atlantgis:name 'Rhyton'@de.
+vesseltype:9 atlantgis:function 'Kultgefäß'@de.
+vesseltype:9 atlantgis:description 'Trinkgefäß oder Spendegefäß zum Ausgießen von Trankopfern '@de.
