@@ -49,7 +49,7 @@ for index, row in data.iterrows():
 file = codecs.open(file_out, "w", "utf-8")
 prefixes = []
 prefixes.append("PREFIX atlantgis: <http://atlantgis.squirrel.link/ontology#>")
-prefixes.append("PREFIX period: <http://atlantgis.squirrel.link/ar_site#>")
+prefixes.append("PREFIX period: <http://atlantgis.squirrel.link/period#>")
 prefixes.append("PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>")
 prefixes.append("PREFIX owl: <http://www.w3.org/2002/07/owl#>")
 prefixes.append("PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>")
