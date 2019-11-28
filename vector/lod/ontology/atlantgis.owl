@@ -211,6 +211,16 @@
     
 
 
+    <!-- http://atlantgis.squirrel.link/ontology#CoastLine -->
+
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#CoastLine">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q1701967"/>
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#AtlantGIS_Classes"/>
+        <rdfs:label xml:lang="en">Coastline</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://atlantgis.squirrel.link/ontology#Material -->
 
     <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#Material">
@@ -290,6 +300,15 @@
 
     <owl:Class rdf:about="http://www.opengis.net/ont/sf#MultiPolygon">
         <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q1701967 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q1701967">
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#Wikidata_Classes"/>
+        <rdfs:label xml:lang="en">coastline</rdfs:label>
     </owl:Class>
     
 
