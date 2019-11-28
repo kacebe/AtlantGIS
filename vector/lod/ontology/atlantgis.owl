@@ -223,6 +223,18 @@
     
 
 
+    <!-- http://atlantgis.squirrel.link/ontology#LandType -->
+
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#LandType">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q3001793"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+        <semgis:propOrder>uid;Landtype;the_geom;</semgis:propOrder>
+        <semgis:standard>landtype2.shp</semgis:standard>
+        <rdfs:label xml:lang="en">Landtype</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://atlantgis.squirrel.link/ontology#Material -->
 
     <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#Material">
@@ -314,6 +326,15 @@
     <owl:Class rdf:about="http://www.wikidata.org/entity/Q1701967">
         <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#Wikidata_Classes"/>
         <rdfs:label xml:lang="en">coastline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q3001793 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q3001793">
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#Wikidata_Classes"/>
+        <rdfs:label xml:lang="en">landcover</rdfs:label>
     </owl:Class>
     
 
