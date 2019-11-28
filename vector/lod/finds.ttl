@@ -1,0 +1,2329 @@
+# create triples from
+# C:\Users\Florian Thiery\Documents\GitHub\AtlantGIS\vector\lod\py\Finds.csv
+# on 2019-11-28 23:38
+# by python script
+
+PREFIX atlantgis: <http://atlantgis.squirrel.link/ontology#>
+PREFIX site: <http://atlantgis.squirrel.link/site#>
+PREFIX find: <http://atlantgis.squirrel.link/find#>
+PREFIX vesseltype: <http://atlantgis.squirrel.link/vesseltype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+find:0 rdf:type atlantgis:Find .
+find:0 atlantgis:site site:C .
+find:0 atlantgis:vesselShape vesseltype:3 .
+find:0 atlantgis:feature 'surface'@en.
+find:0 atlantgis:object '54'.
+find:0 atlantgis:class 'K'.
+find:0 atlantgis:sherd 'G'.
+find:0 atlantgis:quantity '1'.
+find:0 atlantgis:weight '1448'.
+find:0 atlantgis:temperSize 'M'.
+find:0 atlantgis:size '500'.
+find:0 atlantgis:wall '7'.
+find:0 atlantgis:muendungsD '17.5'.
+find:0 atlantgis:muendungsH '19.0'.
+find:0 atlantgis:minD '16.0'.
+find:0 atlantgis:minD_H '16.5'.
+find:0 atlantgis:maxD '21.0'.
+find:0 atlantgis:maxD_H '11.0'.
+find:0 atlantgis:bodenD '7.5'.
+
+find:1 rdf:type atlantgis:Find .
+find:1 atlantgis:site site:C .
+find:1 atlantgis:vesselShape vesseltype:7 .
+find:1 atlantgis:feature 'surface'@en.
+find:1 atlantgis:object '36'.
+find:1 atlantgis:class 'K'.
+find:1 atlantgis:sherd 'R'.
+find:1 atlantgis:quantity '1'.
+find:1 atlantgis:weight '56'.
+find:1 atlantgis:temperSize 'M'.
+find:1 atlantgis:size '120'.
+find:1 atlantgis:wall '5'.
+find:1 atlantgis:muendungsD '17.0'.
+find:1 atlantgis:minD '14.5'.
+find:1 atlantgis:maxD '16.0'.
+
+find:2 rdf:type atlantgis:Find .
+find:2 atlantgis:site site:C .
+find:2 atlantgis:vesselShape vesseltype:7 .
+find:2 atlantgis:feature 'surface'@en.
+find:2 atlantgis:object '32'.
+find:2 atlantgis:class 'K'.
+find:2 atlantgis:sherd 'R'.
+find:2 atlantgis:quantity '1'.
+find:2 atlantgis:weight '92'.
+find:2 atlantgis:temperSize 'VF'.
+find:2 atlantgis:size '120'.
+find:2 atlantgis:wall '9'.
+find:2 atlantgis:muendungsD '20.0'.
+find:2 atlantgis:minD '18.5'.
+find:2 atlantgis:maxD '24.5'.
+
+find:3 rdf:type atlantgis:Find .
+find:3 atlantgis:site site:C .
+find:3 atlantgis:vesselShape vesseltype:8 .
+find:3 atlantgis:feature 'surface'@en.
+find:3 atlantgis:object '26'.
+find:3 atlantgis:class 'K'.
+find:3 atlantgis:sherd 'R'.
+find:3 atlantgis:quantity '1'.
+find:3 atlantgis:weight '45'.
+find:3 atlantgis:temperSize 'VF'.
+find:3 atlantgis:size '70'.
+find:3 atlantgis:wall '11'.
+find:3 atlantgis:muendungsD '22.5'.
+find:3 atlantgis:maxD '27.0'.
+
+find:4 rdf:type atlantgis:Find .
+find:4 atlantgis:site site:E .
+find:4 atlantgis:vesselShape vesseltype:8 .
+find:4 atlantgis:feature 'surface'@en.
+find:4 atlantgis:object '86'.
+find:4 atlantgis:class 'K'.
+find:4 atlantgis:sherd 'G'.
+find:4 atlantgis:quantity '1'.
+find:4 atlantgis:weight '1298'.
+find:4 atlantgis:temperSize 'VC'.
+find:4 atlantgis:size '500'.
+find:4 atlantgis:wall '8'.
+find:4 atlantgis:muendungsD '18.5'.
+find:4 atlantgis:muendungsH '14.0'.
+find:4 atlantgis:minD '22.5'.
+find:4 atlantgis:minD_H '9.5'.
+find:4 atlantgis:maxD '22.5'.
+find:4 atlantgis:maxD_H '9.5'.
+find:4 atlantgis:bodenD '0.0'.
+
+find:5 rdf:type atlantgis:Find .
+find:5 atlantgis:site site:E .
+find:5 atlantgis:vesselShape vesseltype:1 .
+find:5 atlantgis:feature 'surface'@en.
+find:5 atlantgis:object '63'.
+find:5 atlantgis:class 'K'.
+find:5 atlantgis:sherd 'G'.
+find:5 atlantgis:quantity '1'.
+find:5 atlantgis:weight '667'.
+find:5 atlantgis:temperSize 'C'.
+find:5 atlantgis:size '200'.
+find:5 atlantgis:muendungsD '6.0'.
+find:5 atlantgis:muendungsH '14.0'.
+find:5 atlantgis:minD '5.5'.
+find:5 atlantgis:minD_H '11.5'.
+find:5 atlantgis:maxD '10.5'.
+find:5 atlantgis:maxD_H '5.5'.
+find:5 atlantgis:bodenD '6.0'.
+
+find:6 rdf:type atlantgis:Find .
+find:6 atlantgis:site site:E .
+find:6 atlantgis:vesselShape vesseltype:3 .
+find:6 atlantgis:feature 'surface'@en.
+find:6 atlantgis:object '77'.
+find:6 atlantgis:class 'K'.
+find:6 atlantgis:sherd 'G'.
+find:6 atlantgis:quantity '1'.
+find:6 atlantgis:weight '814'.
+find:6 atlantgis:temperSize 'C'.
+find:6 atlantgis:size '200'.
+find:6 atlantgis:wall '7'.
+find:6 atlantgis:muendungsD '15.0'.
+find:6 atlantgis:muendungsH '12.5'.
+find:6 atlantgis:minD '14.0'.
+find:6 atlantgis:minD_H '10.5'.
+find:6 atlantgis:maxD '16.0'.
+find:6 atlantgis:maxD_H '6.5'.
+find:6 atlantgis:bodenD '0.0'.
+
+find:7 rdf:type atlantgis:Find .
+find:7 atlantgis:site site:E .
+find:7 atlantgis:vesselShape vesseltype:8 .
+find:7 atlantgis:feature 'surface'@en.
+find:7 atlantgis:object '82'.
+find:7 atlantgis:class 'K'.
+find:7 atlantgis:sherd 'G'.
+find:7 atlantgis:quantity '1'.
+find:7 atlantgis:weight '2046'.
+find:7 atlantgis:temperSize 'C'.
+find:7 atlantgis:size '500'.
+find:7 atlantgis:wall '10'.
+find:7 atlantgis:muendungsD '22.0'.
+find:7 atlantgis:muendungsH '17.5'.
+find:7 atlantgis:minD '21.5'.
+find:7 atlantgis:minD_H '17.0'.
+find:7 atlantgis:maxD '25.0'.
+find:7 atlantgis:maxD_H '13.0'.
+find:7 atlantgis:bodenD '0.0'.
+
+find:8 rdf:type atlantgis:Find .
+find:8 atlantgis:site site:D .
+find:8 atlantgis:vesselShape vesseltype:7 .
+find:8 atlantgis:feature '1'@en.
+find:8 atlantgis:object '56'.
+find:8 atlantgis:class 'K'.
+find:8 atlantgis:sherd 'R'.
+find:8 atlantgis:quantity '1'.
+find:8 atlantgis:weight '156'.
+find:8 atlantgis:temperSize 'C'.
+find:8 atlantgis:size '120'.
+find:8 atlantgis:wall '6'.
+find:8 atlantgis:muendungsD '26.0'.
+find:8 atlantgis:minD '22.0'.
+find:8 atlantgis:maxD '30.0'.
+
+find:9 rdf:type atlantgis:Find .
+find:9 atlantgis:site site:D .
+find:9 atlantgis:vesselShape vesseltype:7 .
+find:9 atlantgis:feature '1'@en.
+find:9 atlantgis:object '80'.
+find:9 atlantgis:class 'K'.
+find:9 atlantgis:sherd 'W'.
+find:9 atlantgis:quantity '1'.
+find:9 atlantgis:weight '26'.
+find:9 atlantgis:temperSize 'C'.
+find:9 atlantgis:size '70'.
+find:9 atlantgis:wall '10'.
+find:9 atlantgis:minD '28.0'.
+
+find:10 rdf:type atlantgis:Find .
+find:10 atlantgis:site site:D .
+find:10 atlantgis:vesselShape vesseltype:7 .
+find:10 atlantgis:feature '1'@en.
+find:10 atlantgis:object '51'.
+find:10 atlantgis:class 'K'.
+find:10 atlantgis:sherd 'W'.
+find:10 atlantgis:quantity '1'.
+find:10 atlantgis:weight '35'.
+find:10 atlantgis:temperSize 'C'.
+find:10 atlantgis:size '70'.
+find:10 atlantgis:wall '8'.
+find:10 atlantgis:minD '11.0'.
+find:10 atlantgis:maxD '13.0'.
+
+find:11 rdf:type atlantgis:Find .
+find:11 atlantgis:site site:D .
+find:11 atlantgis:vesselShape vesseltype:8 .
+find:11 atlantgis:feature '1'@en.
+find:11 atlantgis:object '34'.
+find:11 atlantgis:class 'K'.
+find:11 atlantgis:sherd 'R'.
+find:11 atlantgis:quantity '1'.
+find:11 atlantgis:weight '43'.
+find:11 atlantgis:temperSize 'C'.
+find:11 atlantgis:size '70'.
+find:11 atlantgis:wall '11'.
+find:11 atlantgis:muendungsD '16.0'.
+find:11 atlantgis:muendungsH '5.5'.
+
+find:12 rdf:type atlantgis:Find .
+find:12 atlantgis:site site:D .
+find:12 atlantgis:vesselShape vesseltype:7 .
+find:12 atlantgis:feature 'surface'@en.
+find:12 atlantgis:object '76'.
+find:12 atlantgis:class 'K'.
+find:12 atlantgis:sherd 'R'.
+find:12 atlantgis:quantity '1'.
+find:12 atlantgis:weight '54'.
+find:12 atlantgis:temperSize 'VC'.
+find:12 atlantgis:size '120'.
+find:12 atlantgis:wall '6'.
+find:12 atlantgis:muendungsD '12.0'.
+find:12 atlantgis:minD '10.0'.
+find:12 atlantgis:maxD '14.0'.
+
+find:13 rdf:type atlantgis:Find .
+find:13 atlantgis:site site:D .
+find:13 atlantgis:vesselShape vesseltype:7 .
+find:13 atlantgis:feature '2'@en.
+find:13 atlantgis:object '44'.
+find:13 atlantgis:class 'K'.
+find:13 atlantgis:sherd 'R'.
+find:13 atlantgis:quantity '1'.
+find:13 atlantgis:weight '167'.
+find:13 atlantgis:temperSize 'C'.
+find:13 atlantgis:size '120'.
+find:13 atlantgis:wall '5'.
+find:13 atlantgis:muendungsD '11.0'.
+find:13 atlantgis:minD '8.0'.
+find:13 atlantgis:maxD '13.0'.
+
+find:14 rdf:type atlantgis:Find .
+find:14 atlantgis:site site:D .
+find:14 atlantgis:vesselShape vesseltype:9 .
+find:14 atlantgis:feature '1'@en.
+find:14 atlantgis:object '75'.
+find:14 atlantgis:class 'K'.
+find:14 atlantgis:sherd 'G'.
+find:14 atlantgis:quantity '1'.
+find:14 atlantgis:weight '338'.
+find:14 atlantgis:temperSize 'VC'.
+find:14 atlantgis:size '200'.
+find:14 atlantgis:wall '7'.
+find:14 atlantgis:muendungsD '22.0'.
+find:14 atlantgis:minD '12.5'.
+find:14 atlantgis:maxD '22.5'.
+find:14 atlantgis:maxD_H '10.0'.
+
+find:15 rdf:type atlantgis:Find .
+find:15 atlantgis:site site:D .
+find:15 atlantgis:vesselShape vesseltype:7 .
+find:15 atlantgis:feature '1'@en.
+find:15 atlantgis:object '37'.
+find:15 atlantgis:class 'K'.
+find:15 atlantgis:sherd 'G'.
+find:15 atlantgis:quantity '1'.
+find:15 atlantgis:weight '360'.
+find:15 atlantgis:temperSize 'VC'.
+find:15 atlantgis:size '120'.
+find:15 atlantgis:wall '6'.
+find:15 atlantgis:muendungsD '19.5'.
+find:15 atlantgis:muendungsH '18.5'.
+find:15 atlantgis:minD '17.0'.
+find:15 atlantgis:minD_H '16.0'.
+find:15 atlantgis:maxD '23.5'.
+find:15 atlantgis:maxD_H '11.0'.
+
+find:16 rdf:type atlantgis:Find .
+find:16 atlantgis:site site:D .
+find:16 atlantgis:vesselShape vesseltype:7 .
+find:16 atlantgis:feature '1'@en.
+find:16 atlantgis:object '9'.
+find:16 atlantgis:class 'K'.
+find:16 atlantgis:sherd 'R'.
+find:16 atlantgis:quantity '1'.
+find:16 atlantgis:weight '146'.
+find:16 atlantgis:temperSize 'VC'.
+find:16 atlantgis:size '120'.
+find:16 atlantgis:wall '7'.
+find:16 atlantgis:muendungsD '23.0'.
+find:16 atlantgis:maxD '22.0'.
+
+find:17 rdf:type atlantgis:Find .
+find:17 atlantgis:site site:D .
+find:17 atlantgis:vesselShape vesseltype:7 .
+find:17 atlantgis:feature '2'@en.
+find:17 atlantgis:object '40'.
+find:17 atlantgis:class 'K'.
+find:17 atlantgis:sherd 'R'.
+find:17 atlantgis:quantity '1'.
+find:17 atlantgis:weight '74'.
+find:17 atlantgis:temperSize 'VC'.
+find:17 atlantgis:size '70'.
+find:17 atlantgis:wall '6'.
+find:17 atlantgis:muendungsD '14.0'.
+find:17 atlantgis:minD '12.0'.
+find:17 atlantgis:maxD '18.0'.
+
+find:18 rdf:type atlantgis:Find .
+find:18 atlantgis:site site:D .
+find:18 atlantgis:vesselShape vesseltype:7 .
+find:18 atlantgis:feature '3'@en.
+find:18 atlantgis:object '2'.
+find:18 atlantgis:class 'K'.
+find:18 atlantgis:sherd 'W'.
+find:18 atlantgis:quantity '1'.
+find:18 atlantgis:weight '39'.
+find:18 atlantgis:temperSize 'VC'.
+find:18 atlantgis:size '70'.
+find:18 atlantgis:wall '7'.
+find:18 atlantgis:minD '12.0'.
+find:18 atlantgis:maxD '15.0'.
+
+find:19 rdf:type atlantgis:Find .
+find:19 atlantgis:site site:D .
+find:19 atlantgis:vesselShape vesseltype:7 .
+find:19 atlantgis:feature '1'@en.
+find:19 atlantgis:object '32'.
+find:19 atlantgis:class 'K'.
+find:19 atlantgis:sherd 'R'.
+find:19 atlantgis:quantity '1'.
+find:19 atlantgis:weight '87'.
+find:19 atlantgis:temperSize 'C'.
+find:19 atlantgis:size '120'.
+find:19 atlantgis:wall '6'.
+find:19 atlantgis:muendungsD '26.0'.
+find:19 atlantgis:minD '23.0'.
+
+find:20 rdf:type atlantgis:Find .
+find:20 atlantgis:site site:D .
+find:20 atlantgis:vesselShape vesseltype:7 .
+find:20 atlantgis:feature '1'@en.
+find:20 atlantgis:object '82'.
+find:20 atlantgis:class 'K'.
+find:20 atlantgis:sherd 'W'.
+find:20 atlantgis:quantity '1'.
+find:20 atlantgis:weight '18'.
+find:20 atlantgis:temperSize 'C'.
+find:20 atlantgis:size '70'.
+find:20 atlantgis:wall '6'.
+find:20 atlantgis:maxD '20.0'.
+
+find:21 rdf:type atlantgis:Find .
+find:21 atlantgis:site site:D .
+find:21 atlantgis:vesselShape vesseltype:7 .
+find:21 atlantgis:feature '1'@en.
+find:21 atlantgis:object '48'.
+find:21 atlantgis:class 'K'.
+find:21 atlantgis:sherd 'W'.
+find:21 atlantgis:quantity '1'.
+find:21 atlantgis:weight '26'.
+find:21 atlantgis:temperSize 'C'.
+find:21 atlantgis:size '70'.
+find:21 atlantgis:wall '6'.
+find:21 atlantgis:minD '10.0'.
+find:21 atlantgis:maxD '15.0'.
+
+find:22 rdf:type atlantgis:Find .
+find:22 atlantgis:site site:D .
+find:22 atlantgis:vesselShape vesseltype:7 .
+find:22 atlantgis:feature '1'@en.
+find:22 atlantgis:object '20'.
+find:22 atlantgis:class 'K'.
+find:22 atlantgis:sherd 'W'.
+find:22 atlantgis:quantity '1'.
+find:22 atlantgis:weight '11'.
+find:22 atlantgis:temperSize 'C'.
+find:22 atlantgis:size '70'.
+find:22 atlantgis:wall '5'.
+find:22 atlantgis:minD '30.0'.
+
+find:23 rdf:type atlantgis:Find .
+find:23 atlantgis:site site:D .
+find:23 atlantgis:vesselShape vesseltype:4 .
+find:23 atlantgis:feature 'surface'@en.
+find:23 atlantgis:object '50'.
+find:23 atlantgis:class 'K'.
+find:23 atlantgis:sherd 'R'.
+find:23 atlantgis:quantity '1'.
+find:23 atlantgis:weight '180'.
+find:23 atlantgis:temperSize 'C'.
+find:23 atlantgis:size '120'.
+find:23 atlantgis:wall '7'.
+find:23 atlantgis:muendungsD '24.0'.
+find:23 atlantgis:minD '24.0'.
+find:23 atlantgis:maxD '28.0'.
+
+find:24 rdf:type atlantgis:Find .
+find:24 atlantgis:site site:F .
+find:24 atlantgis:vesselShape vesseltype:2 .
+find:24 atlantgis:feature '1'@en.
+find:24 atlantgis:object '76'.
+find:24 atlantgis:class 'K'.
+find:24 atlantgis:sherd 'G'.
+find:24 atlantgis:quantity '1'.
+find:24 atlantgis:weight '155'.
+find:24 atlantgis:temperSize 'F'.
+find:24 atlantgis:size '120'.
+find:24 atlantgis:wall '4'.
+find:24 atlantgis:muendungsD '11.5'.
+find:24 atlantgis:muendungsH '6.5'.
+find:24 atlantgis:minD '12.0'.
+find:24 atlantgis:minD_H '5.0'.
+find:24 atlantgis:maxD '5.0'.
+find:24 atlantgis:maxD_H '2.5'.
+find:24 atlantgis:bodenD '5.0'.
+
+find:25 rdf:type atlantgis:Find .
+find:25 atlantgis:site site:F .
+find:25 atlantgis:vesselShape vesseltype:1 .
+find:25 atlantgis:feature '1'@en.
+find:25 atlantgis:object '11'.
+find:25 atlantgis:class 'K'.
+find:25 atlantgis:sherd 'G'.
+find:25 atlantgis:quantity '1'.
+find:25 atlantgis:weight '504'.
+find:25 atlantgis:temperSize 'VF'.
+find:25 atlantgis:size '200'.
+find:25 atlantgis:wall '4'.
+find:25 atlantgis:muendungsD '5.0'.
+find:25 atlantgis:muendungsH '18.5'.
+find:25 atlantgis:minD '6.5'.
+find:25 atlantgis:minD_H '14.0'.
+find:25 atlantgis:maxD '16.5'.
+find:25 atlantgis:maxD_H '7.5'.
+find:25 atlantgis:bodenD '6.5'.
+
+find:26 rdf:type atlantgis:Find .
+find:26 atlantgis:site site:F .
+find:26 atlantgis:vesselShape vesseltype:1 .
+find:26 atlantgis:feature '2'@en.
+find:26 atlantgis:object '84'.
+find:26 atlantgis:class 'K'.
+find:26 atlantgis:sherd 'G'.
+find:26 atlantgis:quantity '1'.
+find:26 atlantgis:weight '419'.
+find:26 atlantgis:temperSize 'F'.
+find:26 atlantgis:size '200'.
+find:26 atlantgis:wall '10'.
+find:26 atlantgis:muendungsD '19.0'.
+find:26 atlantgis:muendungsH '14.0'.
+find:26 atlantgis:minD '17.0'.
+find:26 atlantgis:minD_H '10.0'.
+find:26 atlantgis:maxD '17.5'.
+find:26 atlantgis:maxD_H '3.0'.
+find:26 atlantgis:bodenD '0.0'.
+
+find:27 rdf:type atlantgis:Find .
+find:27 atlantgis:site site:F .
+find:27 atlantgis:vesselShape vesseltype:1 .
+find:27 atlantgis:feature '2'@en.
+find:27 atlantgis:object '11'.
+find:27 atlantgis:class 'K'.
+find:27 atlantgis:sherd 'G'.
+find:27 atlantgis:quantity '1'.
+find:27 atlantgis:weight '691'.
+find:27 atlantgis:temperSize 'VF'.
+find:27 atlantgis:size '500'.
+find:27 atlantgis:wall '10'.
+find:27 atlantgis:muendungsD '20.0'.
+find:27 atlantgis:muendungsH '12.0'.
+find:27 atlantgis:minD '17.5'.
+find:27 atlantgis:minD_H '9.0'.
+find:27 atlantgis:maxD '18.0'.
+find:27 atlantgis:maxD_H '5.0'.
+find:27 atlantgis:bodenD '0.0'.
+
+find:28 rdf:type atlantgis:Find .
+find:28 atlantgis:site site:F .
+find:28 atlantgis:vesselShape vesseltype:1 .
+find:28 atlantgis:feature '2'@en.
+find:28 atlantgis:object '62'.
+find:28 atlantgis:class 'K'.
+find:28 atlantgis:sherd 'G'.
+find:28 atlantgis:quantity '1'.
+find:28 atlantgis:weight '623'.
+find:28 atlantgis:temperSize 'VF'.
+find:28 atlantgis:size '500'.
+find:28 atlantgis:wall '10'.
+find:28 atlantgis:muendungsD '18.5'.
+find:28 atlantgis:muendungsH '13.0'.
+find:28 atlantgis:minD '17.0'.
+find:28 atlantgis:minD_H '11.0'.
+find:28 atlantgis:maxD '18.0'.
+find:28 atlantgis:maxD_H '5.0'.
+find:28 atlantgis:bodenD '0.0'.
+
+find:29 rdf:type atlantgis:Find .
+find:29 atlantgis:site site:F .
+find:29 atlantgis:vesselShape vesseltype:1 .
+find:29 atlantgis:feature '2'@en.
+find:29 atlantgis:object '27'.
+find:29 atlantgis:class 'K'.
+find:29 atlantgis:sherd 'G'.
+find:29 atlantgis:quantity '1'.
+find:29 atlantgis:weight '344'.
+find:29 atlantgis:temperSize 'VF'.
+find:29 atlantgis:size '200'.
+find:29 atlantgis:wall '10'.
+find:29 atlantgis:minD '18.0'.
+find:29 atlantgis:minD_H '8.5'.
+find:29 atlantgis:maxD '17.5'.
+find:29 atlantgis:maxD_H '2.0'.
+find:29 atlantgis:bodenD '0.0'.
+
+find:30 rdf:type atlantgis:Find .
+find:30 atlantgis:site site:F .
+find:30 atlantgis:vesselShape vesseltype:1 .
+find:30 atlantgis:feature '2'@en.
+find:30 atlantgis:object '51'.
+find:30 atlantgis:class 'K'.
+find:30 atlantgis:sherd 'G'.
+find:30 atlantgis:quantity '1'.
+find:30 atlantgis:weight '1671'.
+find:30 atlantgis:temperSize 'VF'.
+find:30 atlantgis:size '500'.
+find:30 atlantgis:wall '12'.
+find:30 atlantgis:muendungsD '24.5'.
+find:30 atlantgis:muendungsH '15.0'.
+find:30 atlantgis:minD '21.5'.
+find:30 atlantgis:minD_H '10.5'.
+find:30 atlantgis:maxD '22.5'.
+find:30 atlantgis:maxD_H '3.5'.
+find:30 atlantgis:bodenD '0.0'.
+
+find:31 rdf:type atlantgis:Find .
+find:31 atlantgis:site site:F .
+find:31 atlantgis:vesselShape vesseltype:1 .
+find:31 atlantgis:feature '2'@en.
+find:31 atlantgis:object '17'.
+find:31 atlantgis:class 'K'.
+find:31 atlantgis:sherd 'G'.
+find:31 atlantgis:quantity '1'.
+find:31 atlantgis:weight '168'.
+find:31 atlantgis:temperSize 'VF'.
+find:31 atlantgis:size '200'.
+find:31 atlantgis:wall '9'.
+find:31 atlantgis:minD '12.5'.
+find:31 atlantgis:minD_H '5.0'.
+find:31 atlantgis:maxD '13.0'.
+find:31 atlantgis:maxD_H '3.0'.
+find:31 atlantgis:bodenD '0.0'.
+
+find:32 rdf:type atlantgis:Find .
+find:32 atlantgis:site site:F .
+find:32 atlantgis:vesselShape vesseltype:1 .
+find:32 atlantgis:feature '2'@en.
+find:32 atlantgis:object '88'.
+find:32 atlantgis:class 'K'.
+find:32 atlantgis:sherd 'G'.
+find:32 atlantgis:quantity '1'.
+find:32 atlantgis:weight '829'.
+find:32 atlantgis:temperSize 'VF'.
+find:32 atlantgis:size '500'.
+find:32 atlantgis:wall '7'.
+find:32 atlantgis:muendungsD '20.5'.
+find:32 atlantgis:muendungsH '12.5'.
+find:32 atlantgis:minD '17.5'.
+find:32 atlantgis:minD_H '8.5'.
+find:32 atlantgis:maxD '19.0'.
+find:32 atlantgis:maxD_H '4.0'.
+find:32 atlantgis:bodenD '0.0'.
+
+find:33 rdf:type atlantgis:Find .
+find:33 atlantgis:site site:F .
+find:33 atlantgis:vesselShape vesseltype:1 .
+find:33 atlantgis:feature '2'@en.
+find:33 atlantgis:object '75'.
+find:33 atlantgis:class 'K'.
+find:33 atlantgis:sherd 'G'.
+find:33 atlantgis:quantity '1'.
+find:33 atlantgis:weight '663'.
+find:33 atlantgis:temperSize 'VF'.
+find:33 atlantgis:size '200'.
+find:33 atlantgis:wall '9'.
+find:33 atlantgis:muendungsD '18.5'.
+find:33 atlantgis:muendungsH '11.5'.
+find:33 atlantgis:minD '16.0'.
+find:33 atlantgis:minD_H '8.0'.
+find:33 atlantgis:maxD '17.5'.
+find:33 atlantgis:maxD_H '4.0'.
+find:33 atlantgis:bodenD '0.0'.
+
+find:34 rdf:type atlantgis:Find .
+find:34 atlantgis:site site:F .
+find:34 atlantgis:vesselShape vesseltype:1 .
+find:34 atlantgis:feature '2'@en.
+find:34 atlantgis:object '70'.
+find:34 atlantgis:class 'K'.
+find:34 atlantgis:sherd 'G'.
+find:34 atlantgis:quantity '1'.
+find:34 atlantgis:weight '376'.
+find:34 atlantgis:temperSize 'VF'.
+find:34 atlantgis:size '200'.
+find:34 atlantgis:wall '10'.
+find:34 atlantgis:muendungsD '22.0'.
+find:34 atlantgis:muendungsH '14.0'.
+find:34 atlantgis:minD '19.0'.
+find:34 atlantgis:minD_H '10.0'.
+find:34 atlantgis:maxD '20.0'.
+find:34 atlantgis:maxD_H '3.5'.
+find:34 atlantgis:bodenD '0.0'.
+
+find:35 rdf:type atlantgis:Find .
+find:35 atlantgis:site site:F .
+find:35 atlantgis:vesselShape vesseltype:1 .
+find:35 atlantgis:feature '3'@en.
+find:35 atlantgis:object '12'.
+find:35 atlantgis:class 'K'.
+find:35 atlantgis:sherd 'G'.
+find:35 atlantgis:quantity '1'.
+find:35 atlantgis:weight '618'.
+find:35 atlantgis:temperSize 'VF'.
+find:35 atlantgis:size '500'.
+find:35 atlantgis:wall '8'.
+find:35 atlantgis:muendungsD '23.0'.
+find:35 atlantgis:muendungsH '13.0'.
+find:35 atlantgis:minD '20.5'.
+find:35 atlantgis:minD_H '10.0'.
+find:35 atlantgis:maxD '22.0'.
+find:35 atlantgis:maxD_H '5.0'.
+find:35 atlantgis:bodenD '0.0'.
+
+find:36 rdf:type atlantgis:Find .
+find:36 atlantgis:site site:F .
+find:36 atlantgis:vesselShape vesseltype:5 .
+find:36 atlantgis:feature '3'@en.
+find:36 atlantgis:object '61'.
+find:36 atlantgis:class 'K'.
+find:36 atlantgis:sherd 'G'.
+find:36 atlantgis:quantity '1'.
+find:36 atlantgis:weight '684'.
+find:36 atlantgis:temperSize 'VF'.
+find:36 atlantgis:size '200'.
+find:36 atlantgis:wall '7'.
+find:36 atlantgis:muendungsD '10.5'.
+find:36 atlantgis:muendungsH '16.0'.
+find:36 atlantgis:minD '10.0'.
+find:36 atlantgis:minD_H '14.0'.
+find:36 atlantgis:maxD '17.0'.
+find:36 atlantgis:maxD_H '4.5'.
+find:36 atlantgis:bodenD '0.0'.
+
+find:37 rdf:type atlantgis:Find .
+find:37 atlantgis:site site:F .
+find:37 atlantgis:vesselShape vesseltype:1 .
+find:37 atlantgis:feature '3'@en.
+find:37 atlantgis:object '77'.
+find:37 atlantgis:class 'K'.
+find:37 atlantgis:sherd 'G'.
+find:37 atlantgis:quantity '1'.
+find:37 atlantgis:weight '289'.
+find:37 atlantgis:temperSize 'VF'.
+find:37 atlantgis:size '200'.
+find:37 atlantgis:wall '6'.
+find:37 atlantgis:muendungsD '15.0'.
+find:37 atlantgis:muendungsH '8.0'.
+find:37 atlantgis:minD '12.0'.
+find:37 atlantgis:minD_H '4.5'.
+find:37 atlantgis:maxD '12.0'.
+find:37 atlantgis:maxD_H '25.0'.
+find:37 atlantgis:bodenD '0.0'.
+
+find:38 rdf:type atlantgis:Find .
+find:38 atlantgis:site site:F .
+find:38 atlantgis:vesselShape vesseltype:3 .
+find:38 atlantgis:feature '3'@en.
+find:38 atlantgis:object '57'.
+find:38 atlantgis:class 'K'.
+find:38 atlantgis:sherd 'G'.
+find:38 atlantgis:quantity '1'.
+find:38 atlantgis:weight '1803'.
+find:38 atlantgis:temperSize 'VF'.
+find:38 atlantgis:size '500'.
+find:38 atlantgis:wall '7'.
+find:38 atlantgis:muendungsD '21.5'.
+find:38 atlantgis:muendungsH '20.0'.
+find:38 atlantgis:minD '19.5'.
+find:38 atlantgis:minD_H '16.0'.
+find:38 atlantgis:maxD '24.0'.
+find:38 atlantgis:maxD_H '8.5'.
+find:38 atlantgis:bodenD '0.0'.
+
+find:39 rdf:type atlantgis:Find .
+find:39 atlantgis:site site:F .
+find:39 atlantgis:vesselShape vesseltype:1 .
+find:39 atlantgis:feature '3'@en.
+find:39 atlantgis:object '95'.
+find:39 atlantgis:class 'K'.
+find:39 atlantgis:sherd 'W'.
+find:39 atlantgis:quantity '1'.
+find:39 atlantgis:weight '167'.
+find:39 atlantgis:temperSize 'VF'.
+find:39 atlantgis:size '70'.
+find:39 atlantgis:wall '8'.
+find:39 atlantgis:muendungsD '18.0'.
+find:39 atlantgis:muendungsH '9.0'.
+find:39 atlantgis:minD '17.0'.
+find:39 atlantgis:minD_H '7.0'.
+find:39 atlantgis:maxD '17.5'.
+find:39 atlantgis:maxD_H '4.0'.
+find:39 atlantgis:bodenD '0.0'.
+
+find:40 rdf:type atlantgis:Find .
+find:40 atlantgis:site site:F .
+find:40 atlantgis:vesselShape vesseltype:1 .
+find:40 atlantgis:feature '3'@en.
+find:40 atlantgis:object '91'.
+find:40 atlantgis:class 'K'.
+find:40 atlantgis:sherd 'R'.
+find:40 atlantgis:quantity '1'.
+find:40 atlantgis:weight '81'.
+find:40 atlantgis:temperSize 'VF'.
+find:40 atlantgis:size '120'.
+find:40 atlantgis:wall '10'.
+find:40 atlantgis:muendungsD '19.0'.
+find:40 atlantgis:muendungsH '12.0'.
+find:40 atlantgis:minD '15.0'.
+find:40 atlantgis:minD_H '8.0'.
+find:40 atlantgis:maxD '15.5'.
+find:40 atlantgis:maxD_H '4.0'.
+find:40 atlantgis:bodenD '0.0'.
+
+find:41 rdf:type atlantgis:Find .
+find:41 atlantgis:site site:F .
+find:41 atlantgis:vesselShape vesseltype:1 .
+find:41 atlantgis:feature '3'@en.
+find:41 atlantgis:object '67'.
+find:41 atlantgis:class 'K'.
+find:41 atlantgis:sherd 'G'.
+find:41 atlantgis:quantity '1'.
+find:41 atlantgis:weight '470'.
+find:41 atlantgis:temperSize 'VF'.
+find:41 atlantgis:size '200'.
+find:41 atlantgis:wall '8'.
+find:41 atlantgis:muendungsD '26.0'.
+find:41 atlantgis:muendungsH '14.5'.
+find:41 atlantgis:minD '23.5'.
+find:41 atlantgis:minD_H '10.5'.
+find:41 atlantgis:maxD '24.0'.
+find:41 atlantgis:maxD_H '5.0'.
+find:41 atlantgis:bodenD '0.0'.
+
+find:42 rdf:type atlantgis:Find .
+find:42 atlantgis:site site:F .
+find:42 atlantgis:vesselShape vesseltype:1 .
+find:42 atlantgis:feature '3'@en.
+find:42 atlantgis:object '12'.
+find:42 atlantgis:class 'K'.
+find:42 atlantgis:sherd 'G'.
+find:42 atlantgis:quantity '1'.
+find:42 atlantgis:weight '861'.
+find:42 atlantgis:temperSize 'VF'.
+find:42 atlantgis:size '200'.
+find:42 atlantgis:wall '7'.
+find:42 atlantgis:muendungsD '20.0'.
+find:42 atlantgis:muendungsH '11.5'.
+find:42 atlantgis:minD '17.0'.
+find:42 atlantgis:minD_H '8.5'.
+find:42 atlantgis:maxD '18.0'.
+find:42 atlantgis:maxD_H '3.0'.
+find:42 atlantgis:bodenD '0.0'.
+
+find:43 rdf:type atlantgis:Find .
+find:43 atlantgis:site site:F .
+find:43 atlantgis:vesselShape vesseltype:8 .
+find:43 atlantgis:feature '3'@en.
+find:43 atlantgis:object '4'.
+find:43 atlantgis:class 'K'.
+find:43 atlantgis:sherd 'G'.
+find:43 atlantgis:quantity '1'.
+find:43 atlantgis:weight '750'.
+find:43 atlantgis:temperSize 'VF'.
+find:43 atlantgis:size '500'.
+find:43 atlantgis:wall '7'.
+find:43 atlantgis:muendungsD '18.0'.
+find:43 atlantgis:muendungsH '10.0'.
+find:43 atlantgis:maxD '18.0'.
+find:43 atlantgis:maxD_H '6.0'.
+find:43 atlantgis:bodenD '0.0'.
+
+find:44 rdf:type atlantgis:Find .
+find:44 atlantgis:site site:F .
+find:44 atlantgis:vesselShape vesseltype:1 .
+find:44 atlantgis:feature '3'@en.
+find:44 atlantgis:object '35'.
+find:44 atlantgis:class 'K'.
+find:44 atlantgis:sherd 'G'.
+find:44 atlantgis:quantity '1'.
+find:44 atlantgis:weight '64'.
+find:44 atlantgis:temperSize 'F'.
+find:44 atlantgis:size '70'.
+find:44 atlantgis:wall '7'.
+find:44 atlantgis:muendungsD '6.0'.
+find:44 atlantgis:muendungsH '4.0'.
+find:44 atlantgis:minD '5.5'.
+find:44 atlantgis:minD_H '2.5'.
+find:44 atlantgis:maxD '5.5'.
+find:44 atlantgis:maxD_H '1.5'.
+find:44 atlantgis:bodenD '0.0'.
+
+find:45 rdf:type atlantgis:Find .
+find:45 atlantgis:site site:F .
+find:45 atlantgis:vesselShape vesseltype:1 .
+find:45 atlantgis:feature '3'@en.
+find:45 atlantgis:object '62'.
+find:45 atlantgis:class 'K'.
+find:45 atlantgis:sherd 'R'.
+find:45 atlantgis:quantity '1'.
+find:45 atlantgis:weight '152'.
+find:45 atlantgis:temperSize 'VF'.
+find:45 atlantgis:size '120'.
+find:45 atlantgis:wall '9'.
+find:45 atlantgis:muendungsD '20.5'.
+find:45 atlantgis:muendungsH '11.5'.
+find:45 atlantgis:minD '16.5'.
+find:45 atlantgis:minD_H '7.5'.
+find:45 atlantgis:maxD '17.0'.
+find:45 atlantgis:maxD_H '4.0'.
+find:45 atlantgis:bodenD '0.0'.
+
+find:46 rdf:type atlantgis:Find .
+find:46 atlantgis:site site:F .
+find:46 atlantgis:vesselShape vesseltype:1 .
+find:46 atlantgis:feature '3'@en.
+find:46 atlantgis:object '75'.
+find:46 atlantgis:class 'K'.
+find:46 atlantgis:sherd 'G'.
+find:46 atlantgis:quantity '1'.
+find:46 atlantgis:weight '653'.
+find:46 atlantgis:temperSize 'VF'.
+find:46 atlantgis:size '200'.
+find:46 atlantgis:wall '7'.
+find:46 atlantgis:muendungsD '18.0'.
+find:46 atlantgis:muendungsH '11.5'.
+find:46 atlantgis:minD '15.5'.
+find:46 atlantgis:minD_H '8.0'.
+find:46 atlantgis:maxD '16.0'.
+find:46 atlantgis:maxD_H '4.5'.
+find:46 atlantgis:bodenD '0.0'.
+
+find:47 rdf:type atlantgis:Find .
+find:47 atlantgis:site site:F .
+find:47 atlantgis:vesselShape vesseltype:1 .
+find:47 atlantgis:feature '3'@en.
+find:47 atlantgis:object '76'.
+find:47 atlantgis:class 'K'.
+find:47 atlantgis:sherd 'G'.
+find:47 atlantgis:quantity '1'.
+find:47 atlantgis:weight '626'.
+find:47 atlantgis:temperSize 'VF'.
+find:47 atlantgis:size '200'.
+find:47 atlantgis:wall '7'.
+find:47 atlantgis:muendungsD '18.0'.
+find:47 atlantgis:muendungsH '10.5'.
+find:47 atlantgis:minD '15.0'.
+find:47 atlantgis:minD_H '6.5'.
+find:47 atlantgis:maxD '15.5'.
+find:47 atlantgis:maxD_H '4.0'.
+find:47 atlantgis:bodenD '0.0'.
+
+find:48 rdf:type atlantgis:Find .
+find:48 atlantgis:site site:F .
+find:48 atlantgis:vesselShape vesseltype:1 .
+find:48 atlantgis:feature '3'@en.
+find:48 atlantgis:object '22'.
+find:48 atlantgis:class 'K'.
+find:48 atlantgis:sherd 'G'.
+find:48 atlantgis:quantity '1'.
+find:48 atlantgis:weight '365'.
+find:48 atlantgis:temperSize 'VF'.
+find:48 atlantgis:size '200'.
+find:48 atlantgis:wall '7'.
+find:48 atlantgis:muendungsD '14.0'.
+find:48 atlantgis:muendungsH '10.0'.
+find:48 atlantgis:minD '13.0'.
+find:48 atlantgis:minD_H '7.5'.
+find:48 atlantgis:maxD '14.0'.
+find:48 atlantgis:maxD_H '4.0'.
+find:48 atlantgis:bodenD '0.0'.
+
+find:49 rdf:type atlantgis:Find .
+find:49 atlantgis:site site:F .
+find:49 atlantgis:vesselShape vesseltype:1 .
+find:49 atlantgis:feature '3'@en.
+find:49 atlantgis:object '36'.
+find:49 atlantgis:class 'K'.
+find:49 atlantgis:sherd 'G'.
+find:49 atlantgis:quantity '1'.
+find:49 atlantgis:weight '455'.
+find:49 atlantgis:temperSize 'VF'.
+find:49 atlantgis:size '200'.
+find:49 atlantgis:wall '6'.
+find:49 atlantgis:muendungsD '17.0'.
+find:49 atlantgis:muendungsH '11.0'.
+find:49 atlantgis:minD '15.5'.
+find:49 atlantgis:minD_H '7.5'.
+find:49 atlantgis:maxD '16.5'.
+find:49 atlantgis:maxD_H '4.0'.
+find:49 atlantgis:bodenD '0.0'.
+
+find:50 rdf:type atlantgis:Find .
+find:50 atlantgis:site site:F .
+find:50 atlantgis:vesselShape vesseltype:1 .
+find:50 atlantgis:feature '3'@en.
+find:50 atlantgis:object '23'.
+find:50 atlantgis:class 'K'.
+find:50 atlantgis:sherd 'G'.
+find:50 atlantgis:quantity '1'.
+find:50 atlantgis:weight '578'.
+find:50 atlantgis:temperSize 'VF'.
+find:50 atlantgis:size '500'.
+find:50 atlantgis:wall '6'.
+find:50 atlantgis:muendungsD '20.5'.
+find:50 atlantgis:muendungsH '14.0'.
+find:50 atlantgis:minD '18.0'.
+find:50 atlantgis:minD_H '10.5'.
+find:50 atlantgis:maxD '19.5'.
+find:50 atlantgis:maxD_H '4.5'.
+find:50 atlantgis:bodenD '0.0'.
+
+find:51 rdf:type atlantgis:Find .
+find:51 atlantgis:site site:F .
+find:51 atlantgis:vesselShape vesseltype:1 .
+find:51 atlantgis:feature '3'@en.
+find:51 atlantgis:object '12'.
+find:51 atlantgis:class 'K'.
+find:51 atlantgis:sherd 'G'.
+find:51 atlantgis:quantity '1'.
+find:51 atlantgis:weight '318'.
+find:51 atlantgis:temperSize 'VF'.
+find:51 atlantgis:size '200'.
+find:51 atlantgis:wall '5'.
+find:51 atlantgis:muendungsD '15.0'.
+find:51 atlantgis:muendungsH '8.0'.
+find:51 atlantgis:minD '12.0'.
+find:51 atlantgis:minD_H '5.5'.
+find:51 atlantgis:maxD '12.5'.
+find:51 atlantgis:maxD_H '3.0'.
+find:51 atlantgis:bodenD '0.0'.
+
+find:52 rdf:type atlantgis:Find .
+find:52 atlantgis:site site:F .
+find:52 atlantgis:vesselShape vesseltype:1 .
+find:52 atlantgis:feature '4'@en.
+find:52 atlantgis:object '44'.
+find:52 atlantgis:class 'K'.
+find:52 atlantgis:sherd 'G'.
+find:52 atlantgis:quantity '1'.
+find:52 atlantgis:weight '249'.
+find:52 atlantgis:temperSize 'VF'.
+find:52 atlantgis:size '200'.
+find:52 atlantgis:wall '14'.
+find:52 atlantgis:muendungsD '22.0'.
+find:52 atlantgis:muendungsH '14.0'.
+find:52 atlantgis:minD '18.5'.
+find:52 atlantgis:minD_H '10.5'.
+find:52 atlantgis:maxD '20.0'.
+find:52 atlantgis:maxD_H '2.5'.
+find:52 atlantgis:bodenD '0.0'.
+
+find:53 rdf:type atlantgis:Find .
+find:53 atlantgis:site site:F .
+find:53 atlantgis:vesselShape vesseltype:1 .
+find:53 atlantgis:feature '4'@en.
+find:53 atlantgis:object '72'.
+find:53 atlantgis:class 'K'.
+find:53 atlantgis:sherd 'G'.
+find:53 atlantgis:quantity '1'.
+find:53 atlantgis:weight '469'.
+find:53 atlantgis:temperSize 'VF'.
+find:53 atlantgis:size '200'.
+find:53 atlantgis:wall '8'.
+find:53 atlantgis:minD '16.0'.
+find:53 atlantgis:minD_H '6.0'.
+find:53 atlantgis:maxD '18.0'.
+find:53 atlantgis:maxD_H '2.0'.
+find:53 atlantgis:bodenD '0.0'.
+
+find:54 rdf:type atlantgis:Find .
+find:54 atlantgis:site site:F .
+find:54 atlantgis:vesselShape vesseltype:1 .
+find:54 atlantgis:feature '4'@en.
+find:54 atlantgis:object '21'.
+find:54 atlantgis:class 'K'.
+find:54 atlantgis:sherd 'B'.
+find:54 atlantgis:quantity '1'.
+find:54 atlantgis:weight '94'.
+find:54 atlantgis:temperSize 'VF'.
+find:54 atlantgis:size '120'.
+find:54 atlantgis:wall '6'.
+find:54 atlantgis:minD '14.0'.
+find:54 atlantgis:minD_H '6.0'.
+find:54 atlantgis:maxD '15.0'.
+find:54 atlantgis:maxD_H '1.0'.
+find:54 atlantgis:bodenD '0.0'.
+
+find:55 rdf:type atlantgis:Find .
+find:55 atlantgis:site site:F .
+find:55 atlantgis:vesselShape vesseltype:6 .
+find:55 atlantgis:feature '1'@en.
+find:55 atlantgis:object '47'.
+find:55 atlantgis:class 'K'.
+find:55 atlantgis:sherd 'R'.
+find:55 atlantgis:quantity '1'.
+find:55 atlantgis:weight '50'.
+find:55 atlantgis:temperSize 'VF'.
+find:55 atlantgis:size '120'.
+find:55 atlantgis:wall '5'.
+find:55 atlantgis:muendungsD '9.0'.
+find:55 atlantgis:muendungsH '10.0'.
+find:55 atlantgis:minD '8.0'.
+find:55 atlantgis:minD_H '9.0'.
+find:55 atlantgis:maxD '11.5'.
+find:55 atlantgis:maxD_H '4.0'.
+
+find:56 rdf:type atlantgis:Find .
+find:56 atlantgis:site site:F .
+find:56 atlantgis:vesselShape vesseltype:6 .
+find:56 atlantgis:feature '1'@en.
+find:56 atlantgis:object '9'.
+find:56 atlantgis:class 'K'.
+find:56 atlantgis:sherd 'W'.
+find:56 atlantgis:quantity '1'.
+find:56 atlantgis:weight '38'.
+find:56 atlantgis:temperSize 'VF'.
+find:56 atlantgis:size '70'.
+find:56 atlantgis:wall '7'.
+find:56 atlantgis:minD '14.0'.
+
+find:57 rdf:type atlantgis:Find .
+find:57 atlantgis:site site:F .
+find:57 atlantgis:vesselShape vesseltype:6 .
+find:57 atlantgis:feature '1'@en.
+find:57 atlantgis:object '89'.
+find:57 atlantgis:class 'K'.
+find:57 atlantgis:sherd 'R'.
+find:57 atlantgis:quantity '1'.
+find:57 atlantgis:weight '44'.
+find:57 atlantgis:temperSize 'VF'.
+find:57 atlantgis:size '120'.
+find:57 atlantgis:wall '5'.
+find:57 atlantgis:muendungsD '13.0'.
+find:57 atlantgis:minD '12.0'.
+find:57 atlantgis:maxD '15.0'.
+
+find:58 rdf:type atlantgis:Find .
+find:58 atlantgis:site site:F .
+find:58 atlantgis:vesselShape vesseltype:6 .
+find:58 atlantgis:feature '1'@en.
+find:58 atlantgis:object '37'.
+find:58 atlantgis:class 'K'.
+find:58 atlantgis:sherd 'W'.
+find:58 atlantgis:quantity '1'.
+find:58 atlantgis:weight '44'.
+find:58 atlantgis:temperSize 'VF'.
+find:58 atlantgis:size '120'.
+find:58 atlantgis:wall '6'.
+find:58 atlantgis:minD '14.0'.
+
+find:59 rdf:type atlantgis:Find .
+find:59 atlantgis:site site:F .
+find:59 atlantgis:vesselShape vesseltype:2 .
+find:59 atlantgis:feature '1'@en.
+find:59 atlantgis:object '93'.
+find:59 atlantgis:class 'K'.
+find:59 atlantgis:sherd 'R'.
+find:59 atlantgis:quantity '1'.
+find:59 atlantgis:weight '44'.
+find:59 atlantgis:temperSize 'VF'.
+find:59 atlantgis:size '120'.
+find:59 atlantgis:wall '6'.
+find:59 atlantgis:muendungsD '18.0'.
+find:59 atlantgis:muendungsH '7.0'.
+find:59 atlantgis:maxD '19.0'.
+find:59 atlantgis:maxD_H '4.5'.
+
+find:60 rdf:type atlantgis:Find .
+find:60 atlantgis:site site:F .
+find:60 atlantgis:vesselShape vesseltype:1 .
+find:60 atlantgis:feature '1'@en.
+find:60 atlantgis:object '38'.
+find:60 atlantgis:class 'K'.
+find:60 atlantgis:sherd 'G'.
+find:60 atlantgis:quantity '1'.
+find:60 atlantgis:weight '3000'.
+find:60 atlantgis:temperSize 'F'.
+find:60 atlantgis:size '500'.
+find:60 atlantgis:wall '7'.
+find:60 atlantgis:muendungsD '5.0'.
+find:60 atlantgis:muendungsH '37.5'.
+find:60 atlantgis:minD '7.5'.
+find:60 atlantgis:minD_H '31.0'.
+find:60 atlantgis:maxD '34.5'.
+find:60 atlantgis:maxD_H '14.5'.
+find:60 atlantgis:bodenD '9.0'.
+
+find:61 rdf:type atlantgis:Find .
+find:61 atlantgis:site site:F .
+find:61 atlantgis:vesselShape vesseltype:6 .
+find:61 atlantgis:feature '1'@en.
+find:61 atlantgis:object '90'.
+find:61 atlantgis:class 'K'.
+find:61 atlantgis:sherd 'G'.
+find:61 atlantgis:quantity '1'.
+find:61 atlantgis:weight '670'.
+find:61 atlantgis:temperSize 'VF'.
+find:61 atlantgis:size '200'.
+find:61 atlantgis:wall '5'.
+find:61 atlantgis:muendungsD '12.0'.
+find:61 atlantgis:muendungsH '17.5'.
+find:61 atlantgis:minD '12.5'.
+find:61 atlantgis:minD_H '15.0'.
+find:61 atlantgis:maxD '17.0'.
+find:61 atlantgis:maxD_H '9.0'.
+find:61 atlantgis:bodenD '5.0'.
+
+find:62 rdf:type atlantgis:Find .
+find:62 atlantgis:site site:F .
+find:62 atlantgis:vesselShape vesseltype:6 .
+find:62 atlantgis:feature '1'@en.
+find:62 atlantgis:object '78'.
+find:62 atlantgis:class 'K'.
+find:62 atlantgis:sherd 'R'.
+find:62 atlantgis:quantity '1'.
+find:62 atlantgis:weight '174'.
+find:62 atlantgis:temperSize 'VF'.
+find:62 atlantgis:size '200'.
+find:62 atlantgis:wall '6'.
+find:62 atlantgis:muendungsD '17.0'.
+find:62 atlantgis:minD '16.0'.
+
+find:63 rdf:type atlantgis:Find .
+find:63 atlantgis:site site:F .
+find:63 atlantgis:vesselShape vesseltype:6 .
+find:63 atlantgis:feature '1'@en.
+find:63 atlantgis:object '82'.
+find:63 atlantgis:class 'K'.
+find:63 atlantgis:sherd 'R'.
+find:63 atlantgis:quantity '1'.
+find:63 atlantgis:weight '200'.
+find:63 atlantgis:temperSize 'VF'.
+find:63 atlantgis:size '200'.
+find:63 atlantgis:wall '6'.
+find:63 atlantgis:muendungsD '12.0'.
+find:63 atlantgis:minD '11.0'.
+find:63 atlantgis:maxD '18.0'.
+
+find:64 rdf:type atlantgis:Find .
+find:64 atlantgis:site site:F .
+find:64 atlantgis:vesselShape vesseltype:6 .
+find:64 atlantgis:feature '1'@en.
+find:64 atlantgis:object '20'.
+find:64 atlantgis:class 'K'.
+find:64 atlantgis:sherd 'R'.
+find:64 atlantgis:quantity '1'.
+find:64 atlantgis:weight '62'.
+find:64 atlantgis:temperSize 'VF'.
+find:64 atlantgis:size '120'.
+find:64 atlantgis:wall '6'.
+find:64 atlantgis:muendungsD '10.0'.
+find:64 atlantgis:minD '9.0'.
+find:64 atlantgis:maxD '14.0'.
+
+find:65 rdf:type atlantgis:Find .
+find:65 atlantgis:site site:F .
+find:65 atlantgis:vesselShape vesseltype:8 .
+find:65 atlantgis:feature '1'@en.
+find:65 atlantgis:object '46'.
+find:65 atlantgis:class 'K'.
+find:65 atlantgis:sherd 'G'.
+find:65 atlantgis:quantity '1'.
+find:65 atlantgis:weight '340'.
+find:65 atlantgis:temperSize 'VF'.
+find:65 atlantgis:size '200'.
+find:65 atlantgis:wall '7'.
+find:65 atlantgis:muendungsD '13.5'.
+find:65 atlantgis:muendungsH '7.5'.
+find:65 atlantgis:bodenD '4.0'.
+
+find:66 rdf:type atlantgis:Find .
+find:66 atlantgis:site site:F .
+find:66 atlantgis:vesselShape vesseltype:6 .
+find:66 atlantgis:feature '1'@en.
+find:66 atlantgis:object '20'.
+find:66 atlantgis:class 'K'.
+find:66 atlantgis:sherd 'R'.
+find:66 atlantgis:quantity '1'.
+find:66 atlantgis:weight '223'.
+find:66 atlantgis:temperSize 'F'.
+find:66 atlantgis:size '200'.
+find:66 atlantgis:wall '5'.
+find:66 atlantgis:muendungsD '12.0'.
+find:66 atlantgis:minD '11.0'.
+find:66 atlantgis:maxD '21.0'.
+
+find:67 rdf:type atlantgis:Find .
+find:67 atlantgis:site site:F .
+find:67 atlantgis:vesselShape vesseltype:6 .
+find:67 atlantgis:feature '1'@en.
+find:67 atlantgis:object '54'.
+find:67 atlantgis:class 'K'.
+find:67 atlantgis:sherd 'W'.
+find:67 atlantgis:quantity '1'.
+find:67 atlantgis:weight '292'.
+find:67 atlantgis:temperSize 'VF'.
+find:67 atlantgis:size '200'.
+find:67 atlantgis:wall '4'.
+find:67 atlantgis:minD '15.0'.
+find:67 atlantgis:maxD '25.0'.
+
+find:68 rdf:type atlantgis:Find .
+find:68 atlantgis:site site:F .
+find:68 atlantgis:vesselShape vesseltype:1 .
+find:68 atlantgis:feature '4'@en.
+find:68 atlantgis:object '66'.
+find:68 atlantgis:class 'K'.
+find:68 atlantgis:sherd 'G'.
+find:68 atlantgis:quantity '1'.
+find:68 atlantgis:weight '162'.
+find:68 atlantgis:temperSize 'VF'.
+find:68 atlantgis:size '120'.
+find:68 atlantgis:wall '6'.
+find:68 atlantgis:muendungsD '22.0'.
+find:68 atlantgis:minD '16.0'.
+find:68 atlantgis:minD_H '7.0'.
+find:68 atlantgis:maxD '20.0'.
+find:68 atlantgis:maxD_H '2.0'.
+find:68 atlantgis:bodenD '0.0'.
+
+find:69 rdf:type atlantgis:Find .
+find:69 atlantgis:site site:F .
+find:69 atlantgis:vesselShape vesseltype:1 .
+find:69 atlantgis:feature '4'@en.
+find:69 atlantgis:object '65'.
+find:69 atlantgis:class 'K'.
+find:69 atlantgis:sherd 'B'.
+find:69 atlantgis:quantity '1'.
+find:69 atlantgis:weight '65'.
+find:69 atlantgis:temperSize 'VF'.
+find:69 atlantgis:size '120'.
+find:69 atlantgis:wall '6'.
+find:69 atlantgis:maxD '9.5'.
+find:69 atlantgis:maxD_H '0.5'.
+find:69 atlantgis:bodenD '0.0'.
+
+find:70 rdf:type atlantgis:Find .
+find:70 atlantgis:site site:F .
+find:70 atlantgis:vesselShape vesseltype:1 .
+find:70 atlantgis:feature '4'@en.
+find:70 atlantgis:object '38'.
+find:70 atlantgis:class 'K'.
+find:70 atlantgis:sherd 'B'.
+find:70 atlantgis:quantity '1'.
+find:70 atlantgis:weight '266'.
+find:70 atlantgis:temperSize 'VF'.
+find:70 atlantgis:size '120'.
+find:70 atlantgis:maxD '15.0'.
+find:70 atlantgis:maxD_H '0.5'.
+find:70 atlantgis:bodenD '0.0'.
+
+find:71 rdf:type atlantgis:Find .
+find:71 atlantgis:site site:F .
+find:71 atlantgis:vesselShape vesseltype:1 .
+find:71 atlantgis:feature '2'@en.
+find:71 atlantgis:object '18'.
+find:71 atlantgis:class 'K'.
+find:71 atlantgis:sherd 'B'.
+find:71 atlantgis:quantity '1'.
+find:71 atlantgis:weight '81'.
+find:71 atlantgis:temperSize 'F'.
+find:71 atlantgis:size '120'.
+find:71 atlantgis:wall '9'.
+find:71 atlantgis:minD '12.0'.
+find:71 atlantgis:maxD '12.0'.
+find:71 atlantgis:maxD_H '1.5'.
+find:71 atlantgis:bodenD '0.0'.
+
+find:72 rdf:type atlantgis:Find .
+find:72 atlantgis:site site:F .
+find:72 atlantgis:vesselShape vesseltype:1 .
+find:72 atlantgis:feature '2'@en.
+find:72 atlantgis:object '88'.
+find:72 atlantgis:class 'K'.
+find:72 atlantgis:sherd 'G'.
+find:72 atlantgis:quantity '1'.
+find:72 atlantgis:weight '257'.
+find:72 atlantgis:temperSize 'VF'.
+find:72 atlantgis:size '120'.
+find:72 atlantgis:wall '7'.
+find:72 atlantgis:muendungsD '11.0'.
+find:72 atlantgis:muendungsH '9.5'.
+find:72 atlantgis:minD '10.0'.
+find:72 atlantgis:minD_H '6.5'.
+find:72 atlantgis:maxD '10.5'.
+find:72 atlantgis:maxD_H '1.5'.
+find:72 atlantgis:bodenD '0.0'.
+
+find:73 rdf:type atlantgis:Find .
+find:73 atlantgis:site site:F .
+find:73 atlantgis:vesselShape vesseltype:8 .
+find:73 atlantgis:feature '2'@en.
+find:73 atlantgis:object '50'.
+find:73 atlantgis:class 'K'.
+find:73 atlantgis:sherd 'R'.
+find:73 atlantgis:quantity '1'.
+find:73 atlantgis:weight '93'.
+find:73 atlantgis:temperSize 'VF'.
+find:73 atlantgis:size '120'.
+find:73 atlantgis:wall '8'.
+find:73 atlantgis:muendungsD '22.0'.
+find:73 atlantgis:muendungsH '11.0'.
+find:73 atlantgis:maxD '22.0'.
+find:73 atlantgis:maxD_H '6.0'.
+
+find:74 rdf:type atlantgis:Find .
+find:74 atlantgis:site site:F .
+find:74 atlantgis:vesselShape vesseltype:1 .
+find:74 atlantgis:feature '3'@en.
+find:74 atlantgis:object '4'.
+find:74 atlantgis:class 'K'.
+find:74 atlantgis:sherd 'R'.
+find:74 atlantgis:quantity '1'.
+find:74 atlantgis:weight '78'.
+find:74 atlantgis:temperSize 'VF'.
+find:74 atlantgis:size '120'.
+find:74 atlantgis:wall '5'.
+find:74 atlantgis:muendungsD '20.0'.
+find:74 atlantgis:muendungsH '11.0'.
+find:74 atlantgis:minD '18.0'.
+find:74 atlantgis:minD_H '8.0'.
+find:74 atlantgis:maxD '19.0'.
+find:74 atlantgis:maxD_H '4.0'.
+find:74 atlantgis:bodenD '0.0'.
+
+find:75 rdf:type atlantgis:Find .
+find:75 atlantgis:site site:F .
+find:75 atlantgis:vesselShape vesseltype:1 .
+find:75 atlantgis:feature '3'@en.
+find:75 atlantgis:object '51'.
+find:75 atlantgis:class 'K'.
+find:75 atlantgis:sherd 'R'.
+find:75 atlantgis:quantity '1'.
+find:75 atlantgis:weight '52'.
+find:75 atlantgis:temperSize 'VF'.
+find:75 atlantgis:size '120'.
+find:75 atlantgis:wall '7'.
+find:75 atlantgis:muendungsD '23.0'.
+find:75 atlantgis:minD '19.0'.
+find:75 atlantgis:maxD '20.0'.
+
+find:76 rdf:type atlantgis:Find .
+find:76 atlantgis:site site:F .
+find:76 atlantgis:vesselShape vesseltype:2 .
+find:76 atlantgis:feature '1'@en.
+find:76 atlantgis:object '82'.
+find:76 atlantgis:class 'K'.
+find:76 atlantgis:sherd 'R'.
+find:76 atlantgis:quantity '1'.
+find:76 atlantgis:weight '26'.
+find:76 atlantgis:temperSize 'VF'.
+find:76 atlantgis:size '70'.
+find:76 atlantgis:wall '4'.
+find:76 atlantgis:muendungsD '10.0'.
+find:76 atlantgis:minD '10.0'.
+find:76 atlantgis:maxD '6.0'.
+
+find:77 rdf:type atlantgis:Find .
+find:77 atlantgis:site site:F .
+find:77 atlantgis:vesselShape vesseltype:2 .
+find:77 atlantgis:feature '1'@en.
+find:77 atlantgis:object '15'.
+find:77 atlantgis:class 'K'.
+find:77 atlantgis:sherd 'R'.
+find:77 atlantgis:quantity '1'.
+find:77 atlantgis:weight '121'.
+find:77 atlantgis:temperSize 'M'.
+find:77 atlantgis:size '120'.
+find:77 atlantgis:wall '5'.
+find:77 atlantgis:muendungsD '18.0'.
+find:77 atlantgis:muendungsH '8.5'.
+find:77 atlantgis:minD '19.0'.
+find:77 atlantgis:minD_H '6.5'.
+
+find:78 rdf:type atlantgis:Find .
+find:78 atlantgis:site site:F .
+find:78 atlantgis:vesselShape vesseltype:2 .
+find:78 atlantgis:feature '1'@en.
+find:78 atlantgis:object '4'.
+find:78 atlantgis:class 'K'.
+find:78 atlantgis:sherd 'R'.
+find:78 atlantgis:quantity '1'.
+find:78 atlantgis:weight '47'.
+find:78 atlantgis:temperSize 'VF'.
+find:78 atlantgis:size '70'.
+find:78 atlantgis:wall '5'.
+find:78 atlantgis:muendungsD '15.0'.
+find:78 atlantgis:minD '16.0'.
+
+find:79 rdf:type atlantgis:Find .
+find:79 atlantgis:site site:F .
+find:79 atlantgis:vesselShape vesseltype:6 .
+find:79 atlantgis:feature '1'@en.
+find:79 atlantgis:object '6'.
+find:79 atlantgis:class 'K'.
+find:79 atlantgis:sherd 'W'.
+find:79 atlantgis:quantity '1'.
+find:79 atlantgis:weight '78'.
+find:79 atlantgis:temperSize 'VF'.
+find:79 atlantgis:size '120'.
+find:79 atlantgis:wall '7'.
+find:79 atlantgis:minD '12.0'.
+find:79 atlantgis:maxD '17.0'.
+
+find:80 rdf:type atlantgis:Find .
+find:80 atlantgis:site site:F .
+find:80 atlantgis:vesselShape vesseltype:6 .
+find:80 atlantgis:feature '1'@en.
+find:80 atlantgis:object '57'.
+find:80 atlantgis:class 'K'.
+find:80 atlantgis:sherd 'W'.
+find:80 atlantgis:quantity '1'.
+find:80 atlantgis:weight '10'.
+find:80 atlantgis:temperSize 'VF'.
+find:80 atlantgis:size '70'.
+find:80 atlantgis:wall '5'.
+find:80 atlantgis:minD '11.0'.
+find:80 atlantgis:maxD '14.0'.
+
+find:81 rdf:type atlantgis:Find .
+find:81 atlantgis:site site:F .
+find:81 atlantgis:vesselShape vesseltype:6 .
+find:81 atlantgis:feature '1'@en.
+find:81 atlantgis:object '11'.
+find:81 atlantgis:class 'K'.
+find:81 atlantgis:sherd 'W'.
+find:81 atlantgis:quantity '1'.
+find:81 atlantgis:weight '15'.
+find:81 atlantgis:temperSize 'VF'.
+find:81 atlantgis:size '70'.
+find:81 atlantgis:wall '4'.
+find:81 atlantgis:minD '11.0'.
+find:81 atlantgis:maxD '16.0'.
+
+find:82 rdf:type atlantgis:Find .
+find:82 atlantgis:site site:F .
+find:82 atlantgis:vesselShape vesseltype:6 .
+find:82 atlantgis:feature '1'@en.
+find:82 atlantgis:object '74'.
+find:82 atlantgis:class 'K'.
+find:82 atlantgis:sherd 'W'.
+find:82 atlantgis:quantity '1'.
+find:82 atlantgis:weight '9'.
+find:82 atlantgis:temperSize 'VF'.
+find:82 atlantgis:size '70'.
+find:82 atlantgis:wall '7'.
+
+find:83 rdf:type atlantgis:Find .
+find:83 atlantgis:site site:F .
+find:83 atlantgis:vesselShape vesseltype:6 .
+find:83 atlantgis:feature '1'@en.
+find:83 atlantgis:object '89'.
+find:83 atlantgis:class 'K'.
+find:83 atlantgis:sherd 'W'.
+find:83 atlantgis:quantity '1'.
+find:83 atlantgis:weight '14'.
+find:83 atlantgis:temperSize 'VF'.
+find:83 atlantgis:size '70'.
+find:83 atlantgis:wall '7'.
+find:83 atlantgis:minD '12.0'.
+find:83 atlantgis:maxD '16.0'.
+
+find:84 rdf:type atlantgis:Find .
+find:84 atlantgis:site site:F .
+find:84 atlantgis:vesselShape vesseltype:6 .
+find:84 atlantgis:feature '1'@en.
+find:84 atlantgis:object '13'.
+find:84 atlantgis:class 'K'.
+find:84 atlantgis:sherd 'W'.
+find:84 atlantgis:quantity '1'.
+find:84 atlantgis:weight '22'.
+find:84 atlantgis:temperSize 'VF'.
+find:84 atlantgis:size '70'.
+find:84 atlantgis:wall '5'.
+find:84 atlantgis:minD '13.0'.
+
+find:85 rdf:type atlantgis:Find .
+find:85 atlantgis:site site:F .
+find:85 atlantgis:vesselShape vesseltype:6 .
+find:85 atlantgis:feature '1'@en.
+find:85 atlantgis:object '56'.
+find:85 atlantgis:class 'K'.
+find:85 atlantgis:sherd 'W'.
+find:85 atlantgis:quantity '1'.
+find:85 atlantgis:weight '36'.
+find:85 atlantgis:temperSize 'VF'.
+find:85 atlantgis:size '120'.
+find:85 atlantgis:wall '7'.
+find:85 atlantgis:minD '11.0'.
+
+find:86 rdf:type atlantgis:Find .
+find:86 atlantgis:site site:F .
+find:86 atlantgis:vesselShape vesseltype:6 .
+find:86 atlantgis:feature '1'@en.
+find:86 atlantgis:object '10'.
+find:86 atlantgis:class 'K'.
+find:86 atlantgis:sherd 'W'.
+find:86 atlantgis:quantity '1'.
+find:86 atlantgis:weight '17'.
+find:86 atlantgis:temperSize 'VF'.
+find:86 atlantgis:size '70'.
+find:86 atlantgis:wall '5'.
+find:86 atlantgis:minD '18.0'.
+
+find:87 rdf:type atlantgis:Find .
+find:87 atlantgis:site site:F .
+find:87 atlantgis:vesselShape vesseltype:6 .
+find:87 atlantgis:feature '1'@en.
+find:87 atlantgis:object '58'.
+find:87 atlantgis:class 'K'.
+find:87 atlantgis:sherd 'W'.
+find:87 atlantgis:quantity '1'.
+find:87 atlantgis:weight '24'.
+find:87 atlantgis:temperSize 'VF'.
+find:87 atlantgis:size '70'.
+find:87 atlantgis:wall '5'.
+find:87 atlantgis:minD '10.0'.
+find:87 atlantgis:maxD '15.0'.
+
+find:88 rdf:type atlantgis:Find .
+find:88 atlantgis:site site:F .
+find:88 atlantgis:vesselShape vesseltype:6 .
+find:88 atlantgis:feature '1'@en.
+find:88 atlantgis:object '74'.
+find:88 atlantgis:class 'K'.
+find:88 atlantgis:sherd 'W'.
+find:88 atlantgis:quantity '1'.
+find:88 atlantgis:weight '6'.
+find:88 atlantgis:temperSize 'F'.
+find:88 atlantgis:size '30'.
+find:88 atlantgis:wall '7'.
+find:88 atlantgis:minD '7.0'.
+
+find:89 rdf:type atlantgis:Find .
+find:89 atlantgis:site site:G .
+find:89 atlantgis:vesselShape vesseltype:1 .
+find:89 atlantgis:feature 'surface'@en.
+find:89 atlantgis:object '28'.
+find:89 atlantgis:class 'K'.
+find:89 atlantgis:sherd 'G'.
+find:89 atlantgis:quantity '1'.
+find:89 atlantgis:weight '1914'.
+find:89 atlantgis:temperSize 'M'.
+find:89 atlantgis:size '500'.
+find:89 atlantgis:wall '6'.
+find:89 atlantgis:muendungsD '14.0'.
+find:89 atlantgis:muendungsH '25.0'.
+find:89 atlantgis:minD '13.0'.
+find:89 atlantgis:minD_H '23.0'.
+find:89 atlantgis:maxD '30.0'.
+find:89 atlantgis:maxD_H '13.0'.
+find:89 atlantgis:bodenD '0.0'.
+
+find:90 rdf:type atlantgis:Find .
+find:90 atlantgis:site site:G .
+find:90 atlantgis:vesselShape vesseltype:1 .
+find:90 atlantgis:feature 'surface'@en.
+find:90 atlantgis:object '27'.
+find:90 atlantgis:class 'K'.
+find:90 atlantgis:sherd 'R'.
+find:90 atlantgis:quantity '1'.
+find:90 atlantgis:weight '84'.
+find:90 atlantgis:temperSize 'M'.
+find:90 atlantgis:size '120'.
+find:90 atlantgis:wall '7'.
+find:90 atlantgis:muendungsD '26.0'.
+
+find:91 rdf:type atlantgis:Find .
+find:91 atlantgis:site site:G .
+find:91 atlantgis:vesselShape vesseltype:2 .
+find:91 atlantgis:feature 'surface'@en.
+find:91 atlantgis:object '82'.
+find:91 atlantgis:class 'K'.
+find:91 atlantgis:sherd 'R'.
+find:91 atlantgis:quantity '1'.
+find:91 atlantgis:weight '623'.
+find:91 atlantgis:temperSize 'M'.
+find:91 atlantgis:size '200'.
+find:91 atlantgis:wall '7'.
+find:91 atlantgis:muendungsD '23.5'.
+find:91 atlantgis:muendungsH '10.0'.
+find:91 atlantgis:minD '22.0'.
+find:91 atlantgis:minD_H '8.0'.
+find:91 atlantgis:maxD '23.0'.
+find:91 atlantgis:maxD_H '6.0'.
+find:91 atlantgis:bodenD '0.0'.
+
+find:92 rdf:type atlantgis:Find .
+find:92 atlantgis:site site:G .
+find:92 atlantgis:vesselShape vesseltype:1 .
+find:92 atlantgis:feature 'surface'@en.
+find:92 atlantgis:object '27'.
+find:92 atlantgis:class 'K'.
+find:92 atlantgis:sherd 'G'.
+find:92 atlantgis:quantity '1'.
+find:92 atlantgis:weight '379'.
+find:92 atlantgis:temperSize 'VF'.
+find:92 atlantgis:size '200'.
+find:92 atlantgis:wall '6'.
+find:92 atlantgis:muendungsD '15.0'.
+find:92 atlantgis:muendungsH '9.0'.
+find:92 atlantgis:minD '12.5'.
+find:92 atlantgis:minD_H '6.0'.
+find:92 atlantgis:maxD '15.0'.
+find:92 atlantgis:maxD_H '3.5'.
+find:92 atlantgis:bodenD '0.0'.
+
+find:93 rdf:type atlantgis:Find .
+find:93 atlantgis:site site:G .
+find:93 atlantgis:vesselShape vesseltype:1 .
+find:93 atlantgis:feature 'surface'@en.
+find:93 atlantgis:object '97'.
+find:93 atlantgis:class 'K'.
+find:93 atlantgis:sherd 'G'.
+find:93 atlantgis:quantity '1'.
+find:93 atlantgis:weight '525'.
+find:93 atlantgis:temperSize 'VF'.
+find:93 atlantgis:size '500'.
+find:93 atlantgis:wall '4'.
+find:93 atlantgis:muendungsD '24.0'.
+find:93 atlantgis:muendungsH '5.5'.
+find:93 atlantgis:minD '20.5'.
+find:93 atlantgis:minD_H '3.5'.
+find:93 atlantgis:maxD '0.0'.
+find:93 atlantgis:maxD_H '0.0'.
+find:93 atlantgis:bodenD '0.0'.
+
+find:94 rdf:type atlantgis:Find .
+find:94 atlantgis:site site:H .
+find:94 atlantgis:vesselShape vesseltype:7 .
+find:94 atlantgis:feature '1'@en.
+find:94 atlantgis:object '77'.
+find:94 atlantgis:class 'K'.
+find:94 atlantgis:sherd 'W'.
+find:94 atlantgis:quantity '1'.
+find:94 atlantgis:weight '76'.
+find:94 atlantgis:temperSize 'M'.
+find:94 atlantgis:size '70'.
+find:94 atlantgis:wall '8'.
+find:94 atlantgis:minD '14.0'.
+find:94 atlantgis:maxD '21.0'.
+
+find:95 rdf:type atlantgis:Find .
+find:95 atlantgis:site site:H .
+find:95 atlantgis:vesselShape vesseltype:7 .
+find:95 atlantgis:feature '1'@en.
+find:95 atlantgis:object '90'.
+find:95 atlantgis:class 'K'.
+find:95 atlantgis:sherd 'W'.
+find:95 atlantgis:quantity '1'.
+find:95 atlantgis:weight '19'.
+find:95 atlantgis:temperSize 'C'.
+find:95 atlantgis:size '70'.
+find:95 atlantgis:wall '11'.
+find:95 atlantgis:minD '11.0'.
+
+find:96 rdf:type atlantgis:Find .
+find:96 atlantgis:site site:H .
+find:96 atlantgis:vesselShape vesseltype:3 .
+find:96 atlantgis:feature '1'@en.
+find:96 atlantgis:object '38'.
+find:96 atlantgis:class 'K'.
+find:96 atlantgis:sherd 'R'.
+find:96 atlantgis:quantity '1'.
+find:96 atlantgis:weight '174'.
+find:96 atlantgis:temperSize 'VF'.
+find:96 atlantgis:size '120'.
+find:96 atlantgis:wall '8'.
+find:96 atlantgis:muendungsD '29.0'.
+find:96 atlantgis:minD '25.0'.
+find:96 atlantgis:maxD '28.0'.
+
+find:97 rdf:type atlantgis:Find .
+find:97 atlantgis:site site:H .
+find:97 atlantgis:vesselShape vesseltype:3 .
+find:97 atlantgis:feature '1'@en.
+find:97 atlantgis:object '79'.
+find:97 atlantgis:class 'K'.
+find:97 atlantgis:sherd 'W'.
+find:97 atlantgis:quantity '1'.
+find:97 atlantgis:weight '61'.
+find:97 atlantgis:temperSize 'VF'.
+find:97 atlantgis:size '70'.
+find:97 atlantgis:wall '11'.
+find:97 atlantgis:maxD '18.0'.
+
+find:98 rdf:type atlantgis:Find .
+find:98 atlantgis:site site:H .
+find:98 atlantgis:vesselShape vesseltype:7 .
+find:98 atlantgis:feature '1'@en.
+find:98 atlantgis:object '98'.
+find:98 atlantgis:class 'K'.
+find:98 atlantgis:sherd 'R'.
+find:98 atlantgis:quantity '1'.
+find:98 atlantgis:weight '132'.
+find:98 atlantgis:temperSize 'M'.
+find:98 atlantgis:size '120'.
+find:98 atlantgis:wall '9'.
+find:98 atlantgis:muendungsD '11.5'.
+find:98 atlantgis:minD '10.5'.
+find:98 atlantgis:maxD '25.0'.
+
+find:99 rdf:type atlantgis:Find .
+find:99 atlantgis:site site:H .
+find:99 atlantgis:vesselShape vesseltype:7 .
+find:99 atlantgis:feature '1'@en.
+find:99 atlantgis:object '87'.
+find:99 atlantgis:class 'K'.
+find:99 atlantgis:sherd 'G'.
+find:99 atlantgis:quantity '1'.
+find:99 atlantgis:weight '341'.
+find:99 atlantgis:temperSize 'C'.
+find:99 atlantgis:size '200'.
+find:99 atlantgis:wall '8'.
+find:99 atlantgis:muendungsD '13.0'.
+find:99 atlantgis:minD '11.0'.
+find:99 atlantgis:maxD '27.0'.
+
+find:100 rdf:type atlantgis:Find .
+find:100 atlantgis:site site:H .
+find:100 atlantgis:vesselShape vesseltype:7 .
+find:100 atlantgis:feature '1'@en.
+find:100 atlantgis:object '35'.
+find:100 atlantgis:class 'K'.
+find:100 atlantgis:sherd 'G'.
+find:100 atlantgis:quantity '1'.
+find:100 atlantgis:weight '494'.
+find:100 atlantgis:temperSize 'C'.
+find:100 atlantgis:size '200'.
+find:100 atlantgis:wall '6'.
+find:100 atlantgis:muendungsD '13.0'.
+find:100 atlantgis:minD '11.0'.
+find:100 atlantgis:maxD '25.0'.
+
+find:101 rdf:type atlantgis:Find .
+find:101 atlantgis:site site:H .
+find:101 atlantgis:vesselShape vesseltype:7 .
+find:101 atlantgis:feature '1'@en.
+find:101 atlantgis:object '48'.
+find:101 atlantgis:class 'K'.
+find:101 atlantgis:sherd 'R'.
+find:101 atlantgis:quantity '1'.
+find:101 atlantgis:weight '328'.
+find:101 atlantgis:temperSize 'C'.
+find:101 atlantgis:size '200'.
+find:101 atlantgis:wall '7'.
+find:101 atlantgis:muendungsD '11.0'.
+find:101 atlantgis:minD '9.5'.
+find:101 atlantgis:maxD '20.0'.
+
+find:102 rdf:type atlantgis:Find .
+find:102 atlantgis:site site:H .
+find:102 atlantgis:vesselShape vesseltype:7 .
+find:102 atlantgis:feature '1'@en.
+find:102 atlantgis:object '4'.
+find:102 atlantgis:class 'K'.
+find:102 atlantgis:sherd 'R'.
+find:102 atlantgis:quantity '1'.
+find:102 atlantgis:weight '146'.
+find:102 atlantgis:temperSize 'C'.
+find:102 atlantgis:size '120'.
+find:102 atlantgis:wall '7'.
+find:102 atlantgis:muendungsD '11.5'.
+find:102 atlantgis:minD '9.5'.
+find:102 atlantgis:maxD '16.0'.
+
+find:103 rdf:type atlantgis:Find .
+find:103 atlantgis:site site:H .
+find:103 atlantgis:vesselShape vesseltype:7 .
+find:103 atlantgis:feature '1'@en.
+find:103 atlantgis:object '82'.
+find:103 atlantgis:class 'K'.
+find:103 atlantgis:sherd 'R'.
+find:103 atlantgis:quantity '1'.
+find:103 atlantgis:weight '218'.
+find:103 atlantgis:temperSize 'VC'.
+find:103 atlantgis:size '200'.
+find:103 atlantgis:wall '8'.
+find:103 atlantgis:muendungsD '12.0'.
+find:103 atlantgis:minD '10.5'.
+find:103 atlantgis:maxD '25.0'.
+
+find:104 rdf:type atlantgis:Find .
+find:104 atlantgis:site site:H .
+find:104 atlantgis:vesselShape vesseltype:7 .
+find:104 atlantgis:feature '1'@en.
+find:104 atlantgis:object '44'.
+find:104 atlantgis:class 'K'.
+find:104 atlantgis:sherd 'W'.
+find:104 atlantgis:quantity '1'.
+find:104 atlantgis:weight '25'.
+find:104 atlantgis:temperSize 'C'.
+find:104 atlantgis:size '70'.
+find:104 atlantgis:wall '8'.
+find:104 atlantgis:minD '9.0'.
+find:104 atlantgis:maxD '14.0'.
+
+find:105 rdf:type atlantgis:Find .
+find:105 atlantgis:site site:H .
+find:105 atlantgis:vesselShape vesseltype:7 .
+find:105 atlantgis:feature '1'@en.
+find:105 atlantgis:object '90'.
+find:105 atlantgis:class 'K'.
+find:105 atlantgis:sherd 'R'.
+find:105 atlantgis:quantity '1'.
+find:105 atlantgis:weight '40'.
+find:105 atlantgis:temperSize 'M'.
+find:105 atlantgis:size '70'.
+find:105 atlantgis:wall '6'.
+find:105 atlantgis:muendungsD '12.0'.
+find:105 atlantgis:minD '10.0'.
+
+find:106 rdf:type atlantgis:Find .
+find:106 atlantgis:site site:H .
+find:106 atlantgis:vesselShape vesseltype:3 .
+find:106 atlantgis:feature '1'@en.
+find:106 atlantgis:object '98'.
+find:106 atlantgis:class 'K'.
+find:106 atlantgis:sherd 'W'.
+find:106 atlantgis:quantity '1'.
+find:106 atlantgis:weight '100'.
+find:106 atlantgis:temperSize 'VF'.
+find:106 atlantgis:size '120'.
+find:106 atlantgis:wall '10'.
+find:106 atlantgis:maxD '22.0'.
+
+find:107 rdf:type atlantgis:Find .
+find:107 atlantgis:site site:H .
+find:107 atlantgis:vesselShape vesseltype:1 .
+find:107 atlantgis:feature '1'@en.
+find:107 atlantgis:object '54'.
+find:107 atlantgis:class 'K'.
+find:107 atlantgis:sherd 'G'.
+find:107 atlantgis:quantity '1'.
+find:107 atlantgis:weight '1540'.
+find:107 atlantgis:temperSize 'nan'.
+find:107 atlantgis:size '200'.
+find:107 atlantgis:wall '6'.
+find:107 atlantgis:muendungsD '25.0'.
+find:107 atlantgis:muendungsH '20.5'.
+find:107 atlantgis:minD '21.0'.
+find:107 atlantgis:minD_H '12.5'.
+find:107 atlantgis:maxD '22.0'.
+find:107 atlantgis:maxD_H '4.0'.
+find:107 atlantgis:bodenD '0.0'.
+
+find:108 rdf:type atlantgis:Find .
+find:108 atlantgis:site site:H .
+find:108 atlantgis:vesselShape vesseltype:7 .
+find:108 atlantgis:feature '1'@en.
+find:108 atlantgis:object '28'.
+find:108 atlantgis:class 'K'.
+find:108 atlantgis:sherd 'W'.
+find:108 atlantgis:quantity '1'.
+find:108 atlantgis:weight '41'.
+find:108 atlantgis:temperSize 'VC'.
+find:108 atlantgis:size '70'.
+find:108 atlantgis:wall '8'.
+find:108 atlantgis:minD '16.0'.
+find:108 atlantgis:maxD '20.0'.
+
+find:109 rdf:type atlantgis:Find .
+find:109 atlantgis:site site:H .
+find:109 atlantgis:vesselShape vesseltype:1 .
+find:109 atlantgis:feature '1'@en.
+find:109 atlantgis:object '61'.
+find:109 atlantgis:class 'K'.
+find:109 atlantgis:sherd 'W'.
+find:109 atlantgis:quantity '1'.
+find:109 atlantgis:weight '49'.
+find:109 atlantgis:temperSize 'VF'.
+find:109 atlantgis:size '70'.
+find:109 atlantgis:wall '9'.
+find:109 atlantgis:minD '20.0'.
+find:109 atlantgis:maxD '22.0'.
+
+find:110 rdf:type atlantgis:Find .
+find:110 atlantgis:site site:H .
+find:110 atlantgis:vesselShape vesseltype:8 .
+find:110 atlantgis:feature '4'@en.
+find:110 atlantgis:object '34'.
+find:110 atlantgis:class 'K'.
+find:110 atlantgis:sherd 'R'.
+find:110 atlantgis:quantity '1'.
+find:110 atlantgis:weight '9'.
+find:110 atlantgis:temperSize 'C'.
+find:110 atlantgis:size '70'.
+find:110 atlantgis:wall '9'.
+find:110 atlantgis:muendungsD '11.0'.
+find:110 atlantgis:muendungsH '4.5'.
+find:110 atlantgis:minD '9.5'.
+find:110 atlantgis:minD_H '3.5'.
+
+find:111 rdf:type atlantgis:Find .
+find:111 atlantgis:site site:H .
+find:111 atlantgis:vesselShape vesseltype:6 .
+find:111 atlantgis:feature '1'@en.
+find:111 atlantgis:object '62'.
+find:111 atlantgis:class 'K'.
+find:111 atlantgis:sherd 'W'.
+find:111 atlantgis:quantity '1'.
+find:111 atlantgis:weight '31'.
+find:111 atlantgis:temperSize 'VF'.
+find:111 atlantgis:size '70'.
+find:111 atlantgis:wall '12'.
+find:111 atlantgis:minD '14.0'.
+find:111 atlantgis:maxD '18.0'.
+
+find:112 rdf:type atlantgis:Find .
+find:112 atlantgis:site site:H .
+find:112 atlantgis:vesselShape vesseltype:7 .
+find:112 atlantgis:feature '1'@en.
+find:112 atlantgis:object '26'.
+find:112 atlantgis:class 'K'.
+find:112 atlantgis:sherd 'R'.
+find:112 atlantgis:quantity '1'.
+find:112 atlantgis:weight '135'.
+find:112 atlantgis:temperSize 'C'.
+find:112 atlantgis:size '120'.
+find:112 atlantgis:wall '6'.
+find:112 atlantgis:muendungsD '10.5'.
+find:112 atlantgis:minD '10.5'.
+
+find:113 rdf:type atlantgis:Find .
+find:113 atlantgis:site site:H .
+find:113 atlantgis:vesselShape vesseltype:7 .
+find:113 atlantgis:feature '1'@en.
+find:113 atlantgis:object '82'.
+find:113 atlantgis:class 'K'.
+find:113 atlantgis:sherd 'R'.
+find:113 atlantgis:quantity '1'.
+find:113 atlantgis:weight '114'.
+find:113 atlantgis:temperSize 'C'.
+find:113 atlantgis:size '120'.
+find:113 atlantgis:wall '6'.
+find:113 atlantgis:muendungsD '13.0'.
+find:113 atlantgis:minD '11.0'.
+find:113 atlantgis:maxD '29.0'.
+
+find:114 rdf:type atlantgis:Find .
+find:114 atlantgis:site site:H .
+find:114 atlantgis:vesselShape vesseltype:7 .
+find:114 atlantgis:feature '1'@en.
+find:114 atlantgis:object '22'.
+find:114 atlantgis:class 'K'.
+find:114 atlantgis:sherd 'R'.
+find:114 atlantgis:quantity '1'.
+find:114 atlantgis:weight '24'.
+find:114 atlantgis:temperSize 'C'.
+find:114 atlantgis:size '70'.
+find:114 atlantgis:wall '7'.
+find:114 atlantgis:muendungsD '12.0'.
+find:114 atlantgis:minD '11.0'.
+
+find:115 rdf:type atlantgis:Find .
+find:115 atlantgis:site site:H .
+find:115 atlantgis:vesselShape vesseltype:7 .
+find:115 atlantgis:feature '1'@en.
+find:115 atlantgis:object '97'.
+find:115 atlantgis:class 'K'.
+find:115 atlantgis:sherd 'R'.
+find:115 atlantgis:quantity '1'.
+find:115 atlantgis:weight '29'.
+find:115 atlantgis:temperSize 'C'.
+find:115 atlantgis:size '70'.
+find:115 atlantgis:wall '8'.
+find:115 atlantgis:muendungsD '14.5'.
+find:115 atlantgis:minD '12.0'.
+find:115 atlantgis:maxD '18.0'.
+
+find:116 rdf:type atlantgis:Find .
+find:116 atlantgis:site site:H .
+find:116 atlantgis:vesselShape vesseltype:7 .
+find:116 atlantgis:feature '1'@en.
+find:116 atlantgis:object '92'.
+find:116 atlantgis:class 'K'.
+find:116 atlantgis:sherd 'W'.
+find:116 atlantgis:quantity '1'.
+find:116 atlantgis:weight '41'.
+find:116 atlantgis:temperSize 'M'.
+find:116 atlantgis:size '120'.
+find:116 atlantgis:wall '9'.
+find:116 atlantgis:minD '16.0'.
+find:116 atlantgis:maxD '32.0'.
+
+find:117 rdf:type atlantgis:Find .
+find:117 atlantgis:site site:H .
+find:117 atlantgis:vesselShape vesseltype:7 .
+find:117 atlantgis:feature '1'@en.
+find:117 atlantgis:object '32'.
+find:117 atlantgis:class 'K'.
+find:117 atlantgis:sherd 'W'.
+find:117 atlantgis:quantity '1'.
+find:117 atlantgis:weight '20'.
+find:117 atlantgis:temperSize 'nan'.
+find:117 atlantgis:size '70'.
+find:117 atlantgis:wall '9'.
+find:117 atlantgis:minD '15.0'.
+find:117 atlantgis:maxD '26.0'.
+
+find:118 rdf:type atlantgis:Find .
+find:118 atlantgis:site site:H .
+find:118 atlantgis:vesselShape vesseltype:7 .
+find:118 atlantgis:feature '1'@en.
+find:118 atlantgis:object '82'.
+find:118 atlantgis:class 'K'.
+find:118 atlantgis:sherd 'R'.
+find:118 atlantgis:quantity '1'.
+find:118 atlantgis:weight '22'.
+find:118 atlantgis:temperSize 'nan'.
+find:118 atlantgis:size '70'.
+find:118 atlantgis:wall '4'.
+find:118 atlantgis:muendungsD '10.0'.
+find:118 atlantgis:minD '11.0'.
+find:118 atlantgis:maxD '13.0'.
+
+find:119 rdf:type atlantgis:Find .
+find:119 atlantgis:site site:H .
+find:119 atlantgis:vesselShape vesseltype:2 .
+find:119 atlantgis:feature '1'@en.
+find:119 atlantgis:object '40'.
+find:119 atlantgis:class 'K'.
+find:119 atlantgis:sherd 'W'.
+find:119 atlantgis:quantity '1'.
+find:119 atlantgis:weight '9'.
+find:119 atlantgis:temperSize 'nan'.
+find:119 atlantgis:wall '8'.
+find:119 atlantgis:maxD '13.0'.
+
+find:120 rdf:type atlantgis:Find .
+find:120 atlantgis:site site:H .
+find:120 atlantgis:vesselShape vesseltype:7 .
+find:120 atlantgis:feature '1'@en.
+find:120 atlantgis:object '60'.
+find:120 atlantgis:class 'K'.
+find:120 atlantgis:sherd 'R'.
+find:120 atlantgis:quantity '1'.
+find:120 atlantgis:weight '57'.
+find:120 atlantgis:temperSize 'nan'.
+find:120 atlantgis:muendungsD '13.0'.
+find:120 atlantgis:minD '10.0'.
+find:120 atlantgis:maxD '20.0'.
+
+find:121 rdf:type atlantgis:Find .
+find:121 atlantgis:site site:H .
+find:121 atlantgis:vesselShape vesseltype:7 .
+find:121 atlantgis:feature '1'@en.
+find:121 atlantgis:object '7'.
+find:121 atlantgis:class 'K'.
+find:121 atlantgis:sherd 'W'.
+find:121 atlantgis:quantity '1'.
+find:121 atlantgis:weight '13'.
+find:121 atlantgis:temperSize 'nan'.
+
+find:122 rdf:type atlantgis:Find .
+find:122 atlantgis:site site:H .
+find:122 atlantgis:vesselShape vesseltype:7 .
+find:122 atlantgis:feature '1'@en.
+find:122 atlantgis:object '38'.
+find:122 atlantgis:class 'K'.
+find:122 atlantgis:sherd 'W'.
+find:122 atlantgis:quantity '1'.
+find:122 atlantgis:weight '42'.
+find:122 atlantgis:temperSize 'nan'.
+find:122 atlantgis:size '70'.
+find:122 atlantgis:wall '6'.
+find:122 atlantgis:minD '11.0'.
+find:122 atlantgis:maxD '23.0'.
+
+find:123 rdf:type atlantgis:Find .
+find:123 atlantgis:site site:H .
+find:123 atlantgis:vesselShape vesseltype:7 .
+find:123 atlantgis:feature '1'@en.
+find:123 atlantgis:object '55'.
+find:123 atlantgis:class 'K'.
+find:123 atlantgis:sherd 'W'.
+find:123 atlantgis:quantity '1'.
+find:123 atlantgis:weight '11'.
+find:123 atlantgis:temperSize 'nan'.
+find:123 atlantgis:minD '15.0'.
+
+find:124 rdf:type atlantgis:Find .
+find:124 atlantgis:site site:A .
+find:124 atlantgis:vesselShape vesseltype:2 .
+find:124 atlantgis:feature '1'@en.
+find:124 atlantgis:object '34'.
+find:124 atlantgis:class 'K'.
+find:124 atlantgis:sherd 'R'.
+find:124 atlantgis:quantity '1'.
+find:124 atlantgis:weight '67'.
+find:124 atlantgis:temperSize 'M'.
+find:124 atlantgis:size '120'.
+find:124 atlantgis:wall '7'.
+find:124 atlantgis:muendungsD '21.0'.
+find:124 atlantgis:muendungsH '13.0'.
+find:124 atlantgis:minD '18.5'.
+find:124 atlantgis:minD_H '11.5'.
+find:124 atlantgis:maxD '19.0'.
+find:124 atlantgis:maxD_H '11.0'.
+
+find:125 rdf:type atlantgis:Find .
+find:125 atlantgis:site site:A .
+find:125 atlantgis:vesselShape vesseltype:3 .
+find:125 atlantgis:feature '1'@en.
+find:125 atlantgis:object '35'.
+find:125 atlantgis:class 'K'.
+find:125 atlantgis:sherd 'R'.
+find:125 atlantgis:quantity '1'.
+find:125 atlantgis:weight '642'.
+find:125 atlantgis:temperSize 'C'.
+find:125 atlantgis:size '500'.
+find:125 atlantgis:wall '8'.
+find:125 atlantgis:muendungsD '29.0'.
+find:125 atlantgis:muendungsH '16.0'.
+find:125 atlantgis:minD '23.5'.
+find:125 atlantgis:minD_H '11.0'.
+find:125 atlantgis:maxD '25.0'.
+find:125 atlantgis:maxD_H '8.0'.
+
+find:126 rdf:type atlantgis:Find .
+find:126 atlantgis:site site:A .
+find:126 atlantgis:vesselShape vesseltype:2 .
+find:126 atlantgis:feature '1'@en.
+find:126 atlantgis:object '57'.
+find:126 atlantgis:class 'K'.
+find:126 atlantgis:sherd 'G'.
+find:126 atlantgis:quantity '1'.
+find:126 atlantgis:weight '991'.
+find:126 atlantgis:temperSize 'C'.
+find:126 atlantgis:size '500'.
+find:126 atlantgis:wall '8'.
+find:126 atlantgis:muendungsD '23.5'.
+find:126 atlantgis:muendungsH '8.5'.
+find:126 atlantgis:maxD '24.0'.
+find:126 atlantgis:maxD_H '3.0'.
+find:126 atlantgis:bodenD '0.0'.
+
+find:127 rdf:type atlantgis:Find .
+find:127 atlantgis:site site:A .
+find:127 atlantgis:vesselShape vesseltype:3 .
+find:127 atlantgis:feature '1'@en.
+find:127 atlantgis:object '23'.
+find:127 atlantgis:class 'K'.
+find:127 atlantgis:sherd 'G'.
+find:127 atlantgis:quantity '1'.
+find:127 atlantgis:weight '2000'.
+find:127 atlantgis:temperSize 'C'.
+find:127 atlantgis:size '500'.
+find:127 atlantgis:wall '6'.
+find:127 atlantgis:muendungsD '27.5'.
+find:127 atlantgis:muendungsH '21.0'.
+find:127 atlantgis:minD '23.5'.
+find:127 atlantgis:minD_H '17.0'.
+find:127 atlantgis:maxD '27.0'.
+find:127 atlantgis:maxD_H '8.5'.
+find:127 atlantgis:bodenD '0.0'.
+
+find:128 rdf:type atlantgis:Find .
+find:128 atlantgis:site site:A .
+find:128 atlantgis:vesselShape vesseltype:8 .
+find:128 atlantgis:feature '1'@en.
+find:128 atlantgis:object '34'.
+find:128 atlantgis:class 'K'.
+find:128 atlantgis:sherd 'G'.
+find:128 atlantgis:quantity '1'.
+find:128 atlantgis:weight '1997'.
+find:128 atlantgis:temperSize 'VF'.
+find:128 atlantgis:size '500'.
+find:128 atlantgis:wall '7'.
+find:128 atlantgis:muendungsD '35.0'.
+find:128 atlantgis:muendungsH '15.5'.
+find:128 atlantgis:minD '34.0'.
+find:128 atlantgis:minD_H '14.0'.
+find:128 atlantgis:bodenD '0.0'.
+
+find:129 rdf:type atlantgis:Find .
+find:129 atlantgis:site site:A .
+find:129 atlantgis:vesselShape vesseltype:1 .
+find:129 atlantgis:feature '1'@en.
+find:129 atlantgis:object '35'.
+find:129 atlantgis:class 'K'.
+find:129 atlantgis:sherd 'R'.
+find:129 atlantgis:quantity '1'.
+find:129 atlantgis:weight '1012'.
+find:129 atlantgis:temperSize 'VF'.
+find:129 atlantgis:size '200'.
+find:129 atlantgis:wall '6'.
+find:129 atlantgis:muendungsD '12.0'.
+find:129 atlantgis:minD '6.5'.
+
+find:130 rdf:type atlantgis:Find .
+find:130 atlantgis:site site:A .
+find:130 atlantgis:vesselShape vesseltype:1 .
+find:130 atlantgis:feature 'surface'@en.
+find:130 atlantgis:object '4'.
+find:130 atlantgis:class 'K'.
+find:130 atlantgis:sherd 'G'.
+find:130 atlantgis:quantity '1'.
+find:130 atlantgis:weight '1572'.
+find:130 atlantgis:temperSize 'M'.
+find:130 atlantgis:size '500'.
+find:130 atlantgis:wall '8'.
+find:130 atlantgis:muendungsD '5.0'.
+find:130 atlantgis:muendungsH '22.5'.
+find:130 atlantgis:minD '4.0'.
+find:130 atlantgis:minD_H '21.5'.
+find:130 atlantgis:maxD '16.5'.
+find:130 atlantgis:maxD_H '8.0'.
+find:130 atlantgis:bodenD '8.0'.
+
+find:131 rdf:type atlantgis:Find .
+find:131 atlantgis:site site:A .
+find:131 atlantgis:vesselShape vesseltype:1 .
+find:131 atlantgis:feature 'surface'@en.
+find:131 atlantgis:object '30'.
+find:131 atlantgis:class 'K'.
+find:131 atlantgis:sherd 'G'.
+find:131 atlantgis:quantity '1'.
+find:131 atlantgis:weight '524'.
+find:131 atlantgis:temperSize 'nan'.
+find:131 atlantgis:size '200'.
+find:131 atlantgis:muendungsD '17.0'.
+find:131 atlantgis:muendungsH '9.0'.
+find:131 atlantgis:maxD '16.0'.
+find:131 atlantgis:maxD_H '2.5'.
+find:131 atlantgis:bodenD '0.0'.
+
+find:132 rdf:type atlantgis:Find .
+find:132 atlantgis:site site:B .
+find:132 atlantgis:vesselShape vesseltype:2 .
+find:132 atlantgis:feature 'surface'@en.
+find:132 atlantgis:object '2'.
+find:132 atlantgis:class 'K'.
+find:132 atlantgis:sherd 'G'.
+find:132 atlantgis:quantity '1'.
+find:132 atlantgis:weight '365'.
+find:132 atlantgis:temperSize 'nan'.
+find:132 atlantgis:size '200'.
+find:132 atlantgis:muendungsD '17.0'.
+find:132 atlantgis:muendungsH '9.0'.
+find:132 atlantgis:maxD '13.0'.
+find:132 atlantgis:maxD_H '2.5'.
+find:132 atlantgis:bodenD '5.0'.
+
+find:133 rdf:type atlantgis:Find .
+find:133 atlantgis:site site:B .
+find:133 atlantgis:vesselShape vesseltype:2 .
+find:133 atlantgis:feature 'surface'@en.
+find:133 atlantgis:object '72'.
+find:133 atlantgis:class 'K'.
+find:133 atlantgis:sherd 'G'.
+find:133 atlantgis:quantity '1'.
+find:133 atlantgis:weight '638'.
+find:133 atlantgis:temperSize 'VF'.
+find:133 atlantgis:size '200'.
+find:133 atlantgis:wall '4'.
+find:133 atlantgis:muendungsD '17.5'.
+find:133 atlantgis:muendungsH '10.5'.
+find:133 atlantgis:maxD '14.5'.
+find:133 atlantgis:maxD_H '4.0'.
+find:133 atlantgis:bodenD '7.0'.
+
+find:134 rdf:type atlantgis:Find .
+find:134 atlantgis:site site:B .
+find:134 atlantgis:vesselShape vesseltype:1 .
+find:134 atlantgis:feature 'surface'@en.
+find:134 atlantgis:object '10'.
+find:134 atlantgis:class 'K'.
+find:134 atlantgis:sherd 'G'.
+find:134 atlantgis:quantity '1'.
+find:134 atlantgis:weight '1118'.
+find:134 atlantgis:temperSize 'nan'.
+find:134 atlantgis:size '500'.
+find:134 atlantgis:wall '24'.
+find:134 atlantgis:muendungsD '13.0'.
+find:134 atlantgis:maxD '19.0'.
+find:134 atlantgis:maxD_H '4.0'.
+find:134 atlantgis:bodenD '9.0'.
+
+find:135 rdf:type atlantgis:Find .
+find:135 atlantgis:site site:B .
+find:135 atlantgis:vesselShape vesseltype:1 .
+find:135 atlantgis:feature 'surface'@en.
+find:135 atlantgis:object '61'.
+find:135 atlantgis:class 'K'.
+find:135 atlantgis:sherd 'G'.
+find:135 atlantgis:quantity '1'.
+find:135 atlantgis:weight '4500'.
+find:135 atlantgis:temperSize 'nan'.
+find:135 atlantgis:size '500'.
+find:135 atlantgis:muendungsD '9.0'.
+find:135 atlantgis:muendungsH '41.0'.
+find:135 atlantgis:minD '7.5'.
+find:135 atlantgis:minD_H '32.0'.
+find:135 atlantgis:maxD '34.0'.
+find:135 atlantgis:maxD_H '13.0'.
+find:135 atlantgis:bodenD '15.5'.
+
