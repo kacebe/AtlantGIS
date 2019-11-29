@@ -5,29 +5,29 @@
 
 <http://atlantgis.squirrel.link/voronoi#3>
         a       <http://atlantgis.squirrel.link/ontology#Voronoi> ;
-        <http://atlantgis.squirrel.link/ontology#stream_cat>
-                7 ;
+        <http://atlantgis.squirrel.link/ontology#site>
+                <http://atlantgis.squirrel.link/site#G> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 <http://atlantgis.squirrel.link/voronoi#3_geom> .
 
 <http://atlantgis.squirrel.link/voronoi#9>
         a       <http://atlantgis.squirrel.link/ontology#Voronoi> ;
-        <http://atlantgis.squirrel.link/ontology#stream_cat>
-                10 ;
+        <http://atlantgis.squirrel.link/ontology#site>
+                <http://atlantgis.squirrel.link/site#J> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 <http://atlantgis.squirrel.link/voronoi#9_geom> .
 
 <http://atlantgis.squirrel.link/voronoi#2>
         a       <http://atlantgis.squirrel.link/ontology#Voronoi> ;
-        <http://atlantgis.squirrel.link/ontology#stream_cat>
-                4 ;
+        <http://atlantgis.squirrel.link/ontology#site>
+                <http://atlantgis.squirrel.link/site#D> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 <http://atlantgis.squirrel.link/voronoi#2_geom> .
 
 <http://atlantgis.squirrel.link/voronoi#8>
         a       <http://atlantgis.squirrel.link/ontology#Voronoi> ;
-        <http://atlantgis.squirrel.link/ontology#stream_cat>
-                5 ;
+        <http://atlantgis.squirrel.link/ontology#site>
+                <http://atlantgis.squirrel.link/site#E> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 <http://atlantgis.squirrel.link/voronoi#8_geom> .
 
@@ -40,8 +40,8 @@
 
 <http://atlantgis.squirrel.link/voronoi#10>
         a       <http://atlantgis.squirrel.link/ontology#Voronoi> ;
-        <http://atlantgis.squirrel.link/ontology#stream_cat>
-                6 ;
+        <http://atlantgis.squirrel.link/ontology#site>
+                <http://atlantgis.squirrel.link/site#F> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 <http://atlantgis.squirrel.link/voronoi#10_geom> .
 
@@ -54,15 +54,15 @@
 
 <http://atlantgis.squirrel.link/voronoi#1>
         a       <http://atlantgis.squirrel.link/ontology#Voronoi> ;
-        <http://atlantgis.squirrel.link/ontology#stream_cat>
-                3 ;
+        <http://atlantgis.squirrel.link/ontology#site>
+                <http://atlantgis.squirrel.link/site#C> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 <http://atlantgis.squirrel.link/voronoi#1_geom> .
 
 <http://atlantgis.squirrel.link/voronoi#7>
         a       <http://atlantgis.squirrel.link/ontology#Voronoi> ;
-        <http://atlantgis.squirrel.link/ontology#stream_cat>
-                9 ;
+        <http://atlantgis.squirrel.link/ontology#site>
+                <http://atlantgis.squirrel.link/site#I> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 <http://atlantgis.squirrel.link/voronoi#7_geom> .
 
@@ -82,15 +82,15 @@
 
 <http://atlantgis.squirrel.link/voronoi#6>
         a       <http://atlantgis.squirrel.link/ontology#Voronoi> ;
-        <http://atlantgis.squirrel.link/ontology#stream_cat>
-                1 ;
+        <http://atlantgis.squirrel.link/ontology#site>
+                <http://atlantgis.squirrel.link/site#A> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 <http://atlantgis.squirrel.link/voronoi#6_geom> .
 
 <http://atlantgis.squirrel.link/voronoi#5>
         a       <http://atlantgis.squirrel.link/ontology#Voronoi> ;
-        <http://atlantgis.squirrel.link/ontology#stream_cat>
-                8 ;
+        <http://atlantgis.squirrel.link/ontology#site>
+                <http://atlantgis.squirrel.link/site#H> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 <http://atlantgis.squirrel.link/voronoi#5_geom> .
 
@@ -124,8 +124,8 @@
 
 <http://atlantgis.squirrel.link/voronoi#4>
         a       <http://atlantgis.squirrel.link/ontology#Voronoi> ;
-        <http://atlantgis.squirrel.link/ontology#stream_cat>
-                2 ;
+        <http://atlantgis.squirrel.link/ontology#site>
+                <http://atlantgis.squirrel.link/site#B> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 <http://atlantgis.squirrel.link/voronoi#4_geom> .
 
