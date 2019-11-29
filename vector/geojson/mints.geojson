@@ -1,0 +1,32 @@
+{
+"type": "FeatureCollection",
+"name": "mints",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "name": "Abydus", "nomisma": "http:\/\/nomisma.org\/id\/abydus", "material": null }, "geometry": { "type": "Point", "coordinates": [ -15.458846074030431, 35.720278626639484 ] } },
+{ "type": "Feature", "properties": { "id": 2, "name": "Sardes", "nomisma": "http:\/\/nomisma.org\/id\/sardes_sco", "material": null }, "geometry": { "type": "Point", "coordinates": [ -15.574178237602668, 35.61067091167736 ] } },
+{ "type": "Feature", "properties": { "id": 3, "name": "Wreath Mint", "nomisma": "http:\/\/nomisma.org\/id\/DI_wreath_sco", "material": null }, "geometry": { "type": "Point", "coordinates": [ -15.442164334139671, 35.573574258032991 ] } },
+{ "type": "Feature", "properties": { "id": 4, "name": "Antioch on the Persian Gulf", "nomisma": "http:\/\/nomisma.org\/id\/antioch_persian_gulf_sco", "material": null }, "geometry": { "type": "Point", "coordinates": [ -15.387905042656367, 35.555724432552729 ] } },
+{ "type": "Feature", "properties": { "id": 5, "name": "Rose Mint", "nomisma": "http:\/\/nomisma.org\/id\/rose_mint_sco", "material": null }, "geometry": { "type": "Point", "coordinates": [ -15.350477103080793, 35.538905448905126 ] } },
+{ "type": "Feature", "properties": { "id": 6, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -15.296766388992996, 35.603930108888768 ] } },
+{ "type": "Feature", "properties": { "id": 7, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -15.253553451428402, 35.600402364682779 ] } },
+{ "type": "Feature", "properties": { "id": 8, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -15.247020393354585, 35.540528665048186 ] } },
+{ "type": "Feature", "properties": { "id": 9, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -15.315442955776554, 35.459327629631389 ] } },
+{ "type": "Feature", "properties": { "id": 10, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -15.226473676359072, 35.422435274939602 ] } },
+{ "type": "Feature", "properties": { "id": 11, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -15.155557580321148, 35.441614908599519 ] } },
+{ "type": "Feature", "properties": { "id": 12, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -15.00514763260639, 35.45689033056388 ] } },
+{ "type": "Feature", "properties": { "id": 13, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -15.003452029747534, 35.45916514532415 ] } },
+{ "type": "Feature", "properties": { "id": 14, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -15.06000537215753, 35.537038709730297 ] } },
+{ "type": "Feature", "properties": { "id": 15, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -15.056913390473737, 35.539798221848997 ] } },
+{ "type": "Feature", "properties": { "id": 16, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -15.052624512654287, 35.542760533606433 ] } },
+{ "type": "Feature", "properties": { "id": 17, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -15.070528084016889, 35.683121448753617 ] } },
+{ "type": "Feature", "properties": { "id": 18, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -14.992630093854277, 35.603767917163658 ] } },
+{ "type": "Feature", "properties": { "id": 19, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -14.890494956944526, 35.694219792709248 ] } },
+{ "type": "Feature", "properties": { "id": 20, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -14.774794997163944, 35.584302523598168 ] } },
+{ "type": "Feature", "properties": { "id": 21, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -14.747465868733013, 35.524254437245844 ] } },
+{ "type": "Feature", "properties": { "id": 22, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -14.615208845742455, 35.603119146975487 ] } },
+{ "type": "Feature", "properties": { "id": 23, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -14.699789505995845, 35.614471865824505 ] } },
+{ "type": "Feature", "properties": { "id": 24, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -14.625581945584852, 35.575866049823787 ] } },
+{ "type": "Feature", "properties": { "id": 25, "name": null, "nomisma": null, "material": null }, "geometry": { "type": "Point", "coordinates": [ -14.875932720627318, 35.733740031527972 ] } }
+]
+}
