@@ -137,7 +137,7 @@
     <!-- http://atlantgis.squirrel.link/ontology#site -->
 
     <owl:ObjectProperty rdf:about="http://atlantgis.squirrel.link/ontology#site">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:range rdf:resource="http://atlantgis.squirrel.link/ontology#Site"/>
         <rdfs:label xml:lang="en">site</rdfs:label>
     </owl:ObjectProperty>
