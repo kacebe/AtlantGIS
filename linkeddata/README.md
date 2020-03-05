@@ -2,13 +2,7 @@
 
 ## Files
 
-* `/rdf` - the final RDF files.
-* `/ontology` - the AntlantGIS ontology as OWL file and HTML representation.
-* `/pyscripts` - python scripts for transforming csv tables into RDF.
-
-## Ontology
-
-See the AtlantGIS ontology at http://atlantgis.squirrel.link/ontology/ .
+TDB
 
 ## Credits
 
