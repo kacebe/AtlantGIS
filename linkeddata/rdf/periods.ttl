@@ -1,0 +1,39 @@
+# create triples from
+# D:\src\AtlantGIS\vector\lod\py\atlantgis_periods.csv
+# on 2019-11-27 08:16
+# by python script
+
+PREFIX atlantgis: <http://atlantgis.squirrel.link/ontology#>
+PREFIX period: <http://atlantgis.squirrel.link/period#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+period:5 rdf:type atlantgis:Period .
+period:5 atlantgis:code 'I'@en.
+period:5 atlantgis:description 'Period from genesis to Leukippe and Euenor'@en.
+period:5 atlantgis:period_after period:10 .
+
+period:10 rdf:type atlantgis:Period .
+period:10 atlantgis:code 'II'@en.
+period:10 atlantgis:description 'Period of Kleito and Poseidon as well as of their direct descendants'@en.
+period:10 atlantgis:period_before period:5 .
+period:10 atlantgis:period_after period:25 .
+
+period:13 rdf:type atlantgis:Period .
+period:13 atlantgis:code 'IIa'@en.
+period:13 atlantgis:description 'Period of Kleito and Poseidon'@en.
+period:13 atlantgis:period_before period:5 .
+period:13 atlantgis:period_after period:17 .
+
+period:17 rdf:type atlantgis:Period .
+period:17 atlantgis:code 'IIb'@en.
+period:17 atlantgis:description 'Period of Kleito's and Poseidon's descandants'@en.
+period:17 atlantgis:period_before period:13 .
+period:17 atlantgis:period_after period:25 .
+
+period:25 rdf:type atlantgis:Period .
+period:25 atlantgis:code 'III'@en.
+period:25 atlantgis:description 'Period before doom'@en.
+period:25 atlantgis:period_before period:10 .

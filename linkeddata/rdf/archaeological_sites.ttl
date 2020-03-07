@@ -1,0 +1,1712 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://atlantgis.squirrel.link/ar_site#18_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.42595342000001,35.64985982000133]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.42595342000001 35.64985982000133))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#95>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#95_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#6_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.33558901,35.722220530001366]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.33558901 35.722220530001366))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#74>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#74_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#3_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.07081044,35.46238074000129]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.07081044 35.46238074000129))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#53>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#53_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#118>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#118_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#32>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#32_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#2>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#2_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#11>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#11_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#7_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.34673296,35.55794091000132]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.34673296 35.55794091000132))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#81_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.43086183000001,35.4470777800013]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.43086183000001 35.4470777800013))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#82>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#82_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#61>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#61_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#40>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#40_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#105>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#105_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#19>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#19_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#120_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.0150332,35.532937810001314]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> , "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.15839568,35.62602242000132]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.0150332 35.532937810001314))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> , "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.15839568 35.62602242000132))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#85_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.06038018,35.487391510001295]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.06038018 35.487391510001295))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#82_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.84061753,35.626338250001346]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.84061753 35.626338250001346))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#60_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.474959080000012,35.767988760001366]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.474959080000012 35.767988760001366))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#90>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#90_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#121_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.527174850000018,35.77464088000138]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.527174850000018 35.77464088000138))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#69>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#69_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#86_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.8113702,35.620306900001324]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.8113702 35.620306900001324))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#48>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#48_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#113>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#113_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#64_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.56290378,35.60286610000134]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.56290378 35.60286610000134))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#27>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#27_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#61_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.98625372,35.53536610000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.98625372 35.53536610000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#42_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.31772744,35.54970483000132]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.31772744 35.54970483000132))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#20_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.566319140000019,35.680716360001355]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.566319140000019 35.680716360001355))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#87_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.707900410000038,35.60280312000134]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.707900410000038 35.60280312000134))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#103_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.616480930000023,35.72357663000137]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.616480930000023 35.72357663000137))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#68_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.46309835,35.40993440000127]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.46309835 35.40993440000127))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#98>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#98_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#65_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.86234951,35.48358960000128]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.86234951 35.48358960000128))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#77>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#77_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#46_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.03046419,35.39658696000128]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.03046419 35.39658696000128))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#121>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#121_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#1> .
+
+<http://atlantgis.squirrel.link/ar_site#43_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.75570305,35.52432301000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.75570305 35.52432301000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#56>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#56_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#100>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#100_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#24_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.45962715000001,35.441501470001285]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.45962715000001 35.441501470001285))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#35>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#35_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#5>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#5_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#21_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.46531370000001,35.48899340000129]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.46531370000001 35.48899340000129))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#14>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#14_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#107_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.84689321,35.64945407000134]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.84689321 35.64945407000134))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#104_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.03159121,35.672611000001346]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.03159121 35.672611000001346))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#69_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.89119884,35.66827411000135]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.89119884 35.66827411000135))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#47_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.43448115,35.59983760000133]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.43448115 35.59983760000133))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#28_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.457381930000011,35.426753630001286]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.457381930000011 35.426753630001286))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#25_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.12164106,35.423613470001285]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.12164106 35.423613470001285))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#85>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#85_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#64>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#64_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#108_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.510755410000012,35.4920730300013]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.510755410000012 35.4920730300013))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#43>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#43_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#108>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#108_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#22>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#22_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#29_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.99619562,35.4491778400013]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.99619562 35.4491778400013))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#93>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#93_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#72>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#72_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#51>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#51_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#116>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#116_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#30>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#30_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#80>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#80_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#103>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#103_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#59>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#59_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#93_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.38220645,35.74270919000137]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.38220645 35.74270919000137))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#90_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.05938593,35.54132280000132]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.05938593 35.54132280000132))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#38>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#38_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#17>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#17_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#8>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#8_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#71_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.36543877,35.5177490100013]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.36543877 35.5177490100013))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#97_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.469848780000014,35.65511114000134]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.469848780000014 35.65511114000134))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#94_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.25461635,35.63063044000133]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.25461635 35.63063044000133))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#110_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.06321764,35.641872600001335]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.06321764 35.641872600001335))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#88>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#88_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#72_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.478507930000013,35.729125130001364]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.478507930000013 35.729125130001364))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#67>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#67_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#46>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#46_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#50_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.421353010000011,35.57717016000133]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.421353010000011 35.57717016000133))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#111>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#111_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#25>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#25_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#98_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.87585739,35.69466365000136]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.87585739 35.69466365000136))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#114_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.557001680000015,35.63846664000133]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.557001680000015 35.63846664000133))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#111_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.27388183,35.67584802000133]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.27388183 35.67584802000133))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#76_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.98575476,35.659423600001354]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.98575476 35.659423600001354))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#73_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.561501900000014,35.60041925000132]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.561501900000014 35.60041925000132))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#54_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.38942272,35.49988061000129]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.38942272 35.49988061000129))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#51_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.74625766,35.65920963000134]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.74625766 35.65920963000134))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#96>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#96_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#32_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.14022959,35.684443460001354]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.14022959 35.684443460001354))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#75>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#75_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#119>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#119_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#10_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.82135159,35.637534230001336]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.82135159 35.637534230001336))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#54>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#54_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#115_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.05818363,35.56898029000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.05818363 35.56898029000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#77_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.454338030000011,35.69185875000135]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.454338030000011 35.69185875000135))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#33>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#33_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#58_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.482592160000012,35.49827913000129]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.482592160000012 35.49827913000129))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#3>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#3_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#12>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#12_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#55_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.26722395,35.412651070001274]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.26722395 35.412651070001274))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#36_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.28576517,35.541583440001304]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.28576517 35.541583440001304))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#33_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.521054620000012,35.68754781000134]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.521054620000012 35.68754781000134))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#14_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.93258318,35.570864190001316]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.93258318 35.570864190001316))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#119_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.13669899,35.56913451000132]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.13669899 35.56913451000132))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#11_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.17978103,35.41948292000127]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.17978103 35.41948292000127))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#116_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.05151177,35.436070300001276]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.05151177 35.436070300001276))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#83>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#83_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#59_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.87770074,35.47264283000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.87770074 35.47264283000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#62>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#62_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#37_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.23110981,35.516770320001314]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.23110981 35.516770320001314))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#41>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#41_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#106>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#106_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#20>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#20_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#15_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.38259462,35.52536736000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.38259462 35.52536736000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#91>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#91_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#19_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.04829513,35.64128759000134]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.04829513 35.64128759000134))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#70>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#70_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#114>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#114_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#49>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#49_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#4_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.31194845,35.37195785000128]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.31194845 35.37195785000128))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#28>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#28_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#1_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.545424360000016,35.700147400001356]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.545424360000016 35.700147400001356))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#8_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.32368556,35.583414150001325]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.32368556 35.583414150001325))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#5_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.93149757,35.64042270000134]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.93149757 35.64042270000134))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#99>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#99_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#78>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#78_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#57>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#57_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#122>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#122_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#36>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#36_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#101>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#101_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#6>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#6_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#15>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#15_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#9_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.35398928,35.45780805000129]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.35398928 35.45780805000129))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#83_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.30493102,35.53807026000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.30493102 35.53807026000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#80_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.517250430000013,35.68296339000135]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.517250430000013 35.68296339000135))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#86>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#86_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#65>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#65_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#44>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#44_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#122_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.47676432000001,35.54087878000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.47676432000001 35.54087878000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#109>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#109_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#23>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#23_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#84_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.77282966,35.68325376000136]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.77282966 35.68325376000136))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#100_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.05676158,35.462007720001296]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.05676158 35.462007720001296))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#62_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.4464822,35.52341027000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.4464822 35.52341027000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#40_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.00488371,35.56927184000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.00488371 35.56927184000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#88_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.68348511,35.55507806000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.68348511 35.55507806000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#94>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#94_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#101_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.79709164,35.5018272200013]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.79709164 35.5018272200013))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#73>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#73_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#66_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.16775529,35.67295574000134]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.16775529 35.67295574000134))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#117>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#117_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#52>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#52_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#63_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.14561739,35.43943355000126]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.14561739 35.43943355000126))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#31>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#31_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#44_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.3233568,35.474481200001286]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.3233568 35.474481200001286))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#41_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.57623383000002,35.53571134000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.57623383000002 35.53571134000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#1>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#1_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#10>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#10_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#22_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.93976337,35.71333132000136]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.93976337 35.71333132000136))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#89_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.427401610000011,35.513178550001314]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.427401610000011 35.513178550001314))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#105_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.96919878,35.54327066000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.96919878 35.54327066000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#102_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.3218593,35.695966670001354]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.3218593 35.695966670001354))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#67_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.69851727,35.607073770001335]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.69851727 35.607073770001335))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#48_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.46407082,35.718903820001366]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.46407082 35.718903820001366))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#45_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.23730319,35.581087130001315]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.23730319 35.581087130001315))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#81>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#81_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#26_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.10618114,35.52982344000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.10618114 35.52982344000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#60>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#60_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#23_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.461231980000012,35.49796464000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.461231980000012 35.49796464000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#109_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.16211669,35.428751990001274]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.16211669 35.428751990001274))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#106_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.23175733,35.48847611000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.23175733 35.48847611000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#104>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#104_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#39>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#39_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#9>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#9_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#18>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#18_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#49_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.20084267,35.59471620000132]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.20084267 35.59471620000132))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#27_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.543320800000016,35.57054047000132]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.543320800000016 35.57054047000132))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#89>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#89_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#68>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#68_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#47>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#47_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#112>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#112_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#26>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#26_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#97>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#97_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#76>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#76_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#55>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#55_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#120>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#120_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#34>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#34_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#4>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#4_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#13>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#13_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#91_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.7687271,35.63749383000134]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.7687271 35.63749383000134))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#95_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.29111872,35.411309220001264]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.29111872 35.411309220001264))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#84>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#84_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#92_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.44827195,35.677533000001354]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.44827195 35.677533000001354))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#63>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#63_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#42>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#42_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#70_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.23342826,35.39183525000127]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.23342826 35.39183525000127))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#107>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#107_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#21>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#21_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#99_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.19060406,35.548449770001305]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.19060406 35.548449770001305))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#96_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.88331983,35.55182130000132]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.88331983 35.55182130000132))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#112_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.76515265,35.68062535000136]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.76515265 35.68062535000136))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#74_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.45831927,35.45314180000128]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.45831927 35.45314180000128))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#92>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#92_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#52_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.584752380000017,35.67961400000136]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.584752380000017 35.67961400000136))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#71>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#71_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#30_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.434153580000011,35.68055036000134]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.434153580000011 35.68055036000134))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#50>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#50_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#115>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#115_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#29>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#29_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#113_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.35878825,35.63359812000134]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.35878825 35.63359812000134))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#78_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.01957792,35.4469567800013]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.01957792 35.4469567800013))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#75_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.96520037,35.492180660001296]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.96520037 35.492180660001296))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#56_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.2432757,35.538394870001305]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.2432757 35.538394870001305))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#53_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.481031050000015,35.58723101000133]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.481031050000015 35.58723101000133))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#34_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.22962279,35.62673289000133]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.22962279 35.62673289000133))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#31_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.36838798,35.72484234000136]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.36838798 35.72484234000136))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#12_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.44441765,35.57348780000132]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.44441765 35.57348780000132))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#117_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.36008972,35.5443309200013]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.36008972 35.5443309200013))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#79>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#79_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#79_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.95933873,35.634936620001326]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.95933873 35.634936620001326))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#58>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#58_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#102>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#102_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#5> .
+
+<http://atlantgis.squirrel.link/ar_site#37>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#37_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#57_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.47101459,35.623460300001334]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.47101459 35.623460300001334))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#7>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#7_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#38_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.26464795,35.58615994000133]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.26464795 35.58615994000133))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#16>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#16_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#35_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.91676718,35.54382405000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.91676718 35.54382405000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#16_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.82257382,35.54242984000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.82257382 35.54242984000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#13_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.502203480000015,35.53537473000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.502203480000015 35.53537473000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#118_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-14.65658722,35.64968519000135]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-14.65658722 35.64968519000135))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#87>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#87_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#25> .
+
+<http://atlantgis.squirrel.link/ar_site#39_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.683840170000032,35.60076615000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.683840170000032 35.60076615000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#66>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#66_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#17_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.30482593,35.50372196000131]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.30482593 35.50372196000131))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://atlantgis.squirrel.link/ar_site#45>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#45_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#10> .
+
+<http://atlantgis.squirrel.link/ar_site#110>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#110_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#13> .
+
+<http://atlantgis.squirrel.link/ar_site#24>
+        a       <http://atlantgis.squirrel.link/ontology#ArchaeologicalSite> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                <http://atlantgis.squirrel.link/ar_site#24_geom> ;
+        <http://atlantgis.squirrel.link/ontology#timeperiod>
+                <http://atlantgis.squirrel.link/period#17> .
+
+<http://atlantgis.squirrel.link/ar_site#2_geom>
+        a       <http://www.opengis.net/ont/sf#MultiPoint> ;
+        <http://www.opengis.net/ont/geosparql#asGeoJSON>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> {\"type\":\"MultiPoint\",\"coordinates\":[[-15.03246066,35.42739987000129]]}"^^<http://www.opengis.net/ont/geosparql#geojsonLiteral> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOINT ((-15.03246066 35.42739987000129))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .

@@ -1,0 +1,10 @@
+vesselShape,vesselName,vesselFunction,vesselDescription
+1,Amphora,Vorratsgefäß,bauchiges enghalsiges Gefäß mit zwei Henkeln
+2,Lekanis,Vorratsgefäß,flache Schüssel mit horizontalen Henkeln
+3,Stamnos,Vorratsgefäß,dickbauchiges Vorratsgefäß mit kurzem Hals und seitlichen horizontalen Henkeln
+4,Psykter,Symposionsgefäß,pilzähliches Gefäß
+5,Nestoris,Kultgefäß,Gefäß mit ovoidem Körper und stark über die Gefäßlippe gezogenen Seitenhenkeln
+6,Kyathos,Symposionsgefäß,Schöpfkelle mit langem Henkel
+7,Kalathos,Vorratsgefäß,Lilienförmiges Vorratsgefäß mit steiler Wandung und ausbiegendem Rand
+8,Kernos,Kultgefäß,Schale die während der eleusinischen Mysterienkulte als Opfergefäß für Nahrungsmittel benutzt wurde
+9,Rhyton,Kultgefäß,Trinkgefäß oder Spendegefäß zum Ausgießen von Trankopfern
