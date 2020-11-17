@@ -6,7 +6,7 @@ The files in this subfolder contain cities that can be used as part of the Atlan
 
 ### City transformation
 
-To turn a Medieval Fantasy City in an AtlantGIS City ceveral steps are necessary:
+To turn a Medieval Fantasy City in an AtlantGIS City several steps are necessary:
 - import the json file from the generator in QGIS
 - delete the 'river', 'fields' and 'earth' layers from the json
 - move the remaining layers to the desired city location
