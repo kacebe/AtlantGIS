@@ -4,6 +4,8 @@
 
 The files in this subfolder contain cities that can be used as part of the AtlantGIS data set. The cities were generated with the [Medieval Fantasy City Generator](https://watabou.itch.io/medieval-fantasy-city-generator) by [watabou](https://itch.io/profile/watabou). The cities were then placed on the location of the capitals on the AtlantGIS map. Topological Errors were fixed. Walls, towers and gates were added. Roads were added to connect the cities.
 
+This data set was created as part of a seminar paper. Its goal was to work with geo-spatial data in a context of (digital) humanities. Instead of using existing data, the AtlantGIS cities were created as an opportunity to add more detail to the AtlantGIS map. This work was produced in the seminar "Erfassung von raumbezogenen Daten in interdisziplinärem Kontext" as part of the digital humanities degree course "Digitale Methodik in den Geistes- und Kulturwissenschaften" in Mainz".
+
 ### City transformation
 
 To turn a Medieval Fantasy City in an AtlantGIS City several steps are necessary:
