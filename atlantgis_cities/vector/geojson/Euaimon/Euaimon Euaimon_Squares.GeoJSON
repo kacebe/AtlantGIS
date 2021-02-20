@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Euaimon Euaimon_Squares",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32628" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "squares" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 466145.50038983579725, 3925473.560884898062795 ], [ 466132.917859536129981, 3925424.739533259999007 ], [ 466085.108133379369974, 3925436.896958158817142 ], [ 466097.690614824648947, 3925485.718220633454621 ] ] ] ] } }
+]
+}
