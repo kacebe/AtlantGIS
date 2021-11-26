@@ -780,7 +780,7 @@
     <!-- http://www.opengis.net/ont/sf#MultiLineString -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/sf#MultiLineString">
-        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
     </owl:Class>
     
 
@@ -788,7 +788,7 @@
     <!-- http://www.opengis.net/ont/sf#MultiPoint -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/sf#MultiPoint">
-        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
     </owl:Class>
     
 
@@ -796,7 +796,7 @@
     <!-- http://www.opengis.net/ont/sf#MultiPolygon -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/sf#MultiPolygon">
-        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
     </owl:Class>
     
 
@@ -804,7 +804,7 @@
     <!-- http://www.opengis.net/ont/sf#Point -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/sf#Point">
-        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
     </owl:Class>
     
 
