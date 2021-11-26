@@ -29,7 +29,7 @@
         <dc:subject>AtlantGIS</dc:subject>
         <rdfs:comment>This ontology contains classes to descibe the AtlantGIS dataset in RDF.</rdfs:comment>
         <rdfs:label>The AtlantGIS Ontology</rdfs:label>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -93,6 +93,35 @@
     
 
 
+    <!-- http://www.opengis.net/ont/geosparql#polygonStyle -->
+
+    <owl:AnnotationProperty rdf:about="http://www.opengis.net/ont/geosparql#polygonStyle"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://semgis.de/geodata#cssLiteral -->
+
+    <rdfs:Datatype rdf:about="http://semgis.de/geodata#cssLiteral"/>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#cssLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.opengis.net/ont/geosparql#cssLiteral"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -137,7 +166,7 @@
     <!-- http://atlantgis.squirrel.link/ontology/site -->
 
     <owl:ObjectProperty rdf:about="http://atlantgis.squirrel.link/ontology/site">
-        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
         <rdfs:range rdf:resource="http://atlantgis.squirrel.link/ontology/Site"/>
         <rdfs:label xml:lang="en">site</rdfs:label>
     </owl:ObjectProperty>
@@ -550,8 +579,15 @@
     <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/CoastLine">
         <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q1701967"/>
         <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.opengis.net/ont/geosparql#style"/>
+                <owl:hasValue rdf:resource="http://atlantgis.squirrel.link/ontology/CoastLine_Style"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <propOrder>DN;the_geom;</propOrder>
         <standard>kuestenlinie2.shp</standard>
+        <geosparql:style rdf:resource="http://atlantgis.squirrel.link/ontology/Coastline_Style"/>
         <rdfs:label xml:lang="en">Coastline</rdfs:label>
     </owl:Class>
     
@@ -571,6 +607,14 @@
     <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/FindingsEntity">
         <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/AtlantGIS_Classes"/>
         <rdfs:label xml:lang="en">Findings Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology/Goldkupfererz -->
+
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/Goldkupfererz">
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/Resource"/>
     </owl:Class>
     
 
@@ -618,6 +662,14 @@
     
 
 
+    <!-- http://atlantgis.squirrel.link/ontology/Silber -->
+
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/Silber">
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/Resource"/>
+    </owl:Class>
+    
+
+
     <!-- http://atlantgis.squirrel.link/ontology/Site -->
 
     <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/Site">
@@ -637,6 +689,7 @@
         <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
         <propOrder>distance;cat;discharge;label;PK_UID;value;the_geom;</propOrder>
         <standard>streams2.shp</standard>
+        <geosparql:polygonStyle rdf:datatype="http://semgis.de/geodata#cssLiteral">&quot;stroke&quot;:true, &quot;color&quot;:&quot;blue&quot; , &quot;stroke-width&quot;:&quot;1&quot;  , &quot;fill&quot;:true </geosparql:polygonStyle>
         <rdfs:label xml:lang="en">Stream</rdfs:label>
     </owl:Class>
     
@@ -680,6 +733,14 @@
     
 
 
+    <!-- http://atlantgis.squirrel.link/ontology/Zinn -->
+
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/Zinn">
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/Resource"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.opengis.net/ont/geosparql#Feature -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#Feature">
@@ -701,6 +762,12 @@
     <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#SpatialObject">
         <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/AtlantGIS_Classes"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#Style -->
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#Style"/>
     
 
 
@@ -860,6 +927,15 @@
     
 
 
+    <!-- http://atlantgis.squirrel.link/ontology/CoastLine_Style -->
+
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/CoastLine_Style">
+        <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Style"/>
+        <geosparql:polygonStyle rdf:datatype="http://www.opengis.net/ont/geosparql#cssLiteral">&quot;stroke&quot;:true, &quot;color&quot;:&quot;black&quot; , &quot;stroke-width&quot;:&quot;1&quot;  , &quot;fill&quot;:true </geosparql:polygonStyle>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://atlantgis.squirrel.link/ontology/Diaprepes -->
 
     <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/Diaprepes">
@@ -892,14 +968,6 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology/Goldkupfererz -->
-
-    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/Goldkupfererz">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology/Resource"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://atlantgis.squirrel.link/ontology/Mestor -->
 
     <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/Mestor">
@@ -913,25 +981,8 @@
     <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/Mneseus">
         <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology/Archont"/>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://atlantgis.squirrel.link/ontology/Silber -->
-
-    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/Silber">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology/Resource"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://atlantgis.squirrel.link/ontology/Zinn -->
-
-    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/Zinn">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology/Resource"/>
-    </owl:NamedIndividual>
 </rdf:RDF>
 
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
-
