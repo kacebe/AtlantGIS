@@ -3,8 +3,8 @@
 # on 2019-11-28 22:50
 # by python script
 
-PREFIX atlantgis: <http://atlantgis.squirrel.link/ontology#>
-PREFIX vesseltype: <http://atlantgis.squirrel.link/vesseltype#>
+PREFIX atlantgis: <http://atlantgis.squirrel.link/ontology/>
+PREFIX vesseltype: <http://atlantgis.squirrel.link/data/vesseltype/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>

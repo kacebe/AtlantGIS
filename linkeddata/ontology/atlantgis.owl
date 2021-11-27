@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://atlantgis.squirrel.link/ontology#"
-     xml:base="http://atlantgis.squirrel.link/ontology"
+<rdf:RDF xmlns="http://atlantgis.squirrel.link/ontology/"
+     xml:base="http://atlantgis.squirrel.link/ontology/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:sf="http://www.opengis.net/ont/sf#"
      xmlns:wd="http://www.wikidata.org/entity/"
@@ -20,7 +20,7 @@
      xmlns:resource="http://atlantgis.squirrel.link/resource#"
      xmlns:coastline="http://atlantgis.squirrel.link/coastline#"
      xmlns:geosparql="http://www.opengis.net/ont/geosparql#">
-    <owl:Ontology rdf:about="http://atlantgis.squirrel.link/ontology#">
+    <owl:Ontology rdf:about="http://atlantgis.squirrel.link/ontology/">
         <dc:contributor>Florian Thiery, Timo Homburg</dc:contributor>
         <dc:creator>Florian Thiery, Timo Homburg</dc:creator>
         <dc:description>This ontology contains classes to descibe the AtlantGIS dataset in RDF.</dc:description>
@@ -29,7 +29,7 @@
         <dc:subject>AtlantGIS</dc:subject>
         <rdfs:comment>This ontology contains classes to descibe the AtlantGIS dataset in RDF.</rdfs:comment>
         <rdfs:label>The AtlantGIS Ontology</rdfs:label>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -45,15 +45,15 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#propOrder -->
+    <!-- http://atlantgis.squirrel.link/ontology/propOrder -->
 
-    <owl:AnnotationProperty rdf:about="http://atlantgis.squirrel.link/ontology#propOrder"/>
+    <owl:AnnotationProperty rdf:about="http://atlantgis.squirrel.link/ontology/propOrder"/>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#standard -->
+    <!-- http://atlantgis.squirrel.link/ontology/standard -->
 
-    <owl:AnnotationProperty rdf:about="http://atlantgis.squirrel.link/ontology#standard"/>
+    <owl:AnnotationProperty rdf:about="http://atlantgis.squirrel.link/ontology/standard"/>
     
 
 
@@ -93,6 +93,35 @@
     
 
 
+    <!-- http://www.opengis.net/ont/geosparql#polygonStyle -->
+
+    <owl:AnnotationProperty rdf:about="http://www.opengis.net/ont/geosparql#polygonStyle"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://semgis.de/geodata#cssLiteral -->
+
+    <rdfs:Datatype rdf:about="http://semgis.de/geodata#cssLiteral"/>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#cssLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.opengis.net/ont/geosparql#cssLiteral"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -104,61 +133,61 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#archont -->
+    <!-- http://atlantgis.squirrel.link/ontology/archont -->
 
-    <owl:ObjectProperty rdf:about="http://atlantgis.squirrel.link/ontology#archont">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Site"/>
-        <rdfs:range rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    <owl:ObjectProperty rdf:about="http://atlantgis.squirrel.link/ontology/archont">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Site"/>
+        <rdfs:range rdf:resource="http://atlantgis.squirrel.link/ontology/Archont"/>
         <rdfs:label xml:lang="en">belongs to archont</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#period_after -->
+    <!-- http://atlantgis.squirrel.link/ontology/period_after -->
 
-    <owl:ObjectProperty rdf:about="http://atlantgis.squirrel.link/ontology#period_after">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Period"/>
-        <rdfs:range rdf:resource="http://atlantgis.squirrel.link/ontology#Period"/>
+    <owl:ObjectProperty rdf:about="http://atlantgis.squirrel.link/ontology/period_after">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Period"/>
+        <rdfs:range rdf:resource="http://atlantgis.squirrel.link/ontology/Period"/>
         <rdfs:label xml:lang="en">period after</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#period_before -->
+    <!-- http://atlantgis.squirrel.link/ontology/period_before -->
 
-    <owl:ObjectProperty rdf:about="http://atlantgis.squirrel.link/ontology#period_before">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Period"/>
-        <rdfs:range rdf:resource="http://atlantgis.squirrel.link/ontology#Period"/>
+    <owl:ObjectProperty rdf:about="http://atlantgis.squirrel.link/ontology/period_before">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Period"/>
+        <rdfs:range rdf:resource="http://atlantgis.squirrel.link/ontology/Period"/>
         <rdfs:label xml:lang="en">period before</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#site -->
+    <!-- http://atlantgis.squirrel.link/ontology/site -->
 
-    <owl:ObjectProperty rdf:about="http://atlantgis.squirrel.link/ontology#site">
-        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:range rdf:resource="http://atlantgis.squirrel.link/ontology#Site"/>
+    <owl:ObjectProperty rdf:about="http://atlantgis.squirrel.link/ontology/site">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
+        <rdfs:range rdf:resource="http://atlantgis.squirrel.link/ontology/Site"/>
         <rdfs:label xml:lang="en">site</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#timeperiod -->
+    <!-- http://atlantgis.squirrel.link/ontology/timeperiod -->
 
-    <owl:ObjectProperty rdf:about="http://atlantgis.squirrel.link/ontology#timeperiod">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#ArchaeologicalSite"/>
-        <rdfs:range rdf:resource="http://atlantgis.squirrel.link/ontology#Period"/>
+    <owl:ObjectProperty rdf:about="http://atlantgis.squirrel.link/ontology/timeperiod">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/ArchaeologicalSite"/>
+        <rdfs:range rdf:resource="http://atlantgis.squirrel.link/ontology/Period"/>
         <rdfs:label xml:lang="en">time period</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#vesselShape -->
+    <!-- http://atlantgis.squirrel.link/ontology/vesselShape -->
 
-    <owl:ObjectProperty rdf:about="http://atlantgis.squirrel.link/ontology#vesselShape">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
-        <rdfs:range rdf:resource="http://atlantgis.squirrel.link/ontology#VesselType"/>
+    <owl:ObjectProperty rdf:about="http://atlantgis.squirrel.link/ontology/vesselShape">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
+        <rdfs:range rdf:resource="http://atlantgis.squirrel.link/ontology/VesselType"/>
         <rdfs:label xml:lang="en">vessel shape</rdfs:label>
     </owl:ObjectProperty>
     
@@ -181,30 +210,30 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#archont_label -->
+    <!-- http://atlantgis.squirrel.link/ontology/archont_label -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#archont_label">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Site"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/archont_label">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Site"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">archont label</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#bodenD -->
+    <!-- http://atlantgis.squirrel.link/ontology/bodenD -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#bodenD">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/bodenD">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="en">bodenD</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#class -->
+    <!-- http://atlantgis.squirrel.link/ontology/class -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#class">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/class">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="de">Fundgattung (K: Keramik)</rdfs:comment>
         <rdfs:label xml:lang="en">class</rdfs:label>
@@ -212,9 +241,9 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#code -->
+    <!-- http://atlantgis.squirrel.link/ontology/code -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#code">
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/code">
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">code</rdfs:label>
@@ -222,9 +251,9 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#description -->
+    <!-- http://atlantgis.squirrel.link/ontology/description -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#description">
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/description">
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">description</rdfs:label>
@@ -232,11 +261,11 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#feature -->
+    <!-- http://atlantgis.squirrel.link/ontology/feature -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#feature">
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/feature">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="de">Befund</rdfs:comment>
         <rdfs:label xml:lang="en">feature</rdfs:label>
@@ -244,9 +273,9 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#function -->
+    <!-- http://atlantgis.squirrel.link/ontology/function -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#function">
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/function">
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">function</rdfs:label>
@@ -254,28 +283,28 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#groupid -->
+    <!-- http://atlantgis.squirrel.link/ontology/groupid -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#groupid">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Site"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/groupid">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Site"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#gruben -->
+    <!-- http://atlantgis.squirrel.link/ontology/gruben -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#gruben">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Site"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/gruben">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Site"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">gruben</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#identifier -->
+    <!-- http://atlantgis.squirrel.link/ontology/identifier -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#identifier">
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/identifier">
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">identifier</rdfs:label>
@@ -283,109 +312,109 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#keramik1 -->
+    <!-- http://atlantgis.squirrel.link/ontology/keramik1 -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#keramik1">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Site"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/keramik1">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Site"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">keramik 1</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#keramik2 -->
+    <!-- http://atlantgis.squirrel.link/ontology/keramik2 -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#keramik2">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Site"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/keramik2">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Site"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">keramik 2</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#keramik3 -->
+    <!-- http://atlantgis.squirrel.link/ontology/keramik3 -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#keramik3">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Site"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/keramik3">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Site"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">keramik 3</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#maxD -->
+    <!-- http://atlantgis.squirrel.link/ontology/maxD -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#maxD">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/maxD">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="en">maxD</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#maxD_H -->
+    <!-- http://atlantgis.squirrel.link/ontology/maxD_H -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#maxD_H">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/maxD_H">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="en">maximum diameter height</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#minD -->
+    <!-- http://atlantgis.squirrel.link/ontology/minD -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#minD">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/minD">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="en">minD</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#minD_H -->
+    <!-- http://atlantgis.squirrel.link/ontology/minD_H -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#minD_H">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/minD_H">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="en">minD_H</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#muendungsD -->
+    <!-- http://atlantgis.squirrel.link/ontology/muendungsD -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#muendungsD">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/muendungsD">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="en">muendungsD</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#muendungsH -->
+    <!-- http://atlantgis.squirrel.link/ontology/muendungsH -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#muendungsH">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/muendungsH">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="en">muendungsH</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#name -->
+    <!-- http://atlantgis.squirrel.link/ontology/name -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#name">
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/name">
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#object -->
+    <!-- http://atlantgis.squirrel.link/ontology/object -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#object">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/object">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="de">Individuum</rdfs:comment>
         <rdfs:label xml:lang="en">object</rdfs:label>
@@ -393,20 +422,20 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#quantity -->
+    <!-- http://atlantgis.squirrel.link/ontology/quantity -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#quantity">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/quantity">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">quantity</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#sherd -->
+    <!-- http://atlantgis.squirrel.link/ontology/sherd -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#sherd">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/sherd">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="de">Art der Scherbe (G: Gefäß, R: Rand, W: Wand, B: Boden)</rdfs:comment>
         <rdfs:label xml:lang="en">sherd</rdfs:label>
@@ -414,79 +443,79 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#silex -->
+    <!-- http://atlantgis.squirrel.link/ontology/silex -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#silex">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Site"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/silex">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Site"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">silex</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#size -->
+    <!-- http://atlantgis.squirrel.link/ontology/size -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#size">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/size">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">size</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#stream_cat -->
+    <!-- http://atlantgis.squirrel.link/ontology/stream_cat -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#stream_cat">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Stream"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/stream_cat">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Stream"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">stream category</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#stream_discharge -->
+    <!-- http://atlantgis.squirrel.link/ontology/stream_discharge -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#stream_discharge">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Stream"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/stream_discharge">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Stream"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="en">stream discharge</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#stream_value -->
+    <!-- http://atlantgis.squirrel.link/ontology/stream_value -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#stream_value">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Stream"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/stream_value">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Stream"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">stream value</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#temperSize -->
+    <!-- http://atlantgis.squirrel.link/ontology/temperSize -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#temperSize">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/temperSize">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">temperSize</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#wall -->
+    <!-- http://atlantgis.squirrel.link/ontology/wall -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#wall">
-        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/wall">
+        <rdfs:domain rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">wall</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#wt -->
+    <!-- http://atlantgis.squirrel.link/ontology/wt -->
 
-    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology#wt">
+    <owl:DatatypeProperty rdf:about="http://atlantgis.squirrel.link/ontology/wt">
         <rdfs:label xml:lang="en">weight</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -515,11 +544,11 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#ArchaeologicalSite -->
+    <!-- http://atlantgis.squirrel.link/ontology/ArchaeologicalSite -->
 
-    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#ArchaeologicalSite">
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/ArchaeologicalSite">
         <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q839954"/>
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#Site"/>
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/Site"/>
         <propOrder>ID_AR_SITE;PERIOD;lon;the_geom;lat;</propOrder>
         <standard>archaeological_sites2.shp</standard>
         <rdfs:label xml:lang="en">Archaeological Site</rdfs:label>
@@ -527,66 +556,83 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Archont -->
+    <!-- http://atlantgis.squirrel.link/ontology/Archont -->
 
-    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#Archont">
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/Archont">
         <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q193379"/>
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#HumanEntity"/>
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/HumanEntity"/>
         <rdfs:label xml:lang="en">Archont</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#AtlantGIS_Classes -->
+    <!-- http://atlantgis.squirrel.link/ontology/AtlantGIS_Classes -->
 
-    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#AtlantGIS_Classes">
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/AtlantGIS_Classes">
         <rdfs:label xml:lang="en">AtlantGIS Classes</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#CoastLine -->
+    <!-- http://atlantgis.squirrel.link/ontology/CoastLine -->
 
-    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#CoastLine">
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/CoastLine">
         <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q1701967"/>
         <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.opengis.net/ont/geosparql#style"/>
+                <owl:hasValue rdf:resource="http://atlantgis.squirrel.link/ontology/CoastLine_Style"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <propOrder>DN;the_geom;</propOrder>
         <standard>kuestenlinie2.shp</standard>
+        <geosparql:style rdf:resource="http://atlantgis.squirrel.link/ontology/Coastline_Style"/>
         <rdfs:label xml:lang="en">Coastline</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Find -->
+    <!-- http://atlantgis.squirrel.link/ontology/Find -->
 
-    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#Find">
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#FindingsEntity"/>
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/Find">
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/FindingsEntity"/>
         <rdfs:label xml:lang="en">Find</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#FindingsEntity -->
+    <!-- http://atlantgis.squirrel.link/ontology/FindingsEntity -->
 
-    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#FindingsEntity">
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#AtlantGIS_Classes"/>
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/FindingsEntity">
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/AtlantGIS_Classes"/>
         <rdfs:label xml:lang="en">Findings Entity</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#HumanEntity -->
+    <!-- http://atlantgis.squirrel.link/ontology/Goldkupfererz -->
 
-    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#HumanEntity">
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#AtlantGIS_Classes"/>
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/Goldkupfererz">
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/Resource"/>
+        <rdfs:label xml:lang="de">Goldkupfererz (Oreichalkos)</rdfs:label>
+        <rdfs:label xml:lang="en">orichalcum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology/HumanEntity -->
+
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/HumanEntity">
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/AtlantGIS_Classes"/>
         <rdfs:label xml:lang="en">Human Entity</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#LandType -->
+    <!-- http://atlantgis.squirrel.link/ontology/LandType -->
 
-    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#LandType">
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/LandType">
         <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q3001793"/>
         <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
         <propOrder>uid;Landtype;the_geom;</propOrder>
@@ -596,19 +642,19 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Period -->
+    <!-- http://atlantgis.squirrel.link/ontology/Period -->
 
-    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#Period">
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/Period">
         <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q6428674"/>
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#TemporalEntity"/>
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/TemporalEntity"/>
         <rdfs:label xml:lang="en">Period</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Resource -->
+    <!-- http://atlantgis.squirrel.link/ontology/Resource -->
 
-    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#Resource">
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/Resource">
         <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q1554231"/>
         <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
         <propOrder>uid;Resource;the_geom;</propOrder>
@@ -618,9 +664,19 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Site -->
+    <!-- http://atlantgis.squirrel.link/ontology/Silber -->
 
-    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#Site">
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/Silber">
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/Resource"/>
+        <rdfs:label xml:lang="de">Silber</rdfs:label>
+        <rdfs:label xml:lang="en">silver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology/Site -->
+
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/Site">
         <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q17334923"/>
         <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
         <propOrder>greek;gruben;keramik3;keramik2;silex;keramik1;site;group_id;archont;x;y;id;the_geom;</propOrder>
@@ -630,39 +686,40 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Stream -->
+    <!-- http://atlantgis.squirrel.link/ontology/Stream -->
 
-    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#Stream">
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/Stream">
         <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q355304"/>
         <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
         <propOrder>distance;cat;discharge;label;PK_UID;value;the_geom;</propOrder>
         <standard>streams2.shp</standard>
+        <geosparql:polygonStyle rdf:datatype="http://semgis.de/geodata#cssLiteral">&quot;stroke&quot;:true, &quot;color&quot;:&quot;blue&quot; , &quot;stroke-width&quot;:&quot;1&quot;  , &quot;fill&quot;:true </geosparql:polygonStyle>
         <rdfs:label xml:lang="en">Stream</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#TemporalEntity -->
+    <!-- http://atlantgis.squirrel.link/ontology/TemporalEntity -->
 
-    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#TemporalEntity">
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#AtlantGIS_Classes"/>
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/TemporalEntity">
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/AtlantGIS_Classes"/>
         <rdfs:label xml:lang="en">Temporal Entity</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#VesselType -->
+    <!-- http://atlantgis.squirrel.link/ontology/VesselType -->
 
-    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#VesselType">
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#Find"/>
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/VesselType">
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/Find"/>
         <rdfs:label xml:lang="en">Vessel Type</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Voronoi -->
+    <!-- http://atlantgis.squirrel.link/ontology/Voronoi -->
 
-    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#Voronoi">
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/Voronoi">
         <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q757267"/>
         <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
         <propOrder>cat;the_geom;</propOrder>
@@ -672,10 +729,20 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Wikidata_Classes -->
+    <!-- http://atlantgis.squirrel.link/ontology/Wikidata_Classes -->
 
-    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology#Wikidata_Classes">
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/Wikidata_Classes">
         <rdfs:label xml:lang="en">Wikidata Classes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://atlantgis.squirrel.link/ontology/Zinn -->
+
+    <owl:Class rdf:about="http://atlantgis.squirrel.link/ontology/Zinn">
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/Resource"/>
+        <rdfs:label xml:lang="de">Zinn</rdfs:label>
+        <rdfs:label xml:lang="en">pewter</rdfs:label>
     </owl:Class>
     
 
@@ -699,15 +766,21 @@
     <!-- http://www.opengis.net/ont/geosparql#SpatialObject -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#SpatialObject">
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#AtlantGIS_Classes"/>
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/AtlantGIS_Classes"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#Style -->
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#Style"/>
     
 
 
     <!-- http://www.opengis.net/ont/sf#MultiLineString -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/sf#MultiLineString">
-        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
     </owl:Class>
     
 
@@ -715,7 +788,7 @@
     <!-- http://www.opengis.net/ont/sf#MultiPoint -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/sf#MultiPoint">
-        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
     </owl:Class>
     
 
@@ -723,7 +796,7 @@
     <!-- http://www.opengis.net/ont/sf#MultiPolygon -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/sf#MultiPolygon">
-        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
     </owl:Class>
     
 
@@ -731,7 +804,7 @@
     <!-- http://www.opengis.net/ont/sf#Point -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/sf#Point">
-        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
     </owl:Class>
     
 
@@ -739,7 +812,7 @@
     <!-- http://www.wikidata.org/entity/Q1554231 -->
 
     <owl:Class rdf:about="http://www.wikidata.org/entity/Q1554231">
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#Wikidata_Classes"/>
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/Wikidata_Classes"/>
         <rdfs:label xml:lang="en">resource</rdfs:label>
     </owl:Class>
     
@@ -748,7 +821,7 @@
     <!-- http://www.wikidata.org/entity/Q1701967 -->
 
     <owl:Class rdf:about="http://www.wikidata.org/entity/Q1701967">
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#Wikidata_Classes"/>
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/Wikidata_Classes"/>
         <rdfs:label xml:lang="en">coastline</rdfs:label>
     </owl:Class>
     
@@ -757,7 +830,7 @@
     <!-- http://www.wikidata.org/entity/Q17334923 -->
 
     <owl:Class rdf:about="http://www.wikidata.org/entity/Q17334923">
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#Wikidata_Classes"/>
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/Wikidata_Classes"/>
         <rdfs:label xml:lang="en">location</rdfs:label>
     </owl:Class>
     
@@ -766,7 +839,7 @@
     <!-- http://www.wikidata.org/entity/Q193379 -->
 
     <owl:Class rdf:about="http://www.wikidata.org/entity/Q193379">
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#Wikidata_Classes"/>
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/Wikidata_Classes"/>
         <rdfs:label xml:lang="en">archon</rdfs:label>
     </owl:Class>
     
@@ -775,7 +848,7 @@
     <!-- http://www.wikidata.org/entity/Q3001793 -->
 
     <owl:Class rdf:about="http://www.wikidata.org/entity/Q3001793">
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#Wikidata_Classes"/>
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/Wikidata_Classes"/>
         <rdfs:label xml:lang="en">landcover</rdfs:label>
     </owl:Class>
     
@@ -784,7 +857,7 @@
     <!-- http://www.wikidata.org/entity/Q355304 -->
 
     <owl:Class rdf:about="http://www.wikidata.org/entity/Q355304">
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#Wikidata_Classes"/>
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/Wikidata_Classes"/>
         <rdfs:label xml:lang="en">watercourse</rdfs:label>
     </owl:Class>
     
@@ -793,7 +866,7 @@
     <!-- http://www.wikidata.org/entity/Q6428674 -->
 
     <owl:Class rdf:about="http://www.wikidata.org/entity/Q6428674">
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#Wikidata_Classes"/>
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/Wikidata_Classes"/>
         <rdfs:label xml:lang="en">era</rdfs:label>
     </owl:Class>
     
@@ -802,7 +875,7 @@
     <!-- http://www.wikidata.org/entity/Q757267 -->
 
     <owl:Class rdf:about="http://www.wikidata.org/entity/Q757267">
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#Wikidata_Classes"/>
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/Wikidata_Classes"/>
         <rdfs:label xml:lang="en">voronoi diagram</rdfs:label>
     </owl:Class>
     
@@ -811,7 +884,7 @@
     <!-- http://www.wikidata.org/entity/Q839954 -->
 
     <owl:Class rdf:about="http://www.wikidata.org/entity/Q839954">
-        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology#Wikidata_Classes"/>
+        <rdfs:subClassOf rdf:resource="http://atlantgis.squirrel.link/ontology/Wikidata_Classes"/>
         <rdfs:label xml:lang="en">archaeological site</rdfs:label>
     </owl:Class>
     
@@ -828,106 +901,91 @@
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Ampheres -->
+    <!-- http://atlantgis.squirrel.link/ontology/Ampheres -->
 
-    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Ampheres">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/Ampheres">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology/Archont"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Atlas -->
+    <!-- http://atlantgis.squirrel.link/ontology/Atlas -->
 
-    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Atlas">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/Atlas">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology/Archont"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Autochthon -->
+    <!-- http://atlantgis.squirrel.link/ontology/Autochthon -->
 
-    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Autochthon">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/Autochthon">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology/Archont"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Azaes -->
+    <!-- http://atlantgis.squirrel.link/ontology/Azaes -->
 
-    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Azaes">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/Azaes">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology/Archont"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Diaprepes -->
+    <!-- http://atlantgis.squirrel.link/ontology/CoastLine_Style -->
 
-    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Diaprepes">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/CoastLine_Style">
+        <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Style"/>
+        <geosparql:polygonStyle rdf:datatype="http://www.opengis.net/ont/geosparql#cssLiteral">&quot;stroke&quot;:true, &quot;color&quot;:&quot;black&quot; , &quot;stroke-width&quot;:&quot;1&quot;  , &quot;fill&quot;:true </geosparql:polygonStyle>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Elasippos -->
+    <!-- http://atlantgis.squirrel.link/ontology/Diaprepes -->
 
-    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Elasippos">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/Diaprepes">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology/Archont"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Euaimon -->
+    <!-- http://atlantgis.squirrel.link/ontology/Elasippos -->
 
-    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Euaimon">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/Elasippos">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology/Archont"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Eumelos_Gadeiros -->
+    <!-- http://atlantgis.squirrel.link/ontology/Euaimon -->
 
-    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Eumelos_Gadeiros">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/Euaimon">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology/Archont"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Goldkupfererz -->
+    <!-- http://atlantgis.squirrel.link/ontology/Eumelos_Gadeiros -->
 
-    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Goldkupfererz">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Resource"/>
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/Eumelos_Gadeiros">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology/Archont"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Mestor -->
+    <!-- http://atlantgis.squirrel.link/ontology/Mestor -->
 
-    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Mestor">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/Mestor">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology/Archont"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://atlantgis.squirrel.link/ontology#Mneseus -->
+    <!-- http://atlantgis.squirrel.link/ontology/Mneseus -->
 
-    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Mneseus">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Archont"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://atlantgis.squirrel.link/ontology#Silber -->
-
-    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Silber">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Resource"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://atlantgis.squirrel.link/ontology#Zinn -->
-
-    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology#Zinn">
-        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology#Resource"/>
+    <owl:NamedIndividual rdf:about="http://atlantgis.squirrel.link/ontology/Mneseus">
+        <rdf:type rdf:resource="http://atlantgis.squirrel.link/ontology/Archont"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
