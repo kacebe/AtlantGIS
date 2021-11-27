@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: AtlantGIS dataset
+abstract: Faked GIS-datasets, simulating an island in the Atlantic for educational purposes in using GIS in archaeology.
+message: "If you use this dataset, please cite it using these metadata and consider contributing to it via GitHub."
+type: dataset
+authors:
+  - given-names: Kai-Christian
+    family-names: Bruhn
+    orcid: 'https://orcid.org/0000-0001-8322-1260'
+  - given-names: Thomas
+    family-names: Engel
+  - given-names: Timo
+    family-names: Homburg
+    orcid: 'https://orcid.org/0000-0002-9499-5840'
+  - given-names: Florian
+    family-names: Thiery
+    orcid: 'https://orcid.org/0000-0002-3246-3531'
+  - given-names: Dirk
+    family-names: Seidensticker
+    orcid: 'https://orcid.org/0000-0002-8155-7702'
+  - given-names: Clemens
+    family-names: Schmidt
+    orcid: 'https://orcid.org/0000-0003-3448-5715'
+contact:
+  - affiliation: "Hochschule Mainz University of Applied Sciences"
+    email: kai-christian.bruhn@hs-mainz.de
+    family-names: Bruhn
+    given-names: Kai-Christian
+version: 0.9.0
+license: CC-BY-SA-4.0
+repository-code: "https://github.com/kacebe/AtlantGIS/"
