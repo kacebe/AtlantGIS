@@ -13,9 +13,8 @@ jobs:
       run: |
          sudo apt-get install python3 python3-setuptools -y
          sudo apt-get install gcc libpq-dev -y
-         sudo apt-get install python-dev -y
          sudo apt-get install python3-dev python3-pip python3-venv python3-wheel -y
-         sudo pip3 install wheel pylode
+         sudo pip3 install wheel pylode==2.13.2
          mkdir docs
          cd docs
          pylode -i ../linkeddata/ontology/atlantgis.owl -o index
