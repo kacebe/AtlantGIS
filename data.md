@@ -78,12 +78,12 @@ Frei erfundene Daten einer geophysikalischen Prospektion in dem 20 x 10 m große
 ![](https://i.imgur.com/oWX0nJL.png)
 
 
-`gdalinfo -mm -stats C:/Users/kai-christian.bruhn/Downloads/AtlantGIS-master/gettingstarted/geophys/geophys_excavation.tif`
+`gdalinfo -mm -stats .../AtlantGIS-master/gettingstarted/geophys/geophys_excavation.tif`
 Ausgabe
 ```
 Driver: GTiff/GeoTIFF 
-Files: C:/Users/kai-christian.bruhn/Downloads/AtlantGIS-master/gettingstarted/geophys/geophys_excavation.tif 
-C:/Users/kai-christian.bruhn/Downloads/AtlantGIS-master/gettingstarted/geophys/geophys_excavation.tif.aux.xml 
+Files: .../AtlantGIS-master/gettingstarted/geophys/geophys_excavation.tif 
+.../AtlantGIS-master/gettingstarted/geophys/geophys_excavation.tif.aux.xml 
 Size is 40, 20 
 Coordinate System is: 
 PROJCRS["WGS 84 / UTM zone 28N", 
