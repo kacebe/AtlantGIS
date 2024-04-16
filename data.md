@@ -29,7 +29,7 @@ Quelle: https://github.com/kacebe/AtlantGIS
 
 Download zip-Archiv: https://github.com/kacebe/AtlantGIS/archive/refs/heads/master.zip
 
-AtlantGIS Ontologie und Linked Open Data: http://atlantgis.squirrel.link/
+AtlantGIS Ontologie und Linked Open Data: https://research-squirrel-engineers.github.io/AtlantGIS_LOD/
 
 QGIS- und R-Tutorials auf Basis von AtlantGIS:
 * http://i3mainz.github.io/qgis-caa2014/
