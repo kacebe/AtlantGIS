@@ -188,6 +188,19 @@ Attributdaten Befunde (features):
 | 12 | 6 | fill |  | 8 | 31 | 08-31 |
 | 13 | 58 | fill |  | 9 | 10 | 09-10 |
 
+
+Metadaten Attributtabelle Befunde (features): 
+
+|Attribut Name|Attribut Beschreibung|Attribut Typ|Kontrolliertes Vokabular|Attribut Schlüssel|Fremdschlüssel Referenz|
+|-------------|---------------------|------------|------------------------|------------------|-----------------------|
+|PK_UID|Primärschlüssel; eindeutige ID (unique). Autoincrement|INTEGER|NULL|PK|NULL|
+|id|?|INTEGER|NULL|NULL|NULL|
+|type|Befundart|TEXT|NULL|NULL|NULL|
+|desc|Befundbeschreibung, Freitext|TEXT|NULL|NULL|NULL|
+|f_year|Jahr der Ausgrabungskampagne. "8" steht für "2008"; "9" steht für "2009".|INTEGER|NULL|NULL|NULL|
+|f_no|Befundnummer, die im Feld vergeben wurde.|INTEGER|NULL|NULL|NULL|
+|f_id|ID des Befundes; zusammengesetzt aus Jahr der Ausgrabungskampagne und im Feld vergebener Befundnummer|TEXT|NULL|NULL|NULL|
+
 ---
 
 Attributdaten Mauern (walls):
