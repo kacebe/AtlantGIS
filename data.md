@@ -216,7 +216,7 @@ Kleinfunde (smallfinds) als Shapefile. Keine .prj- oder .cpg-Datei vorhanden.
 
 ![](https://i.imgur.com/i6grJIx.png)
 
-Attributdaten Keinfunde (smallfinds):
+Attributdaten Kleinfunde (smallfinds):
 
 | PK_UID | id | sf_year | sf_no | type | material | sf_id |
 | ------ | -- | ------- | ----- | ---- | -------- | ----- |
@@ -228,6 +228,18 @@ Attributdaten Keinfunde (smallfinds):
 | 6 | 6 | 9 | 17 | scraper | bronze | 09-17 |
 | 7 | 7 | 9 | 18 | fibula | bronze | 09-18 |
 | 8 | 8 | 9 | 19 | bead | glass | 09-19 |
+
+Metadaten Attributtabelle Kleinfunde (smallfinds)^[]: 
+
+|Attribut Name|Attribut Beschreibung|Attribut Typ|Kontrolliertes Vokabular|Attribut Schlüssel|Fremdschlüssel Referenz|
+|-------------|---------------------|------------|------------------------|------------------|-----------------------|
+|PK_UID|Primärschlüssel; eindeutige ID (unique). Autoincrement|INTEGER|NULL|PK|NULL|
+|id|?|INTEGER|NULL|NULL|NULL|
+|sf_year|Jahr der Ausgrabungskampagne. "8" steht für "2008"; "9" steht für "2009".|INTEGER|NULL|NULL|NULL|
+|sf_no|Fundnummer, die während der Ausgrabung vergeben wurde.|INTEGER|NULL|NULL|NULL|
+|type|Fundtyp|TEXT|NULL|NULL|NULL|
+|material|Material, aus dem der Fund besteht.|TEXT|NULL|NULL|NULL|
+|sf_id|ID des Fundes, zusammengesetzt aus Jahr der Kampagne und im Feld vergebener Fundnummer.|TEXT|NULL|NULL|NULL|
 
 ---
 
