@@ -189,12 +189,12 @@ Attributdaten Befunde (features):
 | 13 | 58 | fill |  | 9 | 10 | 09-10 |
 
 
-Metadaten Attributtabelle Befunde (features): 
+Metadaten^[nach den [IT Empfehlungen von IANUS](https://ianus-fdz.de/it-empfehlungen/dateiformate/datenbanken/#relationale-datenbanken)] Attributtabelle Befunde (features): 
 
 |Attribut Name|Attribut Beschreibung|Attribut Typ|Kontrolliertes Vokabular|Attribut Schlüssel|Fremdschlüssel Referenz|
 |-------------|---------------------|------------|------------------------|------------------|-----------------------|
 |PK_UID|Primärschlüssel; eindeutige ID (unique). Autoincrement|INTEGER|NULL|PK|NULL|
-|id|?|INTEGER|NULL|NULL|NULL|
+|id|Manuell vergebene, unique ID für leichtere Manipulation der Datenbank.|INTEGER|NULL|NULL|NULL|
 |type|Befundart|TEXT|NULL|NULL|NULL|
 |desc|Befundbeschreibung, Freitext|TEXT|NULL|NULL|NULL|
 |f_year|Jahr der Ausgrabungskampagne. "8" steht für "2008"; "9" steht für "2009".|INTEGER|NULL|NULL|NULL|
@@ -203,6 +203,8 @@ Metadaten Attributtabelle Befunde (features):
 
 ---
 
+
+
 Attributdaten Mauern (walls):
 
 | PK_UID | id | w_no | type |
@@ -210,6 +212,15 @@ Attributdaten Mauern (walls):
 | 1 | 1 | 257 | rubble |
 | 2 | 2 | 253 | rubble |
 | 3 | 3 | 265 | rubble |
+
+Metadaten Attributtabelle Mauern (walls):
+
+|Attribut Name|Attribut Beschreibung|Attribut Typ|Kontrolliertes Vokabular|Attribut Schlüssel|Fremdschlüssel Referenz|
+|-------------|---------------------|------------|------------------------|------------------|-----------------------|
+|PK_UID|Primärschlüssel; eindeutige ID (unique). Autoincrement|INTEGER|NULL|PK|NULL|
+|id|Manuell vergebene, unique ID für leichtere Manipulation der Datenbank.|INTEGER|NULL|NULL|NULL|
+|w_no|Im Feld vergebene Befundnummer.|TEXT|NULL|NULL|NULL|
+|type|Art der Mauer, bzw. Material, aus der sie besteht.|TEXT|NULL|NULL|NULL|
 
 ---
 
@@ -247,7 +258,7 @@ Metadaten Attributtabelle Kleinfunde (smallfinds)^[]:
 |Attribut Name|Attribut Beschreibung|Attribut Typ|Kontrolliertes Vokabular|Attribut Schlüssel|Fremdschlüssel Referenz|
 |-------------|---------------------|------------|------------------------|------------------|-----------------------|
 |PK_UID|Primärschlüssel; eindeutige ID (unique). Autoincrement|INTEGER|NULL|PK|NULL|
-|id|?|INTEGER|NULL|NULL|NULL|
+|id|Manuell vergebene, unique ID für leichtere Manipulation der Datenbank.|INTEGER|NULL|NULL|NULL|
 |sf_year|Jahr der Ausgrabungskampagne. "8" steht für "2008"; "9" steht für "2009".|INTEGER|NULL|NULL|NULL|
 |sf_no|Fundnummer, die während der Ausgrabung vergeben wurde.|INTEGER|NULL|NULL|NULL|
 |type|Fundtyp|TEXT|NULL|NULL|NULL|
