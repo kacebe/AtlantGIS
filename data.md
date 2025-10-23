@@ -188,7 +188,22 @@ Attributdaten Befunde (features):
 | 12 | 6 | fill |  | 8 | 31 | 08-31 |
 | 13 | 58 | fill |  | 9 | 10 | 09-10 |
 
+
+Metadaten^[nach den [IT Empfehlungen von IANUS](https://ianus-fdz.de/it-empfehlungen/dateiformate/datenbanken/#relationale-datenbanken)] Attributtabelle Befunde (features): 
+
+|Attribut Name|Attribut Beschreibung|Attribut Typ|Kontrolliertes Vokabular|Attribut Schlüssel|Fremdschlüssel Referenz|
+|-------------|---------------------|------------|------------------------|------------------|-----------------------|
+|PK_UID|Primärschlüssel; eindeutige ID (unique). Autoincrement|INTEGER|NULL|PK|NULL|
+|id|Manuell vergebene, unique ID für leichtere Manipulation der Datenbank.|INTEGER|NULL|NULL|NULL|
+|type|Befundart|TEXT|NULL|NULL|NULL|
+|desc|Befundbeschreibung, Freitext|TEXT|NULL|NULL|NULL|
+|f_year|Jahr der Ausgrabungskampagne. "8" steht für "2008"; "9" steht für "2009".|INTEGER|NULL|NULL|NULL|
+|f_no|Befundnummer, die im Feld vergeben wurde.|INTEGER|NULL|NULL|NULL|
+|f_id|ID des Befundes; zusammengesetzt aus Jahr der Ausgrabungskampagne und im Feld vergebener Befundnummer|TEXT|NULL|NULL|NULL|
+
 ---
+
+
 
 Attributdaten Mauern (walls):
 
@@ -197,6 +212,15 @@ Attributdaten Mauern (walls):
 | 1 | 1 | 257 | rubble |
 | 2 | 2 | 253 | rubble |
 | 3 | 3 | 265 | rubble |
+
+Metadaten Attributtabelle Mauern (walls):
+
+|Attribut Name|Attribut Beschreibung|Attribut Typ|Kontrolliertes Vokabular|Attribut Schlüssel|Fremdschlüssel Referenz|
+|-------------|---------------------|------------|------------------------|------------------|-----------------------|
+|PK_UID|Primärschlüssel; eindeutige ID (unique). Autoincrement|INTEGER|NULL|PK|NULL|
+|id|Manuell vergebene, unique ID für leichtere Manipulation der Datenbank.|INTEGER|NULL|NULL|NULL|
+|w_no|Im Feld vergebene Befundnummer.|TEXT|NULL|NULL|NULL|
+|type|Art der Mauer, bzw. Material, aus der sie besteht.|TEXT|NULL|NULL|NULL|
 
 ---
 
@@ -216,7 +240,7 @@ Kleinfunde (smallfinds) als Shapefile. Keine .prj- oder .cpg-Datei vorhanden.
 
 ![](https://i.imgur.com/i6grJIx.png)
 
-Attributdaten Keinfunde (smallfinds):
+Attributdaten Kleinfunde (smallfinds):
 
 | PK_UID | id | sf_year | sf_no | type | material | sf_id |
 | ------ | -- | ------- | ----- | ---- | -------- | ----- |
@@ -228,6 +252,18 @@ Attributdaten Keinfunde (smallfinds):
 | 6 | 6 | 9 | 17 | scraper | bronze | 09-17 |
 | 7 | 7 | 9 | 18 | fibula | bronze | 09-18 |
 | 8 | 8 | 9 | 19 | bead | glass | 09-19 |
+
+Metadaten Attributtabelle Kleinfunde (smallfinds)^[]: 
+
+|Attribut Name|Attribut Beschreibung|Attribut Typ|Kontrolliertes Vokabular|Attribut Schlüssel|Fremdschlüssel Referenz|
+|-------------|---------------------|------------|------------------------|------------------|-----------------------|
+|PK_UID|Primärschlüssel; eindeutige ID (unique). Autoincrement|INTEGER|NULL|PK|NULL|
+|id|Manuell vergebene, unique ID für leichtere Manipulation der Datenbank.|INTEGER|NULL|NULL|NULL|
+|sf_year|Jahr der Ausgrabungskampagne. "8" steht für "2008"; "9" steht für "2009".|INTEGER|NULL|NULL|NULL|
+|sf_no|Fundnummer, die während der Ausgrabung vergeben wurde.|INTEGER|NULL|NULL|NULL|
+|type|Fundtyp|TEXT|NULL|NULL|NULL|
+|material|Material, aus dem der Fund besteht.|TEXT|NULL|NULL|NULL|
+|sf_id|ID des Fundes, zusammengesetzt aus Jahr der Kampagne und im Feld vergebener Fundnummer.|TEXT|NULL|NULL|NULL|
 
 ---
 
