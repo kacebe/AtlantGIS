@@ -1,6 +1,17 @@
 AtlantGIS
 =========
 
+> [!CAUTION]
+> 
+> **Archived repository**
+>
+> This GitHub repository is archived and no longer maintained.
+> The AtlantGIS dataset is now hosted on Codeberg:
+>
+> [https://codeberg.org/AtlantGIS/atlantgis_data](https://codeberg.org/AtlantGIS/atlantgis_data)
+>
+> Releases are versioned on Zenodo [DOI 10.5281/zenodo.5731669](https://doi.org/10.5281/zenodo.5731669).
+
 Faked GIS-Datasets, simulating an island in the Atlantic for educational purposes in using GIS in archaeology. All AtlantGIS data are published under a CC-BY-SA 4.0 license.
 
 The idea is to create artificial data creatively referring to the story of Atlantis as told by Platon.
